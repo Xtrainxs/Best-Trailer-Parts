@@ -5,6 +5,30 @@ export default function RubberBushingsPage() {
     <main className="max-w-2xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-blue-900">Rubber Bushings</h1>
       <p className="mb-8 text-blue-800">Rubber bushings provide excellent vibration dampening and flexibility for trailer suspension systems. They are ideal for trailers that require a smoother ride and noise reduction.</p>
+      <div className="overflow-x-auto mb-8">
+        <div className="flex flex-nowrap gap-4 min-w-max">
+          {[
+            'Leaf Spring Rubber Bushings.png',
+            'Picture1.png',
+            'Picture2.png',
+            'Picture3.png',
+          ].map((img, idx) => (
+            <div
+              key={img}
+              className="bg-gray-800 rounded-lg shadow p-4 flex flex-col items-center w-48 shrink-0"
+            >
+              <img
+                src={`/images/Shackles%20and%20Bushings/rubber-bushings/${encodeURIComponent(img)}`}
+                alt={`Rubber Bushings ${idx + 1}`}
+                className="h-32 w-auto object-contain mb-2"
+              />
+              <span className="text-white text-sm text-center break-words">
+                {img.replace('.png', '').replace(/([A-Z])/g, ' $1').trim()}
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Available Rubber Bushings</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">

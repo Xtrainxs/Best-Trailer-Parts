@@ -17,14 +17,14 @@ export default function BatteryBoxes() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-BBX-GROUP24</td>
+              <td className="py-2 px-4 border-b">TPM-BBX-GROUP24</td>
               <td className="py-2 px-4 border-b">Group 24</td>
               <td className="py-2 px-4 border-b">24</td>
               <td className="py-2 px-4 border-b">Polypropylene</td>
               <td className="py-2 px-4 border-b">Ventilated, mounting hardware</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-BBX-GROUP27</td>
+              <td className="py-2 px-4 border-b">TPM-BBX-GROUP27</td>
               <td className="py-2 px-4 border-b">Group 27</td>
               <td className="py-2 px-4 border-b">27</td>
               <td className="py-2 px-4 border-b">Polypropylene</td>

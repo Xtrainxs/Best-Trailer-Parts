@@ -1,24 +1,71 @@
-import Link from "next/link";
-
 export default function TrailerEqualizersPage() {
-  const subcategories = [
-    { name: "EQ‑E1", href: "/categories/trailer-suspension-parts/trailer-equalizers/eq-e1" },
-    { name: "EQ‑E2", href: "/categories/trailer-suspension-parts/trailer-equalizers/eq-e2" },
-    { name: "EQ‑E3", href: "/categories/trailer-suspension-parts/trailer-equalizers/eq-e3" },
-    { name: "EQ‑SL12", href: "/categories/trailer-suspension-parts/trailer-equalizers/eq-sl12" },
-    { name: "EQ‑SL14/16/18", href: "/categories/trailer-suspension-parts/trailer-equalizers/eq-sl14-16-18" },
-    { name: "EQ‑RUB6/8", href: "/categories/trailer-suspension-parts/trailer-equalizers/eq-rub6-8" },
-  ];
-
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-8 text-blue-900">Trailer Equalizers</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-        {subcategories.map((cat) => (
-          <Link key={cat.name} href={cat.href} className="block bg-white rounded-xl shadow-lg p-6 text-center hover:bg-blue-50 border border-blue-200 transition">
-            <span className="text-lg font-semibold text-blue-800">{cat.name}</span>
-          </Link>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+        {["1.png", "2.png", "3.png", "4.png", "5.png"].map((img, idx) => (
+          <div
+            key={img}
+            className="bg-gray-800 rounded-lg shadow p-4 flex flex-col items-center w-full"
+          >
+            <div className="w-[88%] rounded-md p-2 mb-2 flex justify-center bg-gray-200">
+              <img
+                src={`/images/Trailer%20Equalizers/${encodeURIComponent(img)}`}
+                alt={`Trailer equalizer ${idx + 1}`}
+                className="h-[8.4rem] w-full object-contain object-center"
+              />
+            </div>
+            <span className="text-white text-sm text-center">{img}</span>
+          </div>
         ))}
+      </div>
+      <div className="overflow-x-auto">
+        <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
+          <thead>
+            <tr className="bg-slate-900">
+              <th className="py-3 px-4 border-b border-slate-700 border-r border-slate-700 text-left">EQ-Code</th>
+              <th className="py-3 px-4 border-b border-slate-700 border-r border-slate-700 text-left">Trailer Weight (GTW)</th>
+              <th className="py-3 px-4 border-b border-slate-700 text-left">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="py-3 px-4 border-b border-slate-700 border-r border-slate-700 font-semibold">EQ1</td>
+              <td className="py-3 px-4 border-b border-slate-700 border-r border-slate-700">4,000 lbs</td>
+              <td className="py-3 px-4 border-b border-slate-700">Light-duty equalizer for small cargo and utility trailers.</td>
+            </tr>
+            <tr>
+              <td className="py-3 px-4 border-b border-slate-700 border-r border-slate-700 font-semibold">EQ2</td>
+              <td className="py-3 px-4 border-b border-slate-700 border-r border-slate-700">6,000 lbs</td>
+              <td className="py-3 px-4 border-b border-slate-700">Common mid-range equalizer for single-axle and light tandem trailers.</td>
+            </tr>
+            <tr>
+              <td className="py-3 px-4 border-b border-slate-700 border-r border-slate-700 font-semibold">EQ3</td>
+              <td className="py-3 px-4 border-b border-slate-700 border-r border-slate-700">8,000 lbs</td>
+              <td className="py-3 px-4 border-b border-slate-700">High-volume SKU for tandem-axle cargo and utility trailers.</td>
+            </tr>
+            <tr>
+              <td className="py-3 px-4 border-b border-slate-700 border-r border-slate-700 font-semibold">EQ4</td>
+              <td className="py-3 px-4 border-b border-slate-700 border-r border-slate-700">10,000 lbs</td>
+              <td className="py-3 px-4 border-b border-slate-700">One of the most frequently purchased equalizers in Canada/US.</td>
+            </tr>
+            <tr>
+              <td className="py-3 px-4 border-b border-slate-700 border-r border-slate-700 font-semibold">EQ5</td>
+              <td className="py-3 px-4 border-b border-slate-700 border-r border-slate-700">12,000 lbs</td>
+              <td className="py-3 px-4 border-b border-slate-700">Heavy-duty equalizer for equipment, RV, and large cargo trailers.</td>
+            </tr>
+            <tr>
+              <td className="py-3 px-4 border-b border-slate-700 border-r border-slate-700 font-semibold">EQ6</td>
+              <td className="py-3 px-4 border-b border-slate-700 border-r border-slate-700">16,000 lbs</td>
+              <td className="py-3 px-4 border-b border-slate-700">Heavy-duty continuation model for catalog completeness.</td>
+            </tr>
+            <tr>
+              <td className="py-3 px-4 border-r border-slate-700 font-semibold">EQ4541</td>
+              <td className="py-3 px-4 border-r border-slate-700">10,000-12,000 lbs</td>
+              <td className="py-3 px-4">Premium air-ride equalizer category (e.g., Shocker-style).</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </main>
   );

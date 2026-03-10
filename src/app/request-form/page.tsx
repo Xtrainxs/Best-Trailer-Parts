@@ -2,20 +2,21 @@ import React from "react";
 
 export default function RequestFormPage() {
   return (
-    <div className="w-full max-w-xl mx-auto my-10 bg-gradient-to-br from-blue-50 via-white to-blue-100 rounded-2xl border border-blue-200 shadow-2xl p-10">
+    <div className="w-full max-w-xl mx-auto my-10 bg-gray-200 rounded-2xl border border-blue-200 shadow-2xl p-10">
       <div className="flex flex-col items-center border-b border-blue-100 pb-6 mb-8">
         <div className="bg-white rounded-xl shadow p-2 flex items-center justify-center mb-2" style={{ width: '14rem', height: '14rem' }}>
-          <img src="/logo.png" alt="Best Trailer Parts logo" className="w-56 h-56 object-contain rounded-md" />
+          <img src="/logo-tpm.png" alt="Trailer Part Masters logo" className="w-full h-full object-cover rounded-md" style={{ width: '100%', height: '100%' }} />
         </div>
         <div className="text-3xl font-extrabold text-blue-900 mb-2 tracking-tight">Request Parts / Quote</div>
-        <div className="text-base text-blue-700 mb-2 text-center">Tell us what you need and we’ll match you with the right trailer parts at the best price.</div>
+        <div className="text-base text-blue-700 mb-2 text-center"><span className="font-bold">Tell us what you need and we’ll match you with the right trailer parts at the best price.</span></div>
         <div className="text-sm text-blue-900 mt-2 text-center space-y-1">
-          <span className="block font-semibold">Address:</span>
-          <span className="block">Taralake Manor, NE, Calgary, Alberta, CANADA</span>
-          <span className="block font-semibold mt-2">Phone:</span>
-          <span className="block">+1 403-903-7957</span>
-          <span className="block font-semibold mt-2">Email:</span>
-          <span className="block">besttrailerparts@shaw.ca</span>
+          <span className="block font-semibold text-lg">Address:</span>
+          <span className="block text-lg">Taralake Manor, NE, Calgary, Alberta, CANADA</span>
+          <span className="block font-semibold mt-2 text-lg">Phone:</span>
+          <span className="block text-lg">+1 (403) 875-5074</span>
+          <span className="block font-semibold mt-2 text-lg">Email:</span>
+          <span className="block text-lg">trailerpartmasters@shaw.ca</span>
+          <span className="block text-lg">terryparts@shaw.ca</span>
         </div>
       </div>
       <form className="grid grid-cols-1 sm:grid-cols-2 gap-6">

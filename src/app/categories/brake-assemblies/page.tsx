@@ -19,7 +19,7 @@ export default function BrakeAssemblies() {
             key={subcategory.slug}
             href={`/categories/brake-assemblies/${subcategory.slug}`}
           >
-            <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 text-center cursor-pointer">
+            <div className="bg-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 text-center cursor-pointer">
               <h3 className="text-xl font-semibold text-gray-800">{subcategory.name}</h3>
             </div>
           </Link>

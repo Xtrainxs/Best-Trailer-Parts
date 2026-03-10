@@ -6,8 +6,6 @@ export default function HangersKitsPage() {
     { name: "Tandem‑Axle Hanger Kits (3,500–12,000 lbs)", href: "/categories/trailer-suspension-parts/hangers-kits/tandem-axle-hanger-kits" },
     { name: "Triple‑Axle Hanger Kits (7,000–12,000 lbs)", href: "/categories/trailer-suspension-parts/hangers-kits/triple-axle-hanger-kits" },
     { name: "Specialty Hanger Kits", href: "/categories/trailer-suspension-parts/hangers-kits/specialty-hanger-kits" },
-    { name: "Heavy‑Duty Cast Equalizer Kits", href: "/categories/trailer-suspension-parts/hangers-kits/heavy-duty-cast-equalizer-kits" },
-    { name: "Rubber‑Cushioned Equalizer Kits", href: "/categories/trailer-suspension-parts/hangers-kits/rubber-cushioned-equalizer-kits" },
   ];
 
   return (

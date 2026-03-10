@@ -19,7 +19,7 @@ export default function UtilityWorkLights() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-UWL-LED-FLOOD</td>
+                <td className="py-2 px-4 border-b">TPM-UWL-LED-FLOOD</td>
               <td className="py-2 px-4 border-b">LED</td>
               <td className="py-2 px-4 border-b">Flood</td>
               <td className="py-2 px-4 border-b">4" x 4"</td>
@@ -28,7 +28,7 @@ export default function UtilityWorkLights() {
               <td className="py-2 px-4 border-b">IP67</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-UWL-HAL-SPOT</td>
+                <td className="py-2 px-4 border-b">TPM-UWL-HAL-SPOT</td>
               <td className="py-2 px-4 border-b">Halogen</td>
               <td className="py-2 px-4 border-b">Spot</td>
               <td className="py-2 px-4 border-b">5" x 3"</td>

@@ -5,6 +5,20 @@ export default function BronzeBushingsPage() {
     <main className="max-w-2xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-blue-900">Bronze Bushings</h1>
       <p className="mb-8 text-blue-800">Bronze bushings are known for their durability and resistance to wear, making them suitable for heavy-duty and commercial trailers.</p>
+      <h2 className="text-xl font-semibold mb-4 text-blue-900">Bronze Bushings Gallery</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-12">
+        {[1,2,3,4].map((num) => (
+          <div key={num} className="flex flex-col items-center bg-gray-900 rounded-lg shadow p-4 border border-blue-100">
+              <img
+                src={`/images/Shackles%20and%20Bushings/bronze-bushings/Picture${num}.png`}
+                alt={`Bronze Bushing Picture ${num}`}
+                className="w-full h-48 object-contain bg-gray-800 rounded mb-2"
+                loading="lazy"
+              />
+            <span className="text-blue-100 text-sm">Picture {num}</span>
+          </div>
+        ))}
+      </div>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Available Bronze Bushings</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">

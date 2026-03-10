@@ -5,6 +5,32 @@ export default function TripleAxleHangerKitsPage() {
     <main className="max-w-2xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-blue-900">Triple-Axle Hanger Kits</h1>
       <p className="mb-8 text-blue-800">Triple-axle hanger kits are built for maximum load capacity and stability, supporting trailers with three axles. These kits include all the necessary components for robust suspension and safe transport of heavy cargo.</p>
+      <div className="w-full flex justify-center items-center bg-blue-900 rounded-lg mb-8 p-4 gap-8">
+        <div className="flex-1 flex justify-center">
+          <img
+            src="/images/hangerkits/tripleaxlehangerkits/Picture1.png"
+            alt="Triple Axle Hanger Kits Picture 1"
+            className="object-contain rounded-lg drop-shadow-lg"
+            style={{ width: '100%', height: '320px', background: 'transparent' }}
+          />
+        </div>
+        <div className="flex-1 flex justify-center">
+          <img
+            src="/images/hangerkits/tripleaxlehangerkits/Picture2.png"
+            alt="Triple Axle Hanger Kits Picture 2"
+            className="object-contain rounded-lg drop-shadow-lg"
+            style={{ width: '100%', height: '320px', background: 'transparent' }}
+          />
+        </div>
+        <div className="flex-1 flex justify-center">
+          <img
+            src="/images/hangerkits/tripleaxlehangerkits/Picture3.png"
+            alt="Triple Axle Hanger Kits Picture 3"
+            className="object-contain rounded-lg drop-shadow-lg"
+            style={{ width: '100%', height: '320px', background: 'transparent' }}
+          />
+        </div>
+      </div>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Available Triple-Axle Hanger Kits</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">

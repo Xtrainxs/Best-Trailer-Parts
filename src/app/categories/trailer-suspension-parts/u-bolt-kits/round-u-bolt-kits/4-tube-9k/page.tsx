@@ -10,6 +10,25 @@ export default function RoundUBoltKit4Tube9k() {
       </div>
       <h1 className="text-2xl font-bold mb-4 text-blue-900">4" Tube (9k) Round U-bolt Kit</h1>
       <p className="text-lg text-gray-700 mb-6">Kit for 9,000 lb axles with 4" round tube. Includes U-bolts, nuts, and tie plates.</p>
+      <div className="flex flex-wrap gap-4 mb-8">
+        {[
+          "9k U-Bolt Kits - 1.png",
+          "9k U-Bolt Kits - 2.png",
+          "9k U-Bolt Kits.png",
+        ].map((img, idx) => (
+          <div
+            key={img}
+            className="bg-gray-800 rounded-lg shadow p-4 flex flex-col items-center w-56"
+          >
+            <img
+              src={`/images/U-Bolt%20Kits/Round%20U-Bolt%20Kits/9k%20Round%20U-bolt%20Kit/${encodeURIComponent(img)}`}
+              alt={`9k Round U-bolt Kit ${idx + 1}`}
+              className="h-36 w-auto object-contain mb-2"
+            />
+            <span className="text-white text-sm text-center break-words">{img}</span>
+          </div>
+        ))}
+      </div>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Kit Specifications</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
@@ -24,7 +43,7 @@ export default function RoundUBoltKit4Tube9k() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-UBK-4T-9K</td>
+                <td className="py-2 px-4 border-b">TPM-UBK-4T-9K</td>
               <td className="py-2 px-4 border-b">4" x 8 ¼" x 5/8"</td>
               <td className="py-2 px-4 border-b">Steel</td>
               <td className="py-2 px-4 border-b">Zinc</td>

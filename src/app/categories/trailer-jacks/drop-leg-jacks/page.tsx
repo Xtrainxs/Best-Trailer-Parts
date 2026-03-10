@@ -12,6 +12,21 @@ export default function DropLegJacks() {
       <p className="text-lg text-gray-700 mb-6">
         Drop-Leg jacks feature legs that extend downward for extra stability. Great for off-level surfaces and rough terrain.
       </p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
+        {["1.png", "2.png", "3.png", "4.png", "5.png"].map((img, idx) => (
+          <div
+            key={img}
+            className="bg-gray-800 rounded-lg shadow p-4 flex flex-col items-center w-full"
+          >
+            <img
+              src={`/images/Trailer%20Jacks/Drop%20Leg%20Jacks/${img}`}
+              alt={`Drop-Leg Jack ${idx + 1}`}
+              className="h-36 w-auto object-contain mb-2"
+            />
+            <span className="text-white text-sm text-center">{`Image ${idx + 1}`}</span>
+          </div>
+        ))}
+      </div>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Available Drop-Leg Jacks</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
@@ -26,21 +41,21 @@ export default function DropLegJacks() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-DLJ-5000</td>
+              <td className="py-2 px-4 border-b">TPM-DLJ-5000</td>
               <td className="py-2 px-4 border-b">Manual Drop-Leg</td>
               <td className="py-2 px-4 border-b">5,000</td>
               <td className="py-2 px-4 border-b">12</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-DLJ-7000</td>
+              <td className="py-2 px-4 border-b">TPM-DLJ-7000</td>
               <td className="py-2 px-4 border-b">Heavy Duty Drop-Leg</td>
               <td className="py-2 px-4 border-b">7,000</td>
               <td className="py-2 px-4 border-b">14</td>
               <td className="py-2 px-4 border-b">Zinc</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-DLJ-10000</td>
+              <td className="py-2 px-4 border-b">TPM-DLJ-10000</td>
               <td className="py-2 px-4 border-b">HD Drop-Leg</td>
               <td className="py-2 px-4 border-b">10,000</td>
               <td className="py-2 px-4 border-b">16</td>

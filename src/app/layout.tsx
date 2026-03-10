@@ -2,42 +2,62 @@ import './globals.css';
 import { ReactNode } from 'react';
 
 export const metadata = {
-  title: 'Trailer Parts Store',
-  description: 'Browse trailer parts and accessories',
+  title: 'Trailer Part Masters',
+  description: 'We do not sell, we help you buy',
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-gradient-to-b from-sky-200 to-sky-50 text-gray-900 min-h-screen">
-        <header className="bg-[#05203C] shadow">
-          <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
-            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
-              <div className="flex justify-center sm:justify-start items-center mb-2 sm:mb-0">
-                <a href="/" className="block">
-                  <img
-                    src="/logo.png"
-                    alt="Best Trailer Parts logo"
-                    className="w-44 h-44 sm:w-64 sm:h-64 object-contain rounded-md shadow-lg"
-                  />
-                </a>
+      <body className="theme-page-bg text-neutral-dark min-h-screen font-sans">
+        <header className="theme-header-bg shadow-2xl border-b-4 border-accent">
+          <div className="max-w-7xl mx-auto py-6 px-6 flex flex-col md:flex-row items-center justify-between gap-8">
+            <div className="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-6 w-full justify-between">
+              <a href="/" className="block flex-shrink-0">
+                <img
+                  src="/logo-tpm.png"
+                  alt="Trailer Part Masters vibrant logo"
+                  className="h-36 md:h-32 w-auto rounded-2xl shadow-2xl border-4 border-black bg-cyan-100"
+                  style={{ objectFit: 'contain' }}
+                />
+              </a>
+              <div className="theme-contact flex flex-col text-white text-sm md:text-base font-semibold text-center md:text-right leading-relaxed md:ml-4">
+                <span>
+                  Phone: <a href="tel:+14038755074" className="underline">+1 (403) 875-5074</a>
+                </span>
+                <span>
+                  Email: <a href="mailto:trailerpartmasters@shaw.ca" className="underline whitespace-nowrap">trailerpartmasters@shaw.ca</a>
+                </span>
+                <span>
+                  <a href="mailto:terryparts@shaw.ca" className="underline whitespace-nowrap">terryparts@shaw.ca</a>
+                </span>
               </div>
-              <nav className="flex flex-wrap justify-center sm:justify-end items-center gap-3 sm:gap-6 mt-2 sm:mt-0">
-                <a href="/categories/trailer-suspension-parts" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Trailer Suspension Parts</a>
-                <a href="/categories/trailer-lights" className="text-base sm:text-lg text-white hover:text-yellow-300 px-2 py-1 rounded transition">Trailer Lights</a>
-                <a href="/categories/trailer-electrical-parts" className="text-base sm:text-lg text-white hover:text-yellow-300 px-2 py-1 rounded transition">Trailer Electrical Parts</a>
-                <a href="/categories/trailer-jacks" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Trailer Jacks</a>
-                <a href="/categories/trailer-couplers" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Trailer Couplers</a>
-                <a href="/categories/idler-hubs" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Idler Hubs</a>
-                <a href="/categories/brake-drums" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Brake Drums</a>
-                <a href="/categories/brake-assemblies" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Brake Assemblies</a>
-                <a href="/about" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">About Us</a>
-                <a href="/request-form" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Request Form</a>
-              </nav>
             </div>
+            <nav className="flex flex-wrap justify-center md:justify-end items-center gap-3 md:gap-5">
+              <a href="/categories/trailer-suspension-parts" className="tpm-nav-btn text-lg font-bold px-4 py-2 rounded-xl shadow transition">Suspension</a>
+              <a href="/categories/trailer-lights" className="tpm-nav-btn text-lg font-bold px-4 py-2 rounded-xl shadow transition">Lights</a>
+              <a href="/categories/trailer-electrical-parts" className="tpm-nav-btn text-lg font-bold px-4 py-2 rounded-xl shadow transition">Electrical</a>
+              <a href="/categories/trailer-jacks" className="tpm-nav-btn text-lg font-bold px-4 py-2 rounded-xl shadow transition">Jacks</a>
+              <a href="/categories/trailer-couplers" className="tpm-nav-btn text-lg font-bold px-4 py-2 rounded-xl shadow transition">Couplers</a>
+              <a href="/categories/idler-hubs" className="tpm-nav-btn text-lg font-bold px-4 py-2 rounded-xl shadow transition">Idler Hubs</a>
+              <a href="/categories/brake-drums" className="tpm-nav-btn text-lg font-bold px-4 py-2 rounded-xl shadow transition">Brake Drums</a>
+              <a href="/categories/brake-assemblies" className="tpm-nav-btn text-lg font-bold px-4 py-2 rounded-xl shadow transition">Brake Assemblies</a>
+              <a href="/categories/trailer-hardware" className="tpm-nav-btn text-lg font-bold px-4 py-2 rounded-xl shadow transition">Trailer Hardware</a>
+              <a href="/about" className="tpm-nav-btn text-lg font-bold px-4 py-2 rounded-xl shadow transition">About Us</a>
+              <a href="/request-form" className="tpm-nav-btn text-lg font-bold px-4 py-2 rounded-xl shadow transition">Request Form</a>
+            </nav>
           </div>
         </header>
-        <main className="min-h-[calc(100vh-6rem)]">{children}</main>
+        <main className="min-h-[calc(100vh-6rem)] font-sans">{children}</main>
+        <footer className="theme-footer-bg text-white py-8 mt-12 shadow-2xl">
+          <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8">
+            <span className="font-bold text-lg tracking-wide">&copy; {new Date().getFullYear()} Trailer Part Masters. All rights reserved.</span>
+            <nav className="theme-footer-links flex flex-wrap gap-4 md:gap-8">
+              <a href="/about" className="text-white font-semibold">About Us</a>
+              <a href="/request-form" className="text-white font-semibold">Request Form</a>
+            </nav>
+          </div>
+        </footer>
       </body>
     </html>
   );

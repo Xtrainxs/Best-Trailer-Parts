@@ -22,4 +22,3 @@ This project is a Next.js application (TypeScript) for browsing trailer parts.
 - `<project-root>/src/app` contains the app folder with layout and pages.
 
 Replace placeholder components with real data as needed.
->>>>>>> 5b9daff (Initial commit with fixed package.json)

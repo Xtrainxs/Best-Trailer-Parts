@@ -4,7 +4,7 @@ export default function ShacklesBushingsPage() {
   const subcategories = [
     { name: "Standard shackles", href: "/categories/trailer-suspension-parts/shackles-bushings/standard-shackles" },
     { name: "HD shackles", href: "/categories/trailer-suspension-parts/shackles-bushings/hd-shackles" },
-    { name: "Wet‑bolt shackles", href: "/categories/trailer-suspension-parts/shackles-bushings/wet-bolt-shackles" },
+    // { name: "Wet‑bolt shackles", href: "/categories/trailer-suspension-parts/shackles-bushings/wet-bolt-shackles" },
     { name: "Nylon bushings", href: "/categories/trailer-suspension-parts/shackles-bushings/nylon-bushings" },
     { name: "Bronze bushings", href: "/categories/trailer-suspension-parts/shackles-bushings/bronze-bushings" },
     { name: "Steel bushings", href: "/categories/trailer-suspension-parts/shackles-bushings/steel-bushings" },

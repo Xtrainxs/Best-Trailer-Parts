@@ -15,6 +15,24 @@ export default function Hydraulic10() {
       <h1 className="text-4xl font-bold mb-2">10" Hydraulic Trailer Brakes</h1>
       <p className="text-lg text-gray-600 mb-8">Choose a 10" hydraulic brake product</p>
 
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+        {["1.png", "2.png", "3.png", "4.png"].map((img, idx) => (
+          <div
+            key={img}
+            className="bg-gray-200 rounded-lg shadow p-4 flex flex-col items-center w-full"
+          >
+            <div className="w-[88%] rounded-md p-2 mb-2 flex justify-center bg-gray-200">
+              <img
+                src={`/images/Brake%20Assemblies/10%20Inch%20Hydraulic/${encodeURIComponent(img)}`}
+                alt={`10 inch hydraulic brake assembly ${idx + 1}`}
+                className="h-[8.4rem] w-full object-contain object-center"
+              />
+            </div>
+            <span className="text-gray-800 text-sm text-center">{img}</span>
+          </div>
+        ))}
+      </div>
+
       <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Available 10" Hydraulic Brake Assemblies</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
@@ -30,7 +48,7 @@ export default function Hydraulic10() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-BA-10H-MAN-L</td>
+              <td className="py-2 px-4 border-b">TPM-BA-10H-MAN-L</td>
               <td className="py-2 px-4 border-b">Hydraulic Drum</td>
               <td className="py-2 px-4 border-b">Left</td>
               <td className="py-2 px-4 border-b">Manual</td>
@@ -38,7 +56,7 @@ export default function Hydraulic10() {
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-BA-10H-MAN-R</td>
+              <td className="py-2 px-4 border-b">TPM-BA-10H-MAN-R</td>
               <td className="py-2 px-4 border-b">Hydraulic Drum</td>
               <td className="py-2 px-4 border-b">Right</td>
               <td className="py-2 px-4 border-b">Manual</td>
@@ -46,7 +64,7 @@ export default function Hydraulic10() {
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-BA-10H-FB-L</td>
+              <td className="py-2 px-4 border-b">TPM-BA-10H-FB-L</td>
               <td className="py-2 px-4 border-b">Hydraulic Drum (Freebacking)</td>
               <td className="py-2 px-4 border-b">Left</td>
               <td className="py-2 px-4 border-b">Manual</td>
@@ -54,7 +72,7 @@ export default function Hydraulic10() {
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-BA-10H-FB-R</td>
+              <td className="py-2 px-4 border-b">TPM-BA-10H-FB-R</td>
               <td className="py-2 px-4 border-b">Hydraulic Drum (Freebacking)</td>
               <td className="py-2 px-4 border-b">Right</td>
               <td className="py-2 px-4 border-b">Manual</td>

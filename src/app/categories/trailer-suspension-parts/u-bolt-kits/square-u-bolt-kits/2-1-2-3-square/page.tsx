@@ -3,6 +3,25 @@ export default function Square2123Page() {
     <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-blue-900">2 ½"–3" Square U-bolt Kit</h1>
       <p className="text-lg text-gray-700 mb-6">Kit for 2 ½"–3" square axle. Includes U-bolts, nuts, and tie plates.</p>
+      <div className="flex flex-wrap gap-4 mb-8">
+        {[
+          "Square U-Bolt Kits - 1.png",
+          "Square U-Bolt Kits - 2.png",
+          "Square U-Bolt Kits.png",
+        ].map((img, idx) => (
+          <div
+            key={img}
+            className="bg-gray-800 rounded-lg shadow p-4 flex flex-col items-center w-56"
+          >
+            <img
+              src={`/images/U-Bolt%20Kits/Square%20U-Bolt%20Kits/2%20%C2%BD%E2%80%933%20Square%20U-bolt%20Kit/${encodeURIComponent(img)}`}
+              alt={`2 1/2-3 Square U-bolt Kit ${idx + 1}`}
+              className="h-36 w-auto object-contain mb-2"
+            />
+            <span className="text-white text-sm text-center break-words">{img}</span>
+          </div>
+        ))}
+      </div>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Kit Specifications</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
@@ -17,7 +36,7 @@ export default function Square2123Page() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-UBK-2.5-3SQ</td>
+              <td className="py-2 px-4 border-b">TPM-UBK-2.5-3SQ</td>
               <td className="py-2 px-4 border-b">2 ½"–3" x 6 ¼" x 7/16"</td>
               <td className="py-2 px-4 border-b">Steel</td>
               <td className="py-2 px-4 border-b">Zinc</td>
