@@ -28,7 +28,7 @@ export default function IdlerKit7000_8x65() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-IHK-7000-8X65</td>
+              <td className="py-2 px-4 border-b">TPM-IHK-7000-8X65</td>
               <td className="py-2 px-4 border-b">8 on 6.5"</td>
               <td className="py-2 px-4 border-b">3.50"</td>
               <td className="py-2 px-4 border-b">9/16"</td>
@@ -37,7 +37,7 @@ export default function IdlerKit7000_8x65() {
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-IHK-7000-8X65Z</td>
+              <td className="py-2 px-4 border-b">TPM-IHK-7000-8X65Z</td>
               <td className="py-2 px-4 border-b">8 on 6.5"</td>
               <td className="py-2 px-4 border-b">3.50"</td>
               <td className="py-2 px-4 border-b">9/16"</td>

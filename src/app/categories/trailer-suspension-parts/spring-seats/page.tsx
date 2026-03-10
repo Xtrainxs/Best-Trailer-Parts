@@ -5,6 +5,18 @@ export default function SpringSeatsPage() {
     <main className="max-w-2xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-blue-900">Spring Seats</h1>
       <p className="mb-8 text-blue-800">Spring seats are essential components that provide a stable mounting surface for trailer leaf springs, ensuring proper alignment and load distribution.</p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+        {["1.png", "2.png", "3.png"].map((img, idx) => (
+          <div key={img} className="bg-gray-800 rounded-lg shadow p-4 flex flex-col items-center w-full">
+            <img
+              src={`/images/Spring%20Seats/${img}`}
+              alt={`Spring Seat ${idx + 1}`}
+              className="h-36 w-auto object-contain mb-2"
+            />
+            <span className="text-white text-sm text-center">{`Image ${idx + 1}`}</span>
+          </div>
+        ))}
+      </div>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Available Spring Seats</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">

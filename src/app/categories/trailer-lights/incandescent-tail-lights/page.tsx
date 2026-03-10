@@ -18,7 +18,7 @@ export default function IncandescentTailLights() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-ITL-RECT</td>
+                <td className="py-2 px-4 border-b">TPM-ITL-RECT</td>
               <td className="py-2 px-4 border-b">Rectangular</td>
               <td className="py-2 px-4 border-b">7.5" x 3.25"</td>
               <td className="py-2 px-4 border-b">12V</td>
@@ -26,7 +26,7 @@ export default function IncandescentTailLights() {
               <td className="py-2 px-4 border-b">DOT/SAE</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-ITL-RND</td>
+                <td className="py-2 px-4 border-b">TPM-ITL-RND</td>
               <td className="py-2 px-4 border-b">Round</td>
               <td className="py-2 px-4 border-b">4" dia.</td>
               <td className="py-2 px-4 border-b">12V</td>

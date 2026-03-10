@@ -23,7 +23,7 @@ export default function BrakeDrums() {
             href={`/categories/brake-drums/${subcategory.slug}`}
           >
             <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 text-center cursor-pointer">
-              <h3 className="text-xl font-semibold text-gray-800">{subcategory.name}</h3>
+              <h3 className="text-base font-semibold text-yellow-800">{subcategory.name}</h3>
             </div>
           </Link>
         ))}

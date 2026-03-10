@@ -7,13 +7,12 @@ export default function TrailerElectricalPartsPage() {
     { name: "Wiring Harnesses", href: "/categories/trailer-electrical-parts/wiring-harnesses" },
     { name: "Junction Boxes", href: "/categories/trailer-electrical-parts/junction-boxes" },
     { name: "Breakaway Kits", href: "/categories/trailer-electrical-parts/breakaway-kits" },
-    { name: "Battery Boxes", href: "/categories/trailer-electrical-parts/battery-boxes" },
   ];
 
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-3xl font-bold mb-6 text-blue-900">Trailer Electrical Parts</h1>
-      <p className="text-lg text-gray-700 mb-8">Browse essential electrical components for trailers, including adapters, connectors, wiring harnesses, junction boxes, breakaway kits, and battery boxes.</p>
+      <p className="text-lg text-gray-700 mb-8">Browse essential electrical components for trailers, including adapters, connectors, wiring harnesses, junction boxes, and breakaway kits.</p>
       <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
         {subcategories.map((sub) => (
           <li key={sub.name} className="border rounded-lg shadow hover:shadow-lg transition bg-white">

@@ -10,6 +10,23 @@ export default function BrakeDrum10in3500_5x5() {
       </div>
       <h1 className="text-4xl font-bold mb-4">10" Brake Drum Kit for 3,500 lb. Axles | 5 on 5" Bolt Pattern</h1>
       <p className="text-lg text-gray-700 mb-6">Durable brake drum kit for 3,500 lb axles with a 5x5 bolt pattern.</p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+        {["1.png", "2.png"].map((img, idx) => (
+          <div
+            key={img}
+            className="bg-gray-800 rounded-lg shadow p-4 flex flex-col items-center w-full"
+          >
+            <div className="w-[88%] rounded-md p-2 mb-2 flex justify-center bg-gray-200">
+              <img
+                src={`/images/Brake%20Drums/10%20Inch%20Brake%20Drum%20-%205%20x%205/${encodeURIComponent(img)}`}
+                alt={`10 inch brake drum kit 5x5 ${idx + 1}`}
+                className="h-[8.4rem] w-full object-contain object-center"
+              />
+            </div>
+            <span className="text-white text-sm text-center">{img}</span>
+          </div>
+        ))}
+      </div>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Available Kits</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
@@ -25,7 +42,7 @@ export default function BrakeDrum10in3500_5x5() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-BDK-10IN-3500-5X5</td>
+              <td className="py-2 px-4 border-b">TPM-BDK-10IN-3500-5X5</td>
               <td className="py-2 px-4 border-b">10"</td>
               <td className="py-2 px-4 border-b">5 on 5"</td>
               <td className="py-2 px-4 border-b">L68149/L68111 & L44649/L44610</td>

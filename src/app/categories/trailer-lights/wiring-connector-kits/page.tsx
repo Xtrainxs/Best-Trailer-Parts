@@ -17,14 +17,14 @@ export default function WiringConnectorKits() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-WCK-4WAY</td>
+              <td className="py-2 px-4 border-b">TPM-WCK-4WAY</td>
               <td className="py-2 px-4 border-b">4-Way Flat</td>
               <td className="py-2 px-4 border-b">25 ft</td>
               <td className="py-2 px-4 border-b">4-pin</td>
               <td className="py-2 px-4 border-b">Harness, plug, junction box</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-WCK-7WAY</td>
+              <td className="py-2 px-4 border-b">TPM-WCK-7WAY</td>
               <td className="py-2 px-4 border-b">7-Way RV</td>
               <td className="py-2 px-4 border-b">20 ft</td>
               <td className="py-2 px-4 border-b">7-pin</td>

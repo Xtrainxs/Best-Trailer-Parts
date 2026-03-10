@@ -3,6 +3,21 @@ export default function Connectors() {
     <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-blue-900">Trailer Connectors</h1>
       <p className="text-lg text-gray-700 mb-6">Connectors for trailer wiring, including flat, round, and RV styles for secure electrical connections.</p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+        {["1.png", "2.png", "3.png", "4.png", "5.png"].map((img, idx) => (
+          <div
+            key={img}
+            className="bg-gray-800 rounded-lg shadow p-4 flex flex-col items-center w-full"
+          >
+            <img
+              src={`/images/Trailer%20Connectors/${img}`}
+              alt={`Trailer Connector ${idx + 1}`}
+              className="h-44 w-full object-contain mb-2"
+            />
+            <span className="text-white text-sm text-center">{`Image ${idx + 1}`}</span>
+          </div>
+        ))}
+      </div>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Product Table</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
@@ -17,35 +32,35 @@ export default function Connectors() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-CON-4FLAT</td>
+              <td className="py-2 px-4 border-b">TPM-CON-4FLAT</td>
               <td className="py-2 px-4 border-b">Flat</td>
               <td className="py-2 px-4 border-b">4</td>
               <td className="py-2 px-4 border-b">Flat</td>
               <td className="py-2 px-4 border-b">Nylon</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-CON-7RV</td>
+              <td className="py-2 px-4 border-b">TPM-CON-7RV</td>
               <td className="py-2 px-4 border-b">RV</td>
               <td className="py-2 px-4 border-b">7</td>
               <td className="py-2 px-4 border-b">Round</td>
               <td className="py-2 px-4 border-b">Aluminum</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-CON-5FLAT</td>
+              <td className="py-2 px-4 border-b">TPM-CON-5FLAT</td>
               <td className="py-2 px-4 border-b">Flat</td>
               <td className="py-2 px-4 border-b">5</td>
               <td className="py-2 px-4 border-b">Flat</td>
               <td className="py-2 px-4 border-b">Nylon</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-CON-6ROUND</td>
+              <td className="py-2 px-4 border-b">TPM-CON-6ROUND</td>
               <td className="py-2 px-4 border-b">Round</td>
               <td className="py-2 px-4 border-b">6</td>
               <td className="py-2 px-4 border-b">Round</td>
               <td className="py-2 px-4 border-b">Aluminum</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-CON-7BLADE</td>
+              <td className="py-2 px-4 border-b">TPM-CON-7BLADE</td>
               <td className="py-2 px-4 border-b">Blade</td>
               <td className="py-2 px-4 border-b">7</td>
               <td className="py-2 px-4 border-b">Blade</td>

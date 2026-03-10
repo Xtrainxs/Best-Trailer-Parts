@@ -12,6 +12,21 @@ export default function SwivelJacks() {
       <p className="text-lg text-gray-700 mb-6">
         Swivel Jacks rotate 360 degrees for maximum flexibility and ease of use. Ideal for trailers that require multi-directional adjustments.
       </p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+        {["1.png", "2.png", "3.png"].map((img, idx) => (
+          <div
+            key={img}
+            className="bg-gray-800 rounded-lg shadow p-4 flex flex-col items-center w-full"
+          >
+            <img
+              src={`/images/Trailer%20Jacks/Swivel%20Jacks/${img}`}
+              alt={`Swivel Jack ${idx + 1}`}
+              className="h-36 w-auto object-contain mb-2"
+            />
+            <span className="text-white text-sm text-center">{`Image ${idx + 1}`}</span>
+          </div>
+        ))}
+      </div>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Available Swivel Jacks</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
@@ -26,21 +41,21 @@ export default function SwivelJacks() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-SVJ-1500</td>
+                <td className="py-2 px-4 border-b">TPM-SVJ-1500</td>
               <td className="py-2 px-4 border-b">Manual Swivel</td>
               <td className="py-2 px-4 border-b">1,500</td>
               <td className="py-2 px-4 border-b">8</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-SVJ-2500</td>
+                <td className="py-2 px-4 border-b">TPM-SVJ-2500</td>
               <td className="py-2 px-4 border-b">Heavy Duty Swivel</td>
               <td className="py-2 px-4 border-b">2,500</td>
               <td className="py-2 px-4 border-b">10</td>
               <td className="py-2 px-4 border-b">Zinc</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-SVJ-3500</td>
+                <td className="py-2 px-4 border-b">TPM-SVJ-3500</td>
               <td className="py-2 px-4 border-b">HD Swivel</td>
               <td className="py-2 px-4 border-b">3,500</td>
               <td className="py-2 px-4 border-b">12</td>

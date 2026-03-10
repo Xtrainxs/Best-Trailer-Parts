@@ -12,6 +12,26 @@ export default function JackAccessories() {
       <p className="text-lg text-gray-700 mb-6">
         Complete your jack setup with our selection of accessories including handles, pads, covers, and replacement parts.
       </p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+        {[
+          'Caster Wheels - Single & Dual.png',
+          'Jack Foot.png',
+          'Jack Pad 1.png',
+          'Jack Pad.png',
+        ].map((img, idx) => (
+          <div
+            key={img}
+            className="bg-gray-800 rounded-lg shadow p-4 flex flex-col items-center w-full"
+          >
+            <img
+              src={`/images/Trailer%20Jacks/Jack%20Accesories/${encodeURIComponent(img)}`}
+              alt={`Jack Accessory ${idx + 1}`}
+              className="h-36 w-auto object-contain mb-2"
+            />
+            <span className="text-white text-sm text-center break-words">{img}</span>
+          </div>
+        ))}
+      </div>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Available Jack Accessories</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
@@ -25,19 +45,19 @@ export default function JackAccessories() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-JA-HANDLE</td>
+              <td className="py-2 px-4 border-b">TPM-JA-HANDLE</td>
               <td className="py-2 px-4 border-b">Replacement Handle</td>
               <td className="py-2 px-4 border-b">Standard</td>
               <td className="py-2 px-4 border-b">Steel</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-JA-PAD</td>
+              <td className="py-2 px-4 border-b">TPM-JA-PAD</td>
               <td className="py-2 px-4 border-b">Jack Pad</td>
               <td className="py-2 px-4 border-b">8" x 8"</td>
               <td className="py-2 px-4 border-b">Rubber</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">BTP-JA-COVER</td>
+              <td className="py-2 px-4 border-b">TPM-JA-COVER</td>
               <td className="py-2 px-4 border-b">Protective Cover</td>
               <td className="py-2 px-4 border-b">Universal</td>
               <td className="py-2 px-4 border-b">Vinyl</td>

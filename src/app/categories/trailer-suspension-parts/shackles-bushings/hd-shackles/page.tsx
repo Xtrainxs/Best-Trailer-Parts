@@ -5,6 +5,32 @@ export default function HDShacklesPage() {
     <main className="max-w-2xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-blue-900">HD Shackles</h1>
       <p className="mb-8 text-blue-800">Heavy-duty shackles are built for trailers that require extra strength and durability. These shackles are ideal for commercial and heavy-haul applications.</p>
+      <div className="w-full flex justify-center items-center bg-blue-900 rounded-lg mb-8 p-4 gap-8">
+        <div className="flex-1 flex justify-center">
+          <img
+            src="/images/Shackles%20and%20Bushings/HD%20Shackles/Picture1.png"
+            alt="HD Shackles Picture 1"
+            className="object-contain rounded-lg drop-shadow-lg"
+            style={{ width: '100%', height: '220px', background: 'transparent' }}
+          />
+        </div>
+        <div className="flex-1 flex justify-center">
+          <img
+            src="/images/Shackles%20and%20Bushings/HD%20Shackles/Picture2.png"
+            alt="HD Shackles Picture 2"
+            className="object-contain rounded-lg drop-shadow-lg"
+            style={{ width: '100%', height: '220px', background: 'transparent' }}
+          />
+        </div>
+        <div className="flex-1 flex justify-center">
+          <img
+            src="/images/Shackles%20and%20Bushings/HD%20Shackles/Picture3.png"
+            alt="HD Shackles Picture 3"
+            className="object-contain rounded-lg drop-shadow-lg"
+            style={{ width: '100%', height: '220px', background: 'transparent' }}
+          />
+        </div>
+      </div>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Available HD Shackles</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
