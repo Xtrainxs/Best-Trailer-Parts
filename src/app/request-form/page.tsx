@@ -2,7 +2,7 @@ import React from "react";
 
 export default function RequestFormPage() {
   return (
-    <div className="w-full max-w-xl mx-auto my-10 bg-gray-200 rounded-2xl border border-blue-200 shadow-2xl p-10">
+    <div className="w-full max-w-xl mx-auto my-10 bg-gray-200 rounded-2xl border border-blue-200 shadow-2xl p-4 sm:p-10">
       <div className="flex flex-col items-center border-b border-blue-100 pb-6 mb-8">
         <div className="bg-white rounded-xl shadow p-2 flex items-center justify-center mb-2" style={{ width: '14rem', height: '14rem' }}>
           <img src="/logo-tpm.png" alt="Trailer Part Masters logo" className="w-full h-full object-cover rounded-md" style={{ width: '100%', height: '100%' }} />
