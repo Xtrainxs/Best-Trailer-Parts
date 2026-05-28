@@ -39,43 +39,56 @@ function getRepresentativeImages(): string[] {
 export default function Home() {
   const stripImages = getRepresentativeImages();
   return (
-    <div className="max-w-7xl mx-auto py-12 px-6">
-      {/* Prominent brand heading (45% width) */}
-      <div className="mx-auto mb-8" style={{ width: '45%' }}>
-        <div className="text-center">
-          <h1
-            className="font-serif font-extrabold"
-            style={{
-              fontFamily: "'Playfair Display', Georgia, serif",
-            }}
+    <div className="max-w-7xl mx-auto px-6">
+      {/* Hero */}
+      <section className="text-center pt-16 pb-12 sm:pt-20 sm:pb-16">
+        <p className="text-xs sm:text-sm font-semibold tracking-[0.25em] uppercase text-sky-700 mb-6">
+          Trailer Components &middot; Direct from Manufacturer
+        </p>
+        <h1
+          className="font-bold text-[#05203C] leading-[0.95] tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl"
+          style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
+        >
+          Best Trailer Parts
+        </h1>
+        <p className="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-slate-700 leading-relaxed">
+          Premium suspension, lights, brakes, and accessories sourced from trusted
+          global manufacturers &mdash; without the middleman markup.
+        </p>
+        <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <a
+            href="/categories"
+            className="px-8 py-3 bg-[#05203C] text-white rounded-md font-semibold shadow-sm hover:bg-[#0a3460] transition"
           >
-            <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-900 via-sky-500 to-amber-400">
-              Best Trailer Parts
-            </span>
-          </h1>
-
-          <p className="mt-3 text-sm sm:text-base md:text-lg font-semibold text-red-600 tracking-widest uppercase" style={{ fontFamily: "Inter, system-ui, sans-serif" }}>
-            From Axle to Accessory - MASTERED!
-          </p>
+            Browse Categories
+          </a>
+          <a
+            href="/request-form"
+            className="px-8 py-3 border-2 border-[#05203C] text-[#05203C] rounded-md font-semibold hover:bg-[#05203C] hover:text-white transition"
+          >
+            Request a Quote
+          </a>
         </div>
-      </div>
+      </section>
 
-      <div className="w-full max-w-6xl mx-auto">
-        <div className="bg-gradient-to-r from-blue-50/60 to-white rounded-2xl shadow-xl p-8 sm:p-12">
-          <p className="text-indigo-900 text-lg sm:text-2xl leading-relaxed mb-6 font-bold" style={{ fontFamily: "'Satisfy', cursive", fontWeight: 700 }}>
-            Best Trailer Parts brings together 25 years of importing expertise, trusted global suppliers, and a carefully curated catalog of premium trailer components. Our selections prioritize durability, value, and proven performance-so you can find the right parts with confidence.
-          </p>
+      {/* Trust strip */}
+      <section className="bg-white/80 backdrop-blur rounded-xl border border-sky-100 shadow-sm mb-16">
+        <ul className="flex flex-col sm:flex-row justify-center items-center divide-y sm:divide-y-0 sm:divide-x divide-sky-100 text-sm sm:text-base text-slate-700 font-medium">
+          <li className="px-6 py-3 sm:py-4">Importing since 2001</li>
+          <li className="px-6 py-3 sm:py-4">Direct from global manufacturers</li>
+          <li className="px-6 py-3 sm:py-4">Serving customers across North America</li>
+        </ul>
+      </section>
 
-          <p className="text-indigo-700 text-base sm:text-xl leading-relaxed font-bold" style={{ fontFamily: "'Satisfy', cursive", fontWeight: 700 }}>
-            Explore our categories and discover why professionals across North America rely on us for top quality at competitive prices.
-          </p>
-
-
-          <div className="mt-8">
-            <a href="/categories" className="inline-block px-6 py-3 bg-blue-700 text-white rounded-lg shadow hover:bg-blue-800 font-semibold transition">View All Categories</a>
-          </div>
-        </div>
-      </div>
+      {/* Value prop */}
+      <section className="max-w-3xl mx-auto text-center mb-16">
+        <p className="text-lg sm:text-xl text-slate-700 leading-relaxed">
+          We&apos;ve spent 25 years building relationships with the factories most
+          resellers buy from &mdash; and we pass those prices to you directly. Browse
+          our curated catalog of premium trailer components, or tell us what you need
+          and we&apos;ll match you with the right part.
+        </p>
+      </section>
 
       <ImageStrip images={stripImages} />
     </div>
