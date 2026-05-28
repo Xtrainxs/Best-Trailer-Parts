@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 
 export default function CategoriesPage() {
@@ -38,6 +36,7 @@ export default function CategoriesPage() {
         { name: 'Wiring Harnesses', href: '/categories/trailer-electrical-parts/wiring-harnesses' },
         { name: 'Junction Boxes', href: '/categories/trailer-electrical-parts/junction-boxes' },
         { name: 'Breakaway Kits', href: '/categories/trailer-electrical-parts/breakaway-kits' },
+        { name: 'Battery Boxes', href: '/categories/trailer-electrical-parts/battery-boxes' },
       ]
     },
     { name: 'Trailer Jacks', href: '/categories/trailer-jacks' },
@@ -46,6 +45,7 @@ export default function CategoriesPage() {
     { name: 'Brake Drums', href: '/categories/brake-drums' },
     { name: 'Brake Assemblies', href: '/categories/brake-assemblies' },
     { name: 'Trailer Hardware', href: '/categories/trailer-hardware' },
+    { name: 'Boat Trailer Parts', href: '/categories/boat-trailer-parts' },
   ];
 
   return (
@@ -53,9 +53,9 @@ export default function CategoriesPage() {
       <h1 className="text-3xl font-bold mb-8 text-center">Categories</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-12">
         {categories.map((cat) => (
-          <div key={cat.name} className="tpm-surface-card rounded-3xl shadow-xl p-6 sm:p-8 text-center border flex flex-col items-center justify-center">
+          <div key={cat.name} className="bg-white rounded-3xl shadow-xl p-8 text-center border border-blue-200 flex flex-col items-center justify-center" style={{background: 'linear-gradient(135deg, #eaf6ff 0%, #f8fbff 100%)'}}>
             <Link href={cat.href} className="block w-full h-full">
-              <div className="text-2xl sm:text-3xl font-extrabold text-blue-700 mb-4 tracking-tight flex items-center justify-center h-full">{cat.name}</div>
+              <div className="text-3xl font-extrabold text-blue-700 mb-6 tracking-tight flex items-center justify-center h-full">{cat.name}</div>
             </Link>
           </div>
         ))}
