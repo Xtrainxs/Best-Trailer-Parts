@@ -48,7 +48,7 @@ export default function Electric10() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-BA-10E-MAN-L</td>
+              <td className="py-2 px-4 border-b">BTP-BA-10E-MAN-L</td>
               <td className="py-2 px-4 border-b">Electric Drum</td>
               <td className="py-2 px-4 border-b">Left</td>
               <td className="py-2 px-4 border-b">Manual</td>
@@ -56,7 +56,7 @@ export default function Electric10() {
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-BA-10E-MAN-R</td>
+              <td className="py-2 px-4 border-b">BTP-BA-10E-MAN-R</td>
               <td className="py-2 px-4 border-b">Electric Drum</td>
               <td className="py-2 px-4 border-b">Right</td>
               <td className="py-2 px-4 border-b">Manual</td>
@@ -64,7 +64,7 @@ export default function Electric10() {
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-BA-10E-SA-L</td>
+              <td className="py-2 px-4 border-b">BTP-BA-10E-SA-L</td>
               <td className="py-2 px-4 border-b">Electric Drum</td>
               <td className="py-2 px-4 border-b">Left</td>
               <td className="py-2 px-4 border-b">Self-Adjusting</td>
@@ -72,7 +72,7 @@ export default function Electric10() {
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-BA-10E-SA-R</td>
+              <td className="py-2 px-4 border-b">BTP-BA-10E-SA-R</td>
               <td className="py-2 px-4 border-b">Electric Drum</td>
               <td className="py-2 px-4 border-b">Right</td>
               <td className="py-2 px-4 border-b">Self-Adjusting</td>

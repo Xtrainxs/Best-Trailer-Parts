@@ -41,21 +41,21 @@ export default function AFrameJacks() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-AFJ-2000</td>
+              <td className="py-2 px-4 border-b">BTP-AFJ-2000</td>
               <td className="py-2 px-4 border-b">Manual A-Frame</td>
               <td className="py-2 px-4 border-b">2,000</td>
               <td className="py-2 px-4 border-b">14</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-AFJ-5000</td>
+              <td className="py-2 px-4 border-b">BTP-AFJ-5000</td>
               <td className="py-2 px-4 border-b">Heavy Duty A-Frame</td>
               <td className="py-2 px-4 border-b">5,000</td>
               <td className="py-2 px-4 border-b">15</td>
               <td className="py-2 px-4 border-b">Zinc</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-AFJ-7000</td>
+              <td className="py-2 px-4 border-b">BTP-AFJ-7000</td>
               <td className="py-2 px-4 border-b">HD A-Frame</td>
               <td className="py-2 px-4 border-b">7,000</td>
               <td className="py-2 px-4 border-b">15</td>

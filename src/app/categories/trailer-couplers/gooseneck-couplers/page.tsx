@@ -41,21 +41,21 @@ export default function GooseneckCouplers() {
           </thead>
           <tbody>
             <tr>
-                <td className="py-2 px-4 border-b">TPM-GNC-25000</td>
+                <td className="py-2 px-4 border-b">BTP-GNC-25000</td>
               <td className="py-2 px-4 border-b">Standard Gooseneck</td>
               <td className="py-2 px-4 border-b">2-5/16" Ball, 4" Tube</td>
               <td className="py-2 px-4 border-b">25,000</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-                <td className="py-2 px-4 border-b">TPM-GNC-25000</td>
+                <td className="py-2 px-4 border-b">BTP-GNC-25000</td>
               <td className="py-2 px-4 border-b">Heavy Duty Gooseneck</td>
-                <td className="py-2 px-4 border-b">TPM-GNC-30000</td>
+                <td className="py-2 px-4 border-b">BTP-GNC-30000</td>
               <td className="py-2 px-4 border-b">30,000</td>
-                <td className="py-2 px-4 border-b">TPM-GNC-30000G</td>
+                <td className="py-2 px-4 border-b">BTP-GNC-30000G</td>
             </tr>
             <tr>
-                <td className="py-2 px-4 border-b">TPM-GNC-30000G</td>
+                <td className="py-2 px-4 border-b">BTP-GNC-30000G</td>
               <td className="py-2 px-4 border-b">HD Gooseneck</td>
               <td className="py-2 px-4 border-b">2-5/16" Ball, 4" Tube</td>
               <td className="py-2 px-4 border-b">30,000</td>

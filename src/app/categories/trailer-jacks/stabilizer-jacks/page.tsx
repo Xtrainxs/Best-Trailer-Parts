@@ -41,21 +41,21 @@ export default function StabilizerJacks() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-STJ-1000</td>
+              <td className="py-2 px-4 border-b">BTP-STJ-1000</td>
               <td className="py-2 px-4 border-b">Manual Stabilizer</td>
               <td className="py-2 px-4 border-b">1,000</td>
               <td className="py-2 px-4 border-b">8</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-STJ-2000</td>
+              <td className="py-2 px-4 border-b">BTP-STJ-2000</td>
               <td className="py-2 px-4 border-b">Heavy Duty Stabilizer</td>
               <td className="py-2 px-4 border-b">2,000</td>
               <td className="py-2 px-4 border-b">10</td>
               <td className="py-2 px-4 border-b">Zinc</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-STJ-3000</td>
+              <td className="py-2 px-4 border-b">BTP-STJ-3000</td>
               <td className="py-2 px-4 border-b">HD Stabilizer</td>
               <td className="py-2 px-4 border-b">3,000</td>
               <td className="py-2 px-4 border-b">12</td>

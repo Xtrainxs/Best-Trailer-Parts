@@ -41,14 +41,14 @@ export default function ChannelStyleCouplers() {
           </thead>
           <tbody>
             <tr>
-                <td className="py-2 px-4 border-b">TPM-CSC-3500</td>
+                <td className="py-2 px-4 border-b">BTP-CSC-3500</td>
               <td className="py-2 px-4 border-b">Standard Channel Style</td>
               <td className="py-2 px-4 border-b">2"</td>
               <td className="py-2 px-4 border-b">3,500</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-                <td className="py-2 px-4 border-b">TPM-CSC-5000</td>
+                <td className="py-2 px-4 border-b">BTP-CSC-5000</td>
               <td className="py-2 px-4 border-b">Heavy Duty Channel Style</td>
               <td className="py-2 px-4 border-b">2-5/16"</td>
               <td className="py-2 px-4 border-b">5,000</td>

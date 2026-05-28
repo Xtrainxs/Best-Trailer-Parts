@@ -39,7 +39,7 @@ export default function LedTailLights() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-LTL-OVAL-LED</td>
+              <td className="py-2 px-4 border-b">BTP-LTL-OVAL-LED</td>
               <td className="py-2 px-4 border-b">Oval</td>
               <td className="py-2 px-4 border-b">6.5" x 2.25"</td>
               <td className="py-2 px-4 border-b">12V</td>
@@ -48,7 +48,7 @@ export default function LedTailLights() {
               <td className="py-2 px-4 border-b">IP67</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-LTL-RND-LED</td>
+              <td className="py-2 px-4 border-b">BTP-LTL-RND-LED</td>
               <td className="py-2 px-4 border-b">Round</td>
               <td className="py-2 px-4 border-b">4" dia.</td>
               <td className="py-2 px-4 border-b">12V</td>
@@ -57,7 +57,7 @@ export default function LedTailLights() {
               <td className="py-2 px-4 border-b">IP67</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-LTL-4R-16LED</td>
+              <td className="py-2 px-4 border-b">BTP-LTL-4R-16LED</td>
               <td className="py-2 px-4 border-b">Round</td>
               <td className="py-2 px-4 border-b">4" dia.</td>
               <td className="py-2 px-4 border-b">12V/24V</td>
@@ -66,7 +66,7 @@ export default function LedTailLights() {
               <td className="py-2 px-4 border-b">IP67</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-LTL-SQ-110MM</td>
+              <td className="py-2 px-4 border-b">BTP-LTL-SQ-110MM</td>
               <td className="py-2 px-4 border-b">Square</td>
               <td className="py-2 px-4 border-b">110 mm x 110 mm</td>
               <td className="py-2 px-4 border-b">12V/24V</td>
@@ -75,7 +75,7 @@ export default function LedTailLights() {
               <td className="py-2 px-4 border-b">IP67</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-LTL-24V-STROBE</td>
+              <td className="py-2 px-4 border-b">BTP-LTL-24V-STROBE</td>
               <td className="py-2 px-4 border-b">Rectangular</td>
               <td className="py-2 px-4 border-b">5.9" x 3.1"</td>
               <td className="py-2 px-4 border-b">24V</td>
@@ -84,7 +84,7 @@ export default function LedTailLights() {
               <td className="py-2 px-4 border-b">IP67</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-LTL-E4-COMBO</td>
+              <td className="py-2 px-4 border-b">BTP-LTL-E4-COMBO</td>
               <td className="py-2 px-4 border-b">Combination</td>
               <td className="py-2 px-4 border-b">7.0" x 5.5"</td>
               <td className="py-2 px-4 border-b">10-30V</td>
@@ -93,7 +93,7 @@ export default function LedTailLights() {
               <td className="py-2 px-4 border-b">IP67</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-LTL-6IN-MULTI</td>
+              <td className="py-2 px-4 border-b">BTP-LTL-6IN-MULTI</td>
               <td className="py-2 px-4 border-b">Round</td>
               <td className="py-2 px-4 border-b">6" dia.</td>
               <td className="py-2 px-4 border-b">12V/24V</td>
@@ -102,7 +102,7 @@ export default function LedTailLights() {
               <td className="py-2 px-4 border-b">IP67</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-LTL-IP67-TLR</td>
+              <td className="py-2 px-4 border-b">BTP-LTL-IP67-TLR</td>
               <td className="py-2 px-4 border-b">Oval</td>
               <td className="py-2 px-4 border-b">6.7" x 2.5"</td>
               <td className="py-2 px-4 border-b">12V/24V</td>
@@ -111,7 +111,7 @@ export default function LedTailLights() {
               <td className="py-2 px-4 border-b">IP67</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-LTL-REAR-LAMP-CN</td>
+              <td className="py-2 px-4 border-b">BTP-LTL-REAR-LAMP-CN</td>
               <td className="py-2 px-4 border-b">Rectangular</td>
               <td className="py-2 px-4 border-b">6.1" x 2.2"</td>
               <td className="py-2 px-4 border-b">12V/24V</td>

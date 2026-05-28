@@ -36,7 +36,7 @@ export default function Square2123Page() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-UBK-2.5-3SQ</td>
+              <td className="py-2 px-4 border-b">BTP-UBK-2.5-3SQ</td>
               <td className="py-2 px-4 border-b">2 ½"–3" x 6 ¼" x 7/16"</td>
               <td className="py-2 px-4 border-b">Steel</td>
               <td className="py-2 px-4 border-b">Zinc</td>

@@ -41,21 +41,21 @@ export default function SideWindJacks() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-SWJ-2000</td>
+              <td className="py-2 px-4 border-b">BTP-SWJ-2000</td>
               <td className="py-2 px-4 border-b">Manual Side-Wind</td>
               <td className="py-2 px-4 border-b">2,000</td>
               <td className="py-2 px-4 border-b">10</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-SWJ-5000</td>
+              <td className="py-2 px-4 border-b">BTP-SWJ-5000</td>
               <td className="py-2 px-4 border-b">Heavy Duty Side-Wind</td>
               <td className="py-2 px-4 border-b">5,000</td>
               <td className="py-2 px-4 border-b">12</td>
               <td className="py-2 px-4 border-b">Zinc</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-SWJ-7000</td>
+              <td className="py-2 px-4 border-b">BTP-SWJ-7000</td>
               <td className="py-2 px-4 border-b">HD Side-Wind</td>
               <td className="py-2 px-4 border-b">7,000</td>
               <td className="py-2 px-4 border-b">14</td>

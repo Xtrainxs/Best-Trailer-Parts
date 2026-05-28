@@ -32,35 +32,35 @@ export default function WiringHarnesses() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-WH-4WAY25</td>
+              <td className="py-2 px-4 border-b">BTP-WH-4WAY25</td>
               <td className="py-2 px-4 border-b">4-Way Flat</td>
               <td className="py-2 px-4 border-b">25 ft</td>
               <td className="py-2 px-4 border-b">4</td>
               <td className="py-2 px-4 border-b">Harness, connectors</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-WH-7WAY20</td>
+              <td className="py-2 px-4 border-b">BTP-WH-7WAY20</td>
               <td className="py-2 px-4 border-b">7-Way RV</td>
               <td className="py-2 px-4 border-b">20 ft</td>
               <td className="py-2 px-4 border-b">7</td>
               <td className="py-2 px-4 border-b">Harness, connectors</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-WH-5WAY30</td>
+              <td className="py-2 px-4 border-b">BTP-WH-5WAY30</td>
               <td className="py-2 px-4 border-b">5-Way Flat</td>
               <td className="py-2 px-4 border-b">30 ft</td>
               <td className="py-2 px-4 border-b">5</td>
               <td className="py-2 px-4 border-b">Harness, connectors</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-WH-6ROUND18</td>
+              <td className="py-2 px-4 border-b">BTP-WH-6ROUND18</td>
               <td className="py-2 px-4 border-b">6-Way Round</td>
               <td className="py-2 px-4 border-b">18 ft</td>
               <td className="py-2 px-4 border-b">6</td>
               <td className="py-2 px-4 border-b">Harness, connectors</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-WH-7BLADE22</td>
+              <td className="py-2 px-4 border-b">BTP-WH-7BLADE22</td>
               <td className="py-2 px-4 border-b">7-Way Blade</td>
               <td className="py-2 px-4 border-b">22 ft</td>
               <td className="py-2 px-4 border-b">7</td>

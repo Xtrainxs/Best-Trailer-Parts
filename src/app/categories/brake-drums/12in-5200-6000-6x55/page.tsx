@@ -42,7 +42,7 @@ export default function BrakeDrum12in5200_6000_6x55() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-BDK-12IN-5200-6000-6X55</td>
+              <td className="py-2 px-4 border-b">BTP-BDK-12IN-5200-6000-6X55</td>
               <td className="py-2 px-4 border-b">12"</td>
               <td className="py-2 px-4 border-b">6 on 5.5"</td>
               <td className="py-2 px-4 border-b">25580/25520 & 15123/15245</td>

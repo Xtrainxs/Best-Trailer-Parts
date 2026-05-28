@@ -41,21 +41,21 @@ export default function AFrameCouplers() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-AFC-2000</td>
+              <td className="py-2 px-4 border-b">BTP-AFC-2000</td>
               <td className="py-2 px-4 border-b">Standard A-Frame</td>
               <td className="py-2 px-4 border-b">2"</td>
               <td className="py-2 px-4 border-b">2,000</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-AFC-5000</td>
+              <td className="py-2 px-4 border-b">BTP-AFC-5000</td>
               <td className="py-2 px-4 border-b">Heavy Duty A-Frame</td>
               <td className="py-2 px-4 border-b">2-5/16"</td>
               <td className="py-2 px-4 border-b">5,000</td>
               <td className="py-2 px-4 border-b">Zinc</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-AFC-7000</td>
+              <td className="py-2 px-4 border-b">BTP-AFC-7000</td>
               <td className="py-2 px-4 border-b">HD A-Frame</td>
               <td className="py-2 px-4 border-b">2-5/16"</td>
               <td className="py-2 px-4 border-b">7,000</td>

@@ -43,7 +43,7 @@ export default function IdlerKit5200_6000_6x55() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-IHK-5200-6000-6X55</td>
+              <td className="py-2 px-4 border-b">BTP-IHK-5200-6000-6X55</td>
               <td className="py-2 px-4 border-b">6 on 5.5"</td>
               <td className="py-2 px-4 border-b">2.78"</td>
               <td className="py-2 px-4 border-b">1/2"</td>
@@ -52,7 +52,7 @@ export default function IdlerKit5200_6000_6x55() {
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-IHK-5200-6000-6X55Z</td>
+              <td className="py-2 px-4 border-b">BTP-IHK-5200-6000-6X55Z</td>
               <td className="py-2 px-4 border-b">6 on 5.5"</td>
               <td className="py-2 px-4 border-b">2.78"</td>
               <td className="py-2 px-4 border-b">1/2"</td>

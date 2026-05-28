@@ -27,28 +27,28 @@ export default function ParabolicLeafSpringsPage() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b whitespace-nowrap font-semibold">TPM-PL-3500-27</td>
+              <td className="py-2 px-4 border-b whitespace-nowrap font-semibold">BTP-PL-3500-27</td>
               <td className="py-2 px-4 border-b">Standard</td>
               <td className="py-2 px-4 border-b">27</td>
               <td className="py-2 px-4 border-b">3,500</td>
               <td className="py-2 px-4 border-b">2</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b whitespace-nowrap font-semibold">TPM-PL-5000-29</td>
+              <td className="py-2 px-4 border-b whitespace-nowrap font-semibold">BTP-PL-5000-29</td>
               <td className="py-2 px-4 border-b">Heavy Duty</td>
               <td className="py-2 px-4 border-b">29</td>
               <td className="py-2 px-4 border-b">5,000</td>
               <td className="py-2 px-4 border-b">3</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b whitespace-nowrap font-semibold">TPM-PL-6000-31</td>
+              <td className="py-2 px-4 border-b whitespace-nowrap font-semibold">BTP-PL-6000-31</td>
               <td className="py-2 px-4 border-b">Multi-Leaf</td>
               <td className="py-2 px-4 border-b">31</td>
               <td className="py-2 px-4 border-b">6,000</td>
               <td className="py-2 px-4 border-b">4</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b whitespace-nowrap font-semibold">TPM-PL-8000-33</td>
+              <td className="py-2 px-4 border-b whitespace-nowrap font-semibold">BTP-PL-8000-33</td>
               <td className="py-2 px-4 border-b">HD</td>
               <td className="py-2 px-4 border-b">33</td>
               <td className="py-2 px-4 border-b">8,000</td>

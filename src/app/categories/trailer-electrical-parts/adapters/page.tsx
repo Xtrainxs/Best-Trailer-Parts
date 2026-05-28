@@ -32,35 +32,35 @@ export default function Adapters() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-ADP-4TO7</td>
+              <td className="py-2 px-4 border-b">BTP-ADP-4TO7</td>
               <td className="py-2 px-4 border-b">4-Way to 7-Way</td>
               <td className="py-2 px-4 border-b">4-pin Flat</td>
               <td className="py-2 px-4 border-b">7-pin RV</td>
               <td className="py-2 px-4 border-b">ABS Plastic</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-ADP-7TO6</td>
+              <td className="py-2 px-4 border-b">BTP-ADP-7TO6</td>
               <td className="py-2 px-4 border-b">7-Way to 6-Way</td>
               <td className="py-2 px-4 border-b">7-pin RV</td>
               <td className="py-2 px-4 border-b">6-pin Round</td>
               <td className="py-2 px-4 border-b">ABS Plastic</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-ADP-5TO4</td>
+              <td className="py-2 px-4 border-b">BTP-ADP-5TO4</td>
               <td className="py-2 px-4 border-b">5-Way to 4-Way</td>
               <td className="py-2 px-4 border-b">5-pin Flat</td>
               <td className="py-2 px-4 border-b">4-pin Flat</td>
               <td className="py-2 px-4 border-b">ABS Plastic</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-ADP-6TO4</td>
+              <td className="py-2 px-4 border-b">BTP-ADP-6TO4</td>
               <td className="py-2 px-4 border-b">6-Way to 4-Way</td>
               <td className="py-2 px-4 border-b">6-pin Round</td>
               <td className="py-2 px-4 border-b">4-pin Flat</td>
               <td className="py-2 px-4 border-b">ABS Plastic</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-ADP-7TO5</td>
+              <td className="py-2 px-4 border-b">BTP-ADP-7TO5</td>
               <td className="py-2 px-4 border-b">7-Way to 5-Way</td>
               <td className="py-2 px-4 border-b">7-pin RV</td>
               <td className="py-2 px-4 border-b">5-pin Flat</td>

@@ -44,7 +44,7 @@ export default function LicensePlateLights() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-LPL-LED</td>
+              <td className="py-2 px-4 border-b">BTP-LPL-LED</td>
               <td className="py-2 px-4 border-b">LED</td>
               <td className="py-2 px-4 border-b">1.5" x 1"</td>
               <td className="py-2 px-4 border-b">12V</td>
@@ -52,12 +52,12 @@ export default function LicensePlateLights() {
               <td className="py-2 px-4 border-b">IP67</td>
             </tr>
             <tr>
-                <td className="py-2 px-4 border-b">TPM-LPL-LED</td>
+                <td className="py-2 px-4 border-b">BTP-LPL-LED</td>
               <td className="py-2 px-4 border-b">Incandescent</td>
               <td className="py-2 px-4 border-b">1.5" x 1"</td>
               <td className="py-2 px-4 border-b">12V</td>
               <td className="py-2 px-4 border-b">Surface</td>
-                <td className="py-2 px-4 border-b">TPM-LPL-INC</td>
+                <td className="py-2 px-4 border-b">BTP-LPL-INC</td>
             </tr>
           </tbody>
         </table>

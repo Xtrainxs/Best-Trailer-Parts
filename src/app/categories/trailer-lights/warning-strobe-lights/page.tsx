@@ -40,7 +40,7 @@ export default function WarningStrobeLights() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-WSL-AMB-12V</td>
+              <td className="py-2 px-4 border-b">BTP-WSL-AMB-12V</td>
               <td className="py-2 px-4 border-b">LED Strobe</td>
               <td className="py-2 px-4 border-b">Amber</td>
               <td className="py-2 px-4 border-b">12V</td>
@@ -48,7 +48,7 @@ export default function WarningStrobeLights() {
               <td className="py-2 px-4 border-b">IP67</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-WSL-RB-12V</td>
+              <td className="py-2 px-4 border-b">BTP-WSL-RB-12V</td>
               <td className="py-2 px-4 border-b">Warning Light</td>
               <td className="py-2 px-4 border-b">Red/Blue</td>
               <td className="py-2 px-4 border-b">12V</td>

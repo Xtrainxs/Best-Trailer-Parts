@@ -32,14 +32,14 @@ export default function JunctionBoxes() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-JB-6PORT</td>
+              <td className="py-2 px-4 border-b">BTP-JB-6PORT</td>
               <td className="py-2 px-4 border-b">6-Port</td>
               <td className="py-2 px-4 border-b">6</td>
               <td className="py-2 px-4 border-b">ABS Plastic</td>
               <td className="py-2 px-4 border-b">Waterproof, mounting hardware</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-JB-8PORT</td>
+              <td className="py-2 px-4 border-b">BTP-JB-8PORT</td>
               <td className="py-2 px-4 border-b">8-Port</td>
               <td className="py-2 px-4 border-b">8</td>
               <td className="py-2 px-4 border-b">ABS Plastic</td>

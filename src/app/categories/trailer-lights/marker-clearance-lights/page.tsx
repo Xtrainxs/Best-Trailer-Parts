@@ -50,7 +50,7 @@ export default function MarkerClearanceLights() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-MCL-LED-AM</td>
+              <td className="py-2 px-4 border-b">BTP-MCL-LED-AM</td>
               <td className="py-2 px-4 border-b">LED</td>
               <td className="py-2 px-4 border-b">Amber</td>
               <td className="py-2 px-4 border-b">2.5" x 1"</td>
@@ -59,7 +59,7 @@ export default function MarkerClearanceLights() {
               <td className="py-2 px-4 border-b">IP67</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-MCL-INC-RED</td>
+              <td className="py-2 px-4 border-b">BTP-MCL-INC-RED</td>
               <td className="py-2 px-4 border-b">Incandescent</td>
               <td className="py-2 px-4 border-b">Red</td>
               <td className="py-2 px-4 border-b">2.5" x 1"</td>
