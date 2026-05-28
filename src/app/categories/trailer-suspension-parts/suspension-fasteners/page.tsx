@@ -64,7 +64,7 @@ export default function SuspensionFastenersPage() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Suspension Fasteners" />
+      <RequestQuoteCTA partLabel={"Suspension Fasteners"} />
     </main>
   );
 }

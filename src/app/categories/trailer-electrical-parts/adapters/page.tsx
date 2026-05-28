@@ -71,7 +71,7 @@ export default function Adapters() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Adapters" />
+      <RequestQuoteCTA partLabel={"Trailer Adapters"} />
     </main>
   );
 }

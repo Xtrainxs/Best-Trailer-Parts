@@ -160,7 +160,7 @@ export default function SlipperLeafSpringsPage() {
             </tr>
           </tbody>
         </table>
-      <RequestQuoteCTA partLabel="Slipper Leaf Springs" />
+      <RequestQuoteCTA partLabel={"Slipper Leaf Springs"} />
     </main>
   );
 }

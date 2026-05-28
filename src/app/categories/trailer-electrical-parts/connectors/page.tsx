@@ -71,7 +71,7 @@ export default function Connectors() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Connectors" />
+      <RequestQuoteCTA partLabel={"Trailer Connectors"} />
     </main>
   );
 }

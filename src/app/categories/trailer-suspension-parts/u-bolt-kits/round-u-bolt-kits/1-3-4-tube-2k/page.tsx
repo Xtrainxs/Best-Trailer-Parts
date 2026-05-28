@@ -72,7 +72,7 @@ export default function RoundUBoltKit1_3_4Tube2k() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="1 3 4 Tube 2K" />
+      <RequestQuoteCTA partLabel={"1 ¾\" Tube (2k) Round U-bolt Kit"} />
     </main>
   );
 }

@@ -35,7 +35,7 @@ export default function WiringConnectorKits() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Wiring Connector Kits" />
+      <RequestQuoteCTA partLabel={"Wiring & Connector Kits"} />
     </main>
   );
 }

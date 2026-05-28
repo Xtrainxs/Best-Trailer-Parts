@@ -39,7 +39,7 @@ export default function EQE2Page() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Eq E2" />
+      <RequestQuoteCTA partLabel={"EQ-E2 Equalizer"} />
     </main>
   );
 }

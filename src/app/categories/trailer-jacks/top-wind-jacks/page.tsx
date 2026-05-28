@@ -65,7 +65,7 @@ export default function TopWindJacks() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Top Wind Jacks" />
+      <RequestQuoteCTA partLabel={"Top-Wind Jacks"} />
     </div>
   );
 }

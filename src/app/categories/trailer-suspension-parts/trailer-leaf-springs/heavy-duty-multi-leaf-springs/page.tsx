@@ -57,7 +57,7 @@ export default function HeavyDutyMultiLeafSpringsPage() {
             </tr>
           </tbody>
         </table>
-      <RequestQuoteCTA partLabel="Heavy Duty Multi Leaf Springs" />
+      <RequestQuoteCTA partLabel={"Heavy Duty Multi-Leaf Springs"} />
     </main>
   );
 }

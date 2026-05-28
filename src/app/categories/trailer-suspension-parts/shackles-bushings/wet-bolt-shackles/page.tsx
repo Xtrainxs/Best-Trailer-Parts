@@ -39,7 +39,7 @@ export default function WetBoltShacklesPage() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Wet Bolt Shackles" />
+      <RequestQuoteCTA partLabel={"Wet-Bolt Shackles"} />
     </main>
   );
 }

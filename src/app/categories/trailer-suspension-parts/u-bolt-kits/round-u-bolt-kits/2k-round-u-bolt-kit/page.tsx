@@ -52,7 +52,7 @@ export default function RoundUBoltKit2kPage() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="2K Round U Bolt Kit" />
+      <RequestQuoteCTA partLabel={"1 ¾\" Tube (2k) Round U-bolt Kit"} />
     </div>
   );
 }

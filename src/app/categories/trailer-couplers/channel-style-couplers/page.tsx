@@ -64,7 +64,7 @@ export default function ChannelStyleCouplers() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Channel Style Couplers" />
+      <RequestQuoteCTA partLabel={"Channel Style Couplers"} />
     </div>
   );
 }

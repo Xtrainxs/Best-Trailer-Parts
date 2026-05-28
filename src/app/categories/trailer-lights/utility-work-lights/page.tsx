@@ -41,7 +41,7 @@ export default function UtilityWorkLights() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Utility Work Lights" />
+      <RequestQuoteCTA partLabel={"Utility & Work Lights"} />
     </main>
   );
 }

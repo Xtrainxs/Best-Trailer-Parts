@@ -64,7 +64,7 @@ export default function IdlerKit2000_4x4() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Idler Kit 2000 4x4" />
+      <RequestQuoteCTA partLabel={"Trailer Idler Hub & Bearing Kit for 2000 lb. Axles | 4 on 4\" Bolt Pattern"} />
     </div>
   );
 }

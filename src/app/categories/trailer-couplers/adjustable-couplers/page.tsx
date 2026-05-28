@@ -79,7 +79,7 @@ export default function AdjustableCouplers() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Adjustable Couplers" />
+      <RequestQuoteCTA partLabel={"Adjustable Couplers"} />
     </div>
   );
 }

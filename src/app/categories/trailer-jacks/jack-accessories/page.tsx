@@ -66,7 +66,7 @@ export default function JackAccessories() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Jack Accessories" />
+      <RequestQuoteCTA partLabel={"Jack Accessories"} />
     </div>
   );
 }

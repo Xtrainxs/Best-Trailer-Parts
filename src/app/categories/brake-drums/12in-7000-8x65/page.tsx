@@ -53,7 +53,7 @@ export default function BrakeDrum12in7000_8x65() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="12In 7000 8x65" />
+      <RequestQuoteCTA partLabel={"12\" Brake Drum Kit for 7,000 lb. Axles | 8 on 6.5\" Bolt Pattern"} />
     </div>
   );
 }

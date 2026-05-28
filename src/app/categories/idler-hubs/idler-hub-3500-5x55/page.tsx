@@ -46,7 +46,7 @@ export default function IdlerHub3500_5x55() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Idler Hub 3500 5x55" />
+      <RequestQuoteCTA partLabel={"Trailer Idler Hub for 3,500 lb. Axles | 5 on 5.5\" Bolt Pattern"} />
     </div>
   );
 }

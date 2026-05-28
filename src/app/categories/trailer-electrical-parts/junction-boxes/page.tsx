@@ -50,7 +50,7 @@ export default function JunctionBoxes() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Junction Boxes" />
+      <RequestQuoteCTA partLabel={"Junction Boxes"} />
     </main>
   );
 }

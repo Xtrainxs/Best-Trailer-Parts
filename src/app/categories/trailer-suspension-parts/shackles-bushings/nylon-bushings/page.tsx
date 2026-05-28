@@ -55,7 +55,7 @@ export default function NylonBushingsPage() {
         </table>
       </div>
       {/* Gallery below table removed */}
-      <RequestQuoteCTA partLabel="Nylon Bushings" />
+      <RequestQuoteCTA partLabel={"Nylon Bushings"} />
     </main>
   );
 }

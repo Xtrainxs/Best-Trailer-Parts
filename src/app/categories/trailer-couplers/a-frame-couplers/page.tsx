@@ -65,7 +65,7 @@ export default function AFrameCouplers() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="A Frame Couplers" />
+      <RequestQuoteCTA partLabel={"A-Frame Couplers"} />
     </div>
   );
 }

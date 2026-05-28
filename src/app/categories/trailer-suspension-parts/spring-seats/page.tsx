@@ -51,7 +51,7 @@ export default function SpringSeatsPage() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Spring Seats" />
+      <RequestQuoteCTA partLabel={"Spring Seats"} />
     </main>
   );
 }

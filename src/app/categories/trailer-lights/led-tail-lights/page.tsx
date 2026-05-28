@@ -124,7 +124,7 @@ export default function LedTailLights() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Led Tail Lights" />
+      <RequestQuoteCTA partLabel={"LED Tail Lights"} />
     </main>
   );
 }

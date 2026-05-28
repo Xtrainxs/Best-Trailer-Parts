@@ -196,7 +196,7 @@ export default function SingleAxleHangerKitsPage() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Single Axle Hanger Kits" />
+      <RequestQuoteCTA partLabel={"Single-Axle Hanger Kits"} />
     </main>
   );
 }

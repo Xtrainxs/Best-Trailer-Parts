@@ -73,7 +73,7 @@ export default function StandardShacklesPage() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Standard Shackles" />
+      <RequestQuoteCTA partLabel={"Standard Shackles"} />
     </main>
   );
 }

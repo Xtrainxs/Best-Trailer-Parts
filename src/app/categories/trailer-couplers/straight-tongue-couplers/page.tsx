@@ -65,7 +65,7 @@ export default function StraightTongueCouplers() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Straight Tongue Couplers" />
+      <RequestQuoteCTA partLabel={"Straight Tongue Couplers"} />
     </div>
   );
 }

@@ -83,7 +83,7 @@ export default function Hydraulic10() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="10In Hydraulic" />
+      <RequestQuoteCTA partLabel={"10\" Hydraulic Trailer Brakes"} />
     </div>
   );
 }

@@ -39,7 +39,7 @@ export default function EQSL141618Page() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Eq Sl14 16 18" />
+      <RequestQuoteCTA partLabel={"EQ-SL14/16/18 Equalizer"} />
     </main>
   );
 }

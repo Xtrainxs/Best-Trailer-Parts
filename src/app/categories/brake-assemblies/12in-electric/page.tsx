@@ -77,7 +77,7 @@ export default function BrakeAssembly12inElectric() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="12In Electric" />
+      <RequestQuoteCTA partLabel={"12\" Electric Brake Assemblies"} />
     </div>
   );
 }

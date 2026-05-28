@@ -50,7 +50,7 @@ export default function BreakawayKits() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Breakaway Kits" />
+      <RequestQuoteCTA partLabel={"Breakaway Kits"} />
     </main>
   );
 }

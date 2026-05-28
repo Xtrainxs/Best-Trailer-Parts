@@ -53,7 +53,7 @@ export default function SteelBushingsPage() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Steel Bushings" />
+      <RequestQuoteCTA partLabel={"Steel Bushings"} />
     </main>
   );
 }
