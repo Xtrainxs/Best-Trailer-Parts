@@ -12,8 +12,12 @@ export default function RequestFormPage({ searchParams }: PageProps) {
   return (
     <div className="w-full max-w-xl mx-auto my-10 bg-white rounded-2xl border border-slate-200 shadow-2xl p-10">
       <div className="flex flex-col items-center border-b border-slate-200 pb-6 mb-8">
-        <div className="w-72 h-24 sm:w-[30rem] sm:h-32 bg-white rounded-md shadow-lg p-1 overflow-hidden flex items-center justify-center mb-2">
-          <img src="/logo.png" alt="Best Trailer Parts logo" className="w-full h-full object-fill" />
+        <div className="mb-4 flex items-center justify-center">
+          <img
+            src="/logo.png"
+            alt="Best Trailer Parts logo"
+            className="max-h-28 sm:max-h-32 w-auto object-contain"
+          />
         </div>
         <div className="text-3xl font-extrabold text-[#05203C] mb-2 tracking-tight">Request Parts / Quote</div>
         <div className="text-base text-[#05203C] font-bold mb-2 text-center">Tell us what you need and we’ll match you with the right trailer parts at the best price.</div>
