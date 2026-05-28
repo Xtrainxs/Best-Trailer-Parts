@@ -65,7 +65,7 @@ export default function StabilizerJacks() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Stabilizer Jacks" />
+      <RequestQuoteCTA partLabel={"Stabilizer Jacks"} />
     </div>
   );
 }

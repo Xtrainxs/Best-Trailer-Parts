@@ -65,7 +65,7 @@ export default function GooseneckCouplers() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Gooseneck Couplers" />
+      <RequestQuoteCTA partLabel={"Gooseneck Couplers"} />
     </div>
   );
 }

@@ -39,7 +39,7 @@ export default function EQRUB68Page() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Eq Rub6 8" />
+      <RequestQuoteCTA partLabel={"EQ-RUB6/8 Equalizer"} />
     </main>
   );
 }

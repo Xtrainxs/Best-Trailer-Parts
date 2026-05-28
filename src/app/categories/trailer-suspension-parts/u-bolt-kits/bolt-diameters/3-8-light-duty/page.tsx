@@ -38,7 +38,7 @@ export default function Bolt38Page() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="3 8 Light Duty" />
+      <RequestQuoteCTA partLabel={"3/8\" (Light Duty) Bolt Diameter"} />
     </main>
   );
 }

@@ -47,7 +47,7 @@ export default function Square2Page() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="2 Square" />
+      <RequestQuoteCTA partLabel={"2\" Square U-bolt Kit"} />
     </main>
   );
 }

@@ -65,7 +65,7 @@ export default function TripleAxleHangerKitsPage() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Triple Axle Hanger Kits" />
+      <RequestQuoteCTA partLabel={"Triple-Axle Hanger Kits"} />
     </main>
   );
 }

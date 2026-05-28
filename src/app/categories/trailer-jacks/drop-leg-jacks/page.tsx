@@ -65,7 +65,7 @@ export default function DropLegJacks() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Drop Leg Jacks" />
+      <RequestQuoteCTA partLabel={"Drop-Leg Jacks"} />
     </div>
   );
 }

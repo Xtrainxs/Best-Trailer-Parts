@@ -65,7 +65,7 @@ export default function SwivelJacks() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Swivel Jacks" />
+      <RequestQuoteCTA partLabel={"Swivel Jacks"} />
     </div>
   );
 }

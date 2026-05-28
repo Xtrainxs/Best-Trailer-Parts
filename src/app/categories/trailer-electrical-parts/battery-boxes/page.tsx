@@ -35,7 +35,7 @@ export default function BatteryBoxes() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Battery Boxes" />
+      <RequestQuoteCTA partLabel={"Battery Boxes"} />
     </main>
   );
 }

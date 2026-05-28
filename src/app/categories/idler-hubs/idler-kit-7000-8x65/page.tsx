@@ -49,7 +49,7 @@ export default function IdlerKit7000_8x65() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Idler Kit 7000 8x65" />
+      <RequestQuoteCTA partLabel={"Trailer Idler Hub & Bearing Kit for 7000 lb. Axles | 8 on 6.5\" Bolt Pattern"} />
     </div>
   );
 }

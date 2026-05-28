@@ -38,7 +38,7 @@ export default function IncandescentTailLights() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Incandescent Tail Lights" />
+      <RequestQuoteCTA partLabel={"Incandescent Tail Lights"} />
     </main>
   );
 }

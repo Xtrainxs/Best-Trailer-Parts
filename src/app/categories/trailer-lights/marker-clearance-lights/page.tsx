@@ -72,7 +72,7 @@ export default function MarkerClearanceLights() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Marker Clearance Lights" />
+      <RequestQuoteCTA partLabel={"Marker & Clearance Lights"} />
     </main>
   );
 }

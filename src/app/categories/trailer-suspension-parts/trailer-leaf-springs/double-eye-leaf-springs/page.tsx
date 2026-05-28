@@ -138,7 +138,7 @@ export default function DoubleEyeLeafSpringsPage() {
             </tr>
           </tbody>
         </table>
-      <RequestQuoteCTA partLabel="Double Eye Leaf Springs" />
+      <RequestQuoteCTA partLabel={"Double-Eye Leaf Springs"} />
     </main>
   );
 }

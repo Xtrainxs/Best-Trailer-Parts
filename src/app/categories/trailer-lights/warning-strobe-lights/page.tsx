@@ -60,7 +60,7 @@ export default function WarningStrobeLights() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Warning Strobe Lights" />
+      <RequestQuoteCTA partLabel={"Warning/Strobe Lights"} />
     </main>
   );
 }

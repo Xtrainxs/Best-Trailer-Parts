@@ -63,7 +63,7 @@ export default function SpecialtyHangerKitsPage() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Specialty Hanger Kits" />
+      <RequestQuoteCTA partLabel={"Specialty Hanger Kits"} />
     </main>
   );
 }

@@ -71,7 +71,7 @@ export default function WiringHarnesses() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Wiring Harnesses" />
+      <RequestQuoteCTA partLabel={"Wiring Harnesses"} />
     </main>
   );
 }

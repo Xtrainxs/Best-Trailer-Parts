@@ -65,7 +65,7 @@ export default function HDShacklesPage() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Hd Shackles" />
+      <RequestQuoteCTA partLabel={"HD Shackles"} />
     </main>
   );
 }

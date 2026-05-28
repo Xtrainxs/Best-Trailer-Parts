@@ -57,7 +57,7 @@ export default function ParabolicLeafSpringsPage() {
             </tr>
           </tbody>
         </table>
-      <RequestQuoteCTA partLabel="Parabolic Leaf Springs" />
+      <RequestQuoteCTA partLabel={"Parabolic Leaf Springs"} />
     </main>
   );
 }

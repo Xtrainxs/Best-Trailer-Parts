@@ -38,7 +38,7 @@ export default function Bolt916Page() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="9 16 Heavy Duty" />
+      <RequestQuoteCTA partLabel={"9/16\" (Heavy Duty) Bolt Diameter"} />
     </main>
   );
 }

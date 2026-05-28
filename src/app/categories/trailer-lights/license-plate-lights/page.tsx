@@ -64,7 +64,7 @@ export default function LicensePlateLights() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="License Plate Lights" />
+      <RequestQuoteCTA partLabel={"License Plate Lights"} />
     </main>
   );
 }

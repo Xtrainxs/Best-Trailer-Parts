@@ -38,7 +38,7 @@ export default function Bolt12Page() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="1 2 Standard" />
+      <RequestQuoteCTA partLabel={"1/2\" (Standard) Bolt Diameter"} />
     </main>
   );
 }

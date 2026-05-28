@@ -65,7 +65,7 @@ export default function SideWindJacks() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Side Wind Jacks" />
+      <RequestQuoteCTA partLabel={"Side-Wind Jacks"} />
     </div>
   );
 }

@@ -53,7 +53,7 @@ export default function BrakeDrum10in3500_5x5() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="10In 3500 5x5" />
+      <RequestQuoteCTA partLabel={"10\" Brake Drum Kit for 3,500 lb. Axles | 5 on 5\" Bolt Pattern"} />
     </div>
   );
 }

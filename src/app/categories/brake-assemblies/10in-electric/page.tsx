@@ -83,7 +83,7 @@ export default function Electric10() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="10In Electric" />
+      <RequestQuoteCTA partLabel={"10\" Electric Trailer Brakes"} />
     </div>
   );
 }

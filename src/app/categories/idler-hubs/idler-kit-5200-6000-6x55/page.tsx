@@ -64,7 +64,7 @@ export default function IdlerKit5200_6000_6x55() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="Idler Kit 5200 6000 6x55" />
+      <RequestQuoteCTA partLabel={"Trailer Idler Hub & Bearing Kit for 5,200 and 6,000 lb. Axles | 6 on 5.5\" Bolt Pattern"} />
     </div>
   );
 }

@@ -65,7 +65,7 @@ export default function AFrameJacks() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel="A Frame Jacks" />
+      <RequestQuoteCTA partLabel={"A-Frame Jacks"} />
     </div>
   );
 }
