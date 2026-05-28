@@ -13,11 +13,11 @@ export default function IdlerHub3500_5x475() {
       <p className="text-lg text-gray-700 mb-6">
         Standard idler hub compatible with 3,500 lb axles featuring a 5x4.75 bolt pattern.
       </p>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Available 3,500 lb 5x4.75 Idler Hubs</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available 3,500 lb 5x4.75 Idler Hubs</h2>
       <div className="overflow-x-auto">
-        <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
+        <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
-            <tr className="bg-blue-100">
+            <tr className="bg-slate-100">
               <th className="py-2 px-4 border-b text-left">Part Number</th>
               <th className="py-2 px-4 border-b text-left">Bolt Pattern</th>
               <th className="py-2 px-4 border-b text-left">Hub Bore</th>

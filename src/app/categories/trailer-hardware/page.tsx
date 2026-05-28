@@ -24,7 +24,7 @@ export default async function TrailerHardwarePage() {
 
   return (
     <main className="max-w-6xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-4 text-blue-900">Trailer Hardware</h1>
+      <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Trailer Hardware</h1>
       <p className="text-lg text-gray-700 mb-8">
         Browse trailer hardware products and accessories in this category.
       </p>
@@ -37,10 +37,10 @@ export default async function TrailerHardwarePage() {
           return (
             <div
               key={img}
-              className={`${isTrailerPartsImage ? "sm:col-span-2 lg:col-span-4" : ""} bg-gray-800 rounded-lg shadow p-4 flex flex-col items-center w-full`}
+              className={`${isTrailerPartsImage ? "sm:col-span-2 lg:col-span-4" : ""} bg-white border border-slate-200 rounded-lg shadow-sm p-4 flex flex-col items-center w-full`}
             >
               <div
-                className={`relative w-full ${isTrailerPartsImage ? "max-w-6xl h-[28rem] sm:h-[34rem]" : "h-56 sm:h-64"} bg-gray-200 rounded-md p-2 mb-2 overflow-hidden`}
+                className={`relative w-full ${isTrailerPartsImage ? "max-w-6xl h-[28rem] sm:h-[34rem]" : "h-56 sm:h-64"} bg-slate-50 rounded-md p-2 mb-2 overflow-hidden`}
               >
                 <a href={imageSrc} target="_blank" rel="noopener noreferrer" className="block h-full w-full" title="Open full-size image">
                   <img
@@ -50,7 +50,7 @@ export default async function TrailerHardwarePage() {
                   />
                 </a>
               </div>
-              <span className="text-white text-sm text-center break-words">
+              <span className="text-slate-700 text-sm text-center break-words">
                 {img
                   .replace(/\.(png|jpg)$/i, "")
                   .replace(/^Trailer Parts\s+\d+$/i, "Trailer Parts")}

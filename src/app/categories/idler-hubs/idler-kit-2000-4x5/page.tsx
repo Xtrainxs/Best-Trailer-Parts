@@ -17,22 +17,22 @@ export default function IdlerKit2000_4x5() {
         {["1.png", "2.png", "Kit.png"].map((img, idx) => (
           <div
             key={img}
-            className="bg-gray-800 rounded-lg shadow p-4 flex flex-col items-center w-full"
+            className="bg-white border border-slate-200 rounded-lg shadow-sm p-4 flex flex-col items-center w-full"
           >
             <img
               src={`/images/Idler%20Hubs/2000Lbs.%204%20x%205%20Bolt/${img}`}
               alt={`Idler Hub 2000Lbs 4x5 ${idx + 1}`}
               className="h-36 w-auto object-contain mb-2"
             />
-            <span className="text-white text-sm text-center">{img}</span>
+            <span className="text-slate-700 text-sm text-center">{img}</span>
           </div>
         ))}
       </div>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Available 2,000 lb 4x5 Idler Hub Kits</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available 2,000 lb 4x5 Idler Hub Kits</h2>
       <div className="overflow-x-auto">
-        <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
+        <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
-            <tr className="bg-blue-100">
+            <tr className="bg-slate-100">
               <th className="py-2 px-4 border-b text-left">Part Number</th>
               <th className="py-2 px-4 border-b text-left">Bolt Pattern</th>
               <th className="py-2 px-4 border-b text-left">Hub Bore</th>

@@ -53,11 +53,16 @@ export default function CategoriesPage() {
       <h1 className="text-3xl font-bold mb-8 text-center">Categories</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-12">
         {categories.map((cat) => (
-          <div key={cat.name} className="bg-white rounded-3xl shadow-xl p-8 text-center border border-blue-200 flex flex-col items-center justify-center" style={{background: 'linear-gradient(135deg, #eaf6ff 0%, #f8fbff 100%)'}}>
-            <Link href={cat.href} className="block w-full h-full">
-              <div className="text-3xl font-extrabold text-blue-700 mb-6 tracking-tight flex items-center justify-center h-full">{cat.name}</div>
-            </Link>
-          </div>
+          <Link
+            key={cat.name}
+            href={cat.href}
+            className="group block bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow p-8 text-center border border-slate-200"
+          >
+            <div className="text-2xl font-bold text-[#05203C] tracking-tight group-hover:text-sky-700 transition-colors">
+              {cat.name}
+            </div>
+            <p className="mt-2 text-sm text-slate-500">View products &rarr;</p>
+          </Link>
         ))}
       </div>
     </main>

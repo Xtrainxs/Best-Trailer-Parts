@@ -47,7 +47,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-gradient-to-b from-sky-200 to-sky-50 text-gray-900 min-h-screen">
+      <body className="bg-[#FAFAFA] text-slate-900 min-h-screen">
         <header className="bg-[#05203C] shadow">
           <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-5">

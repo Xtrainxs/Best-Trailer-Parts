@@ -1,26 +1,26 @@
 export default function TrailerEqualizersPage() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-8 text-blue-900">Trailer Equalizers</h1>
+      <h1 className="text-2xl font-bold mb-8 text-[#05203C]">Trailer Equalizers</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
         {["1.png", "2.png", "3.png", "4.png", "5.png"].map((img, idx) => (
           <div
             key={img}
-            className="bg-gray-800 rounded-lg shadow p-4 flex flex-col items-center w-full"
+            className="bg-white border border-slate-200 rounded-lg shadow-sm p-4 flex flex-col items-center w-full"
           >
-            <div className="w-[88%] rounded-md p-2 mb-2 flex justify-center bg-gray-200">
+            <div className="w-[88%] rounded-md p-2 mb-2 flex justify-center bg-slate-50">
               <img
                 src={`/images/Trailer%20Equalizers/${encodeURIComponent(img)}`}
                 alt={`Trailer equalizer ${idx + 1}`}
                 className="h-[8.4rem] w-full object-contain object-center"
               />
             </div>
-            <span className="text-white text-sm text-center">{img}</span>
+            <span className="text-slate-700 text-sm text-center">{img}</span>
           </div>
         ))}
       </div>
       <div className="overflow-x-auto">
-        <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
+        <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
             <tr className="bg-slate-900">
               <th className="py-3 px-4 border-b border-slate-700 border-r border-slate-700 text-left">EQ-Code</th>

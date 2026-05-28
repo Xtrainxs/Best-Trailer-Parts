@@ -53,7 +53,7 @@ export default async function BoatTrailerPartsPage() {
 
   return (
     <main className="max-w-6xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-4 text-blue-900">Boat Trailer Parts</h1>
+      <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Boat Trailer Parts</h1>
       <p className="text-lg text-gray-700 mb-8">Browse boat trailer parts and accessories in this category.</p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
@@ -62,13 +62,13 @@ export default async function BoatTrailerPartsPage() {
           const label = decodeURIComponent(img.split("/").pop() || img).replace(/\.(png|jpg|jpeg|webp|avif|gif)$/i, "");
 
           return (
-            <div key={img} className="bg-gray-800 rounded-lg shadow p-4 flex flex-col items-center w-full">
-              <div className="relative w-full h-56 sm:h-64 bg-gray-200 rounded-md p-2 mb-2 overflow-hidden">
+            <div key={img} className="bg-white border border-slate-200 rounded-lg shadow-sm p-4 flex flex-col items-center w-full">
+              <div className="relative w-full h-56 sm:h-64 bg-slate-50 rounded-md p-2 mb-2 overflow-hidden">
                 <a href={imageSrc} target="_blank" rel="noopener noreferrer" className="block h-full w-full" title="Open full-size image">
                   <img src={imageSrc} alt={`Boat trailer part ${idx + 1}`} className="h-full w-full object-contain object-center" />
                 </a>
               </div>
-              <span className="text-white text-sm text-center break-words">{label}</span>
+              <span className="text-slate-700 text-sm text-center break-words">{label}</span>
             </div>
           );
         })}

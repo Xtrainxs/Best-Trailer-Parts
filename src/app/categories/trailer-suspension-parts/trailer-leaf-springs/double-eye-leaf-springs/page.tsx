@@ -4,23 +4,23 @@ import RequestQuoteCTA from '@/components/request-quote-cta';
 export default function DoubleEyeLeafSpringsPage() {
   return (
     <main className="max-w-2xl mx-auto py-12 px-2 flex flex-col items-center">
-      <h1 className="text-2xl font-bold mb-4 text-blue-900">Double-Eye Leaf Springs</h1>
-      <p className="mb-8 text-blue-800">Double-Eye Leaf Springs are engineered to deliver reliable support and smooth ride quality for a wide range of trailers. Their dual-eye design ensures secure mounting and consistent load distribution, making them a popular choice for utility, boat, and cargo trailers. Built for durability and performance, these springs help maintain stability and safety on the road.</p>
+      <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Double-Eye Leaf Springs</h1>
+      <p className="mb-8 text-[#05203C]">Double-Eye Leaf Springs are engineered to deliver reliable support and smooth ride quality for a wide range of trailers. Their dual-eye design ensures secure mounting and consistent load distribution, making them a popular choice for utility, boat, and cargo trailers. Built for durability and performance, these springs help maintain stability and safety on the road.</p>
 
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Double Eye Leaf Springs</h2>
-      <p className="mb-6 text-blue-800">Reliable and versatile, these springs provide smooth ride quality and secure mounting for utility and cargo trailers.</p>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Double Eye Leaf Springs</h2>
+      <p className="mb-6 text-[#05203C]">Reliable and versatile, these springs provide smooth ride quality and secure mounting for utility and cargo trailers.</p>
 
       <div className="flex flex-row gap-6 justify-center items-center mb-8">
         {[1,2,3,4].map(i => (
-          <div key={i} className="flex flex-col items-center bg-gray-800 rounded-xl shadow-md" style={{ width: '140px', height: '180px', justifyContent: 'center' }}>
-            <img src={`/images/Leaf Springs/Double Eye Leaf Springs/Picture${i}.png`} alt={`Double Eye Leaf Spring ${i}`} className="w-full h-32 object-contain bg-gray-900 rounded-md" style={{ background: '#1a1a1a' }} />
-            <span className="mt-2 text-sm text-gray-100 text-center">Double Eye Leaf Spring {i}</span>
+          <div key={i} className="flex flex-col items-center bg-white border border-slate-200 rounded-xl shadow-sm" style={{ width: '140px', height: '180px', justifyContent: 'center' }}>
+            <img src={`/images/Leaf Springs/Double Eye Leaf Springs/Picture${i}.png`} alt={`Double Eye Leaf Spring ${i}`} className="w-full h-32 object-contain bg-slate-100 rounded-md" style={{ background: '#1a1a1a' }} />
+            <span className="mt-2 text-sm text-slate-700 text-center">Double Eye Leaf Spring {i}</span>
           </div>
         ))}
       </div>
-        <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
+        <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
-            <tr className="bg-blue-100">
+            <tr className="bg-slate-100">
               <th className="text-left">Part Number</th>
               <th className="text-left">Spring Type</th>
               <th className="text-left">Capacity (lbs)</th>

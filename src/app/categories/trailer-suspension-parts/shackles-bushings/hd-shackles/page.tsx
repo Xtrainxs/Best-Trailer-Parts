@@ -4,8 +4,8 @@ import RequestQuoteCTA from '@/components/request-quote-cta';
 export default function HDShacklesPage() {
   return (
     <main className="max-w-2xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-4 text-blue-900">HD Shackles</h1>
-      <p className="mb-8 text-blue-800">Heavy-duty shackles are built for trailers that require extra strength and durability. These shackles are ideal for commercial and heavy-haul applications.</p>
+      <h1 className="text-2xl font-bold mb-4 text-[#05203C]">HD Shackles</h1>
+      <p className="mb-8 text-[#05203C]">Heavy-duty shackles are built for trailers that require extra strength and durability. These shackles are ideal for commercial and heavy-haul applications.</p>
       <div className="w-full flex justify-center items-center bg-blue-900 rounded-lg mb-8 p-4 gap-8">
         <div className="flex-1 flex justify-center">
           <img
@@ -32,11 +32,11 @@ export default function HDShacklesPage() {
           />
         </div>
       </div>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Available HD Shackles</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available HD Shackles</h2>
       <div className="overflow-x-auto">
-        <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
+        <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
-            <tr className="bg-blue-100">
+            <tr className="bg-slate-100">
               <th className="py-2 px-4 border-b text-left">Part Number</th>
               <th className="py-2 px-4 border-b text-left">Shackle Type</th>
               <th className="py-2 px-4 border-b text-left">Length (in)</th>

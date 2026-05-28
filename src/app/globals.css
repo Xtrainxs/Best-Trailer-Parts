@@ -130,7 +130,7 @@ html[data-theme="steel-orange"] {
 }
 
 /* Launch polish: normalize product-table visual rhythm across category pages. */
-main table.min-w-full.border-blue-200 {
+main table.min-w-full.border-slate-200 {
 	border-color: #93c5fd;
 	background-color: #ffffff;
 	border-radius: 0.75rem;
@@ -138,11 +138,11 @@ main table.min-w-full.border-blue-200 {
 	box-shadow: 0 8px 22px rgba(30, 58, 138, 0.08);
 }
 
-main table.min-w-full.border-blue-200 thead tr {
+main table.min-w-full.border-slate-200 thead tr {
 	background-color: #dbeafe;
 }
 
-main table.min-w-full.border-blue-200 th {
+main table.min-w-full.border-slate-200 th {
 	padding: 0.75rem 1rem;
 	border-bottom: 1px solid #93c5fd;
 	color: #1e3a8a;
@@ -150,21 +150,21 @@ main table.min-w-full.border-blue-200 th {
 	letter-spacing: 0.01em;
 }
 
-main table.min-w-full.border-blue-200 td {
+main table.min-w-full.border-slate-200 td {
 	padding: 0.75rem 1rem;
 	border-bottom: 1px solid #cbd5e1;
 	color: #1f2937;
 	line-height: 1.5;
 }
 
-main table.min-w-full.border-blue-200 tbody tr:nth-child(even) {
+main table.min-w-full.border-slate-200 tbody tr:nth-child(even) {
 	background-color: #f8fafc;
 }
 
-main table.min-w-full.border-blue-200 tbody tr:hover {
+main table.min-w-full.border-slate-200 tbody tr:hover {
 	background-color: #eff6ff;
 }
 
-main table.min-w-full.border-blue-200 tbody tr:last-child td {
+main table.min-w-full.border-slate-200 tbody tr:last-child td {
 	border-bottom: none;
 }
