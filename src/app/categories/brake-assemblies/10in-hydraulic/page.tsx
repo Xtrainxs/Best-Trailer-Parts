@@ -20,25 +20,25 @@ export default function Hydraulic10() {
         {["1.png", "2.png", "3.png", "4.png"].map((img, idx) => (
           <div
             key={img}
-            className="bg-gray-200 rounded-lg shadow p-4 flex flex-col items-center w-full"
+            className="bg-slate-50 rounded-lg shadow p-4 flex flex-col items-center w-full"
           >
-            <div className="w-[88%] rounded-md p-2 mb-2 flex justify-center bg-gray-200">
+            <div className="w-[88%] rounded-md p-2 mb-2 flex justify-center bg-slate-50">
               <img
                 src={`/images/Brake%20Assemblies/10%20Inch%20Hydraulic/${encodeURIComponent(img)}`}
                 alt={`10 inch hydraulic brake assembly ${idx + 1}`}
                 className="h-[8.4rem] w-full object-contain object-center"
               />
             </div>
-            <span className="text-gray-800 text-sm text-center">{img}</span>
+            <span className="text-slate-700 text-sm text-center">{img}</span>
           </div>
         ))}
       </div>
 
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Available 10" Hydraulic Brake Assemblies</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available 10" Hydraulic Brake Assemblies</h2>
       <div className="overflow-x-auto">
-        <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
+        <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
-            <tr className="bg-blue-100">
+            <tr className="bg-slate-100">
               <th className="py-2 px-4 border-b text-left">Part Number</th>
               <th className="py-2 px-4 border-b text-left">Type</th>
               <th className="py-2 px-4 border-b text-left">Side</th>

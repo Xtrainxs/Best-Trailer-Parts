@@ -9,11 +9,11 @@ export default function UBoltKitsPage() {
 
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-8 text-blue-900">U-Bolt Kits</h1>
+      <h1 className="text-2xl font-bold mb-8 text-[#05203C]">U-Bolt Kits</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
         {subcategories.map((cat) => (
-          <Link key={cat.name} href={cat.href} className="block bg-white rounded-xl shadow-lg p-6 text-center hover:bg-blue-50 border border-blue-200 transition">
-            <span className="text-lg font-semibold text-blue-800">{cat.name}</span>
+          <Link key={cat.name} href={cat.href} className="block bg-white rounded-xl shadow-lg p-6 text-center hover:bg-white border border-slate-200 transition">
+            <span className="text-lg font-semibold text-[#05203C]">{cat.name}</span>
           </Link>
         ))}
       </div>

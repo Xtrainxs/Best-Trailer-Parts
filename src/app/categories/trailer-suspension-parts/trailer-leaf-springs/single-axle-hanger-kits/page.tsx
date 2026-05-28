@@ -4,8 +4,8 @@ import RequestQuoteCTA from '@/components/request-quote-cta';
 export default function SingleAxleHangerKitsPage() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-4 text-blue-900">Single-Axle Hanger Kits</h1>
-      <p className="mb-8 text-blue-800">
+      <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Single-Axle Hanger Kits</h1>
+      <p className="mb-8 text-[#05203C]">
         Complete hanger kit options for single-axle setups, including double-eye and slipper configurations.
       </p>
 
@@ -36,11 +36,11 @@ export default function SingleAxleHangerKitsPage() {
         </div>
       </div>
 
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Available Single-Axle Hanger Kits</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available Single-Axle Hanger Kits</h2>
       <div className="overflow-x-auto">
-        <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
+        <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
-            <tr className="bg-blue-100">
+            <tr className="bg-slate-100">
               <th className="text-left">TPM Part Number</th>
               <th className="text-left">Kit Type</th>
               <th className="text-left">Contents/Specs</th>

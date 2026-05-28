@@ -17,7 +17,7 @@ export default function RequestQuoteCTA({ partLabel }: Props) {
       </p>
       <Link
         href={href}
-        className="inline-block px-8 py-3 bg-white text-[#05203C] rounded-md font-semibold shadow-sm hover:bg-sky-100 transition"
+        className="inline-block px-8 py-3 bg-white text-[#05203C] rounded-md font-semibold shadow-sm hover:bg-white transition"
       >
         Request a Quote
       </Link>

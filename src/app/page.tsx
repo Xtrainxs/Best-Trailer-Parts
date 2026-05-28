@@ -72,7 +72,7 @@ export default function Home() {
       </section>
 
       {/* Trust strip */}
-      <section className="bg-white/80 backdrop-blur rounded-xl border border-sky-100 shadow-sm mb-16">
+      <section className="bg-white/80 backdrop-blur rounded-xl border border-slate-200 shadow-sm mb-16">
         <ul className="flex flex-col sm:flex-row justify-center items-center divide-y sm:divide-y-0 sm:divide-x divide-sky-100 text-sm sm:text-base text-slate-700 font-medium">
           <li className="px-6 py-3 sm:py-4">Importing since 2001</li>
           <li className="px-6 py-3 sm:py-4">Direct from global manufacturers</li>

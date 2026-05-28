@@ -15,11 +15,11 @@ export default function IdlerHub2000_4x4() {
         Standard idler hub compatible with 2,000 lb axles featuring a 4x4 bolt pattern.
       </p>
 
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Available 2,000 lb 4x4 Idler Hubs</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available 2,000 lb 4x4 Idler Hubs</h2>
       <div className="overflow-x-auto">
-        <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
+        <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
-            <tr className="bg-blue-100">
+            <tr className="bg-slate-100">
               <th className="text-left">Part Number</th>
               <th className="text-left">Bolt Pattern</th>
               <th className="text-left">Hub Bore</th>

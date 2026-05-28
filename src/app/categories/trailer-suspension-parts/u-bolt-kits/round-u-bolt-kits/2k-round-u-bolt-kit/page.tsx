@@ -4,11 +4,11 @@ import RequestQuoteCTA from '@/components/request-quote-cta';
 export default function RoundUBoltKit2kPage() {
   return (
     <div className="min-h-screen py-8 px-4" style={{ background: "linear-gradient(135deg, #e2c044 0%, #f6e27a 100%)" }}>
-      <a href="/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits" className="text-blue-700 hover:underline mb-4 inline-block">
+      <a href="/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits" className="text-[#05203C] hover:underline mb-4 inline-block">
         &larr; Back to Round U-bolt Kits
       </a>
-      <h1 className="text-3xl font-bold mb-4 text-blue-900">1 ¾" Tube (2k) Round U-bolt Kit</h1>
-      <p className="mb-8 text-blue-800">
+      <h1 className="text-3xl font-bold mb-4 text-[#05203C]">1 ¾" Tube (2k) Round U-bolt Kit</h1>
+      <p className="mb-8 text-[#05203C]">
         Kit for 2,000 lb axles with 1 ¾" round tube. Includes U-bolts, nuts, and tie plates.
       </p>
       {/* Image gallery for 2k Round U-bolt Kit */}
@@ -16,22 +16,22 @@ export default function RoundUBoltKit2kPage() {
         {['Picture1.png', 'Picture2.png', 'Picture3.png'].map((img, idx) => (
           <div
             key={img}
-            className="bg-gray-800 rounded-lg shadow p-4 flex flex-col items-center w-48"
+            className="bg-white border border-slate-200 rounded-lg shadow-sm p-4 flex flex-col items-center w-48"
           >
             <img
               src={`/images/U-Bolt%20Kits/Round%20U-Bolt%20Kits/2k-round-u-bolt-kit/${encodeURIComponent(img)}`}
               alt={`2k Round U-bolt Kit ${idx + 1}`}
               className="h-32 w-auto object-contain mb-2"
             />
-            <span className="text-white text-sm text-center break-words">
+            <span className="text-slate-700 text-sm text-center break-words">
               {img.replace('.png', '').replace(/([A-Z])/g, ' $1').trim()}
             </span>
           </div>
         ))}
       </div>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Kit Specifications</h2>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Kit Specifications</h2>
       <div className="overflow-x-auto">
-        <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
+        <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
             <tr>
               <th className="py-2 px-4 text-left font-bold">Part Number</th>

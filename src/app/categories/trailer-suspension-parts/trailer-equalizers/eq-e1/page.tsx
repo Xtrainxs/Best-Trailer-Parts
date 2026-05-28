@@ -4,13 +4,13 @@ import RequestQuoteCTA from '@/components/request-quote-cta';
 export default function EQE1Page() {
   return (
     <main className="max-w-2xl mx-auto py-12 px-6">
-      <h1 className="text-2xl font-bold mb-4 text-blue-900">EQ-E1 Equalizer</h1>
-      <p className="mb-8 text-blue-800">EQ-E1 equalizers are designed for smooth load transfer between axles, improving ride quality and reducing stress on suspension components. Ideal for tandem and triple axle trailers.</p>
-      <h2 className="text-xl font-semibold mb-2 mt-8 text-blue-900">Available EQ-E1 Equalizers</h2>
+      <h1 className="text-2xl font-bold mb-4 text-[#05203C]">EQ-E1 Equalizer</h1>
+      <p className="mb-8 text-[#05203C]">EQ-E1 equalizers are designed for smooth load transfer between axles, improving ride quality and reducing stress on suspension components. Ideal for tandem and triple axle trailers.</p>
+      <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available EQ-E1 Equalizers</h2>
       <div className="overflow-x-auto">
-        <table className="min-w-full bg-white border border-blue-200 rounded-lg mb-8">
+        <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
-            <tr className="bg-blue-100">
+            <tr className="bg-slate-100">
               <th className="py-2 px-4 border-b text-left">Part Number</th>
               <th className="py-2 px-4 border-b text-left">Equalizer Type</th>
               <th className="py-2 px-4 border-b text-left">Length (in)</th>
