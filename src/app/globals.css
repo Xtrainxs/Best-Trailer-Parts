@@ -4,6 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes imageScroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.image-strip-track {
+  animation: imageScroll 50s linear infinite;
+}
+
+.image-strip-track:hover {
+  animation-play-state: paused;
+}
+
 :root,
 html[data-theme="sunrise-teal"] {
 	--page-grad-start: #facc15;
