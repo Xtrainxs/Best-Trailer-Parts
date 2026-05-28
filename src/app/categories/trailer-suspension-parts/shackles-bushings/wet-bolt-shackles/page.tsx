@@ -1,4 +1,5 @@
 import React from "react";
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function WetBoltShacklesPage() {
   return (
@@ -38,6 +39,7 @@ export default function WetBoltShacklesPage() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Wet Bolt Shackles" />
     </main>
   );
 }

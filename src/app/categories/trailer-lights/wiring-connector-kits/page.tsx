@@ -1,3 +1,5 @@
+import RequestQuoteCTA from '@/components/request-quote-cta';
+
 export default function WiringConnectorKits() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
@@ -33,6 +35,7 @@ export default function WiringConnectorKits() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Wiring Connector Kits" />
     </main>
   );
 }

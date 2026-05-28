@@ -1,4 +1,5 @@
 import React from "react";
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function EQE2Page() {
   return (
@@ -38,6 +39,7 @@ export default function EQE2Page() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Eq E2" />
     </main>
   );
 }

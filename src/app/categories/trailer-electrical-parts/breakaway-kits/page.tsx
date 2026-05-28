@@ -1,3 +1,5 @@
+import RequestQuoteCTA from '@/components/request-quote-cta';
+
 export default function BreakawayKits() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
@@ -48,6 +50,7 @@ export default function BreakawayKits() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Breakaway Kits" />
     </main>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function SteelBushingsPage() {
   return (
@@ -52,6 +53,7 @@ export default function SteelBushingsPage() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Steel Bushings" />
     </main>
   );
 }

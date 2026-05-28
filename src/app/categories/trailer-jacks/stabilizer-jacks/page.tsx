@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function StabilizerJacks() {
   return (
@@ -64,6 +65,7 @@ export default function StabilizerJacks() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Stabilizer Jacks" />
     </div>
   );
 }

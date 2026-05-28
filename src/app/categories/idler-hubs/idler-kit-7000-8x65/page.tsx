@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function IdlerKit7000_8x65() {
   return (
@@ -48,6 +49,7 @@ export default function IdlerKit7000_8x65() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Idler Kit 7000 8x65" />
     </div>
   );
 }

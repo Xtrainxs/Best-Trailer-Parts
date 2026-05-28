@@ -1,4 +1,5 @@
 import React from "react";
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function SpecialtyHangerKitsPage() {
   return (
@@ -62,6 +63,7 @@ export default function SpecialtyHangerKitsPage() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Specialty Hanger Kits" />
     </main>
   );
 }

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 const subcategories = [
   { name: '10 Inch Manual Adjust Electric Drum Trailer Brake - Left Side', slug: 'manual-drum-left' },
@@ -82,6 +83,7 @@ export default function Electric10() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="10In Electric" />
     </div>
   );
 }

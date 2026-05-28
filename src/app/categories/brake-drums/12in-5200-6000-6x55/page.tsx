@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function BrakeDrum12in5200_6000_6x55() {
   return (
@@ -52,6 +53,7 @@ export default function BrakeDrum12in5200_6000_6x55() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="12In 5200 6000 6x55" />
     </div>
   );
 }

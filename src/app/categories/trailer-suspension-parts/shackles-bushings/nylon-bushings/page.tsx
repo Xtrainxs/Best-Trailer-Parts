@@ -1,4 +1,5 @@
 import React from "react";
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function NylonBushingsPage() {
   return (
@@ -54,6 +55,7 @@ export default function NylonBushingsPage() {
         </table>
       </div>
       {/* Gallery below table removed */}
+      <RequestQuoteCTA partLabel="Nylon Bushings" />
     </main>
   );
 }

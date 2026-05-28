@@ -1,4 +1,5 @@
 import React from "react";
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function StandardShacklesPage() {
   return (
@@ -72,6 +73,7 @@ export default function StandardShacklesPage() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Standard Shackles" />
     </main>
   );
 }

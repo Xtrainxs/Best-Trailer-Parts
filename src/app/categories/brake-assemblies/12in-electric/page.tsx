@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function BrakeAssembly12inElectric() {
   return (
@@ -76,6 +77,7 @@ export default function BrakeAssembly12inElectric() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="12In Electric" />
     </div>
   );
 }
