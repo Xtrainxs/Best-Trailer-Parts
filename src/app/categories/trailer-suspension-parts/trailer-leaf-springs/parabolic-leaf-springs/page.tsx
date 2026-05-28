@@ -1,4 +1,5 @@
 import React from "react";
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function ParabolicLeafSpringsPage() {
   return (
@@ -56,6 +57,7 @@ export default function ParabolicLeafSpringsPage() {
             </tr>
           </tbody>
         </table>
+      <RequestQuoteCTA partLabel="Parabolic Leaf Springs" />
     </main>
   );
 }

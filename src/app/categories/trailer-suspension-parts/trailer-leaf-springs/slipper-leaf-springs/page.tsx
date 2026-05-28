@@ -1,4 +1,5 @@
 import React from "react";
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function SlipperLeafSpringsPage() {
   return (
@@ -159,6 +160,7 @@ export default function SlipperLeafSpringsPage() {
             </tr>
           </tbody>
         </table>
+      <RequestQuoteCTA partLabel="Slipper Leaf Springs" />
     </main>
   );
 }

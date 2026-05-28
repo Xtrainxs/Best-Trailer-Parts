@@ -1,4 +1,5 @@
 import React from "react";
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function DoubleEyeLeafSpringsPage() {
   return (
@@ -137,6 +138,7 @@ export default function DoubleEyeLeafSpringsPage() {
             </tr>
           </tbody>
         </table>
+      <RequestQuoteCTA partLabel="Double Eye Leaf Springs" />
     </main>
   );
 }

@@ -1,3 +1,5 @@
+import RequestQuoteCTA from '@/components/request-quote-cta';
+
 export default function IncandescentTailLights() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
@@ -36,6 +38,7 @@ export default function IncandescentTailLights() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Incandescent Tail Lights" />
     </main>
   );
 }

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function StraightTongueCouplers() {
   return (
@@ -64,6 +65,7 @@ export default function StraightTongueCouplers() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Straight Tongue Couplers" />
     </div>
   );
 }

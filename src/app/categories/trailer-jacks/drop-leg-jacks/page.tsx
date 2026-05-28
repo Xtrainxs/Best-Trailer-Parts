@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function DropLegJacks() {
   return (
@@ -64,6 +65,7 @@ export default function DropLegJacks() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Drop Leg Jacks" />
     </div>
   );
 }

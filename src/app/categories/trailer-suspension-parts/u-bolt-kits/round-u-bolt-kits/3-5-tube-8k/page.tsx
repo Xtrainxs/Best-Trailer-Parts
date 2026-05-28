@@ -1,4 +1,5 @@
 import Link from "next/link";
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function RoundUBoltKit3_5Tube8k() {
   return (
@@ -52,6 +53,7 @@ export default function RoundUBoltKit3_5Tube8k() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="3 5 Tube 8K" />
     </main>
   );
 }

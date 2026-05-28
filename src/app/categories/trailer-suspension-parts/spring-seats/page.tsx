@@ -1,4 +1,5 @@
 import React from "react";
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function SpringSeatsPage() {
   return (
@@ -50,6 +51,7 @@ export default function SpringSeatsPage() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Spring Seats" />
     </main>
   );
 }

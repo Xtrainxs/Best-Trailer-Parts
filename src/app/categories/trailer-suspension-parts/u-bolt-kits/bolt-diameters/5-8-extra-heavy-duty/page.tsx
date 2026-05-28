@@ -1,3 +1,5 @@
+import RequestQuoteCTA from '@/components/request-quote-cta';
+
 export default function Bolt58Page() {
   return (
     <main className="max-w-2xl mx-auto py-12 px-6">
@@ -36,6 +38,7 @@ export default function Bolt58Page() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="5 8 Extra Heavy Duty" />
     </main>
   );
 }

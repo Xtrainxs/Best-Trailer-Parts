@@ -1,3 +1,5 @@
+import RequestQuoteCTA from '@/components/request-quote-cta';
+
 export default function WarningStrobeLights() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
@@ -58,6 +60,7 @@ export default function WarningStrobeLights() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Warning Strobe Lights" />
     </main>
   );
 }

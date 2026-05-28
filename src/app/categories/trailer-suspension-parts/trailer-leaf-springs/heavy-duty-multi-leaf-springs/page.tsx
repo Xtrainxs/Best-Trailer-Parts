@@ -1,4 +1,5 @@
 import React from "react";
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function HeavyDutyMultiLeafSpringsPage() {
   return (
@@ -56,6 +57,7 @@ export default function HeavyDutyMultiLeafSpringsPage() {
             </tr>
           </tbody>
         </table>
+      <RequestQuoteCTA partLabel="Heavy Duty Multi Leaf Springs" />
     </main>
   );
 }

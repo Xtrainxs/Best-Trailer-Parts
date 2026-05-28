@@ -1,3 +1,5 @@
+import RequestQuoteCTA from '@/components/request-quote-cta';
+
 export default function Adapters() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
@@ -69,6 +71,7 @@ export default function Adapters() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Adapters" />
     </main>
   );
 }

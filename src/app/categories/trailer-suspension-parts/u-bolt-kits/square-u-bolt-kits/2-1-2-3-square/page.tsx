@@ -1,3 +1,5 @@
+import RequestQuoteCTA from '@/components/request-quote-cta';
+
 export default function Square2123Page() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
@@ -45,6 +47,7 @@ export default function Square2123Page() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="2 1 2 3 Square" />
     </main>
   );
 }

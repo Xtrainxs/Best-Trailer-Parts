@@ -1,3 +1,5 @@
+import RequestQuoteCTA from '@/components/request-quote-cta';
+
 export default function WiringHarnesses() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
@@ -69,6 +71,7 @@ export default function WiringHarnesses() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Wiring Harnesses" />
     </main>
   );
 }

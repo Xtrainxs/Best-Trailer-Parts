@@ -1,3 +1,5 @@
+import RequestQuoteCTA from '@/components/request-quote-cta';
+
 export default function LedTailLights() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
@@ -122,6 +124,7 @@ export default function LedTailLights() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Led Tail Lights" />
     </main>
   );
 }

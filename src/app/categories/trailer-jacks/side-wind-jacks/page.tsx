@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function SideWindJacks() {
   return (
@@ -64,6 +65,7 @@ export default function SideWindJacks() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Side Wind Jacks" />
     </div>
   );
 }

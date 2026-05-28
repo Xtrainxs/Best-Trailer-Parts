@@ -1,3 +1,5 @@
+import RequestQuoteCTA from '@/components/request-quote-cta';
+
 export default function LicensePlateLights() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
@@ -62,6 +64,7 @@ export default function LicensePlateLights() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="License Plate Lights" />
     </main>
   );
 }

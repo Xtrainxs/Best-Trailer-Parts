@@ -1,6 +1,14 @@
 import React from "react";
 
-export default function RequestFormPage() {
+type PageProps = {
+  searchParams?: { part?: string };
+};
+
+export default function RequestFormPage({ searchParams }: PageProps) {
+  const partFromUrl = searchParams?.part?.trim();
+  const prefilledDetails = partFromUrl
+    ? `I'm interested in: ${partFromUrl}\n\n(Please share specs, quantity, and any preferences below.)`
+    : '';
   return (
     <div className="w-full max-w-xl mx-auto my-10 bg-gradient-to-br from-blue-50 via-white to-blue-100 rounded-2xl border border-blue-200 shadow-2xl p-10">
       <div className="flex flex-col items-center border-b border-blue-100 pb-6 mb-8">
@@ -74,7 +82,7 @@ export default function RequestFormPage() {
         </div>
         <div className="sm:col-span-2">
           <label htmlFor="details" className="block font-semibold text-sm mb-1 text-gray-700">Part Details / Description</label>
-          <textarea id="details" name="details" placeholder="Describe the parts you need, axle rating, suspension type, or any part numbers you have." className="w-full px-3 py-2 rounded-md border border-blue-100 bg-blue-50 focus:border-blue-400 focus:bg-white focus:outline-none min-h-[90px] resize-y" />
+          <textarea id="details" name="details" defaultValue={prefilledDetails} placeholder="Describe the parts you need, axle rating, suspension type, or any part numbers you have." className="w-full px-3 py-2 rounded-md border border-blue-100 bg-blue-50 focus:border-blue-400 focus:bg-white focus:outline-none min-h-[90px] resize-y" />
         </div>
         <div className="sm:col-span-2">
           <label htmlFor="notes" className="block font-semibold text-sm mb-1 text-gray-700">Additional Notes</label>

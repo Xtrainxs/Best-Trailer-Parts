@@ -1,3 +1,5 @@
+import RequestQuoteCTA from '@/components/request-quote-cta';
+
 export default function UtilityWorkLights() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
@@ -39,6 +41,7 @@ export default function UtilityWorkLights() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Utility Work Lights" />
     </main>
   );
 }

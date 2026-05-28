@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function IdlerHub3500_5x45() {
   return (
@@ -45,6 +46,7 @@ export default function IdlerHub3500_5x45() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Idler Hub 3500 5x45" />
     </div>
   );
 }

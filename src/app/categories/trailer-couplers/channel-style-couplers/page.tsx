@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function ChannelStyleCouplers() {
   return (
@@ -63,6 +64,7 @@ export default function ChannelStyleCouplers() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Channel Style Couplers" />
     </div>
   );
 }

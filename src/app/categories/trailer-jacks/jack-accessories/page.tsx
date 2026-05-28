@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function JackAccessories() {
   return (
@@ -65,6 +66,7 @@ export default function JackAccessories() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="Jack Accessories" />
     </div>
   );
 }

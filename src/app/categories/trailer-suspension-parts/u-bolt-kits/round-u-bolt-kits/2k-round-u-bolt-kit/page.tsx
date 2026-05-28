@@ -1,4 +1,5 @@
 import React from "react";
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function RoundUBoltKit2kPage() {
   return (
@@ -51,6 +52,7 @@ export default function RoundUBoltKit2kPage() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="2K Round U Bolt Kit" />
     </div>
   );
 }

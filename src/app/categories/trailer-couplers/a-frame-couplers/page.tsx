@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function AFrameCouplers() {
   return (
@@ -64,6 +65,7 @@ export default function AFrameCouplers() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel="A Frame Couplers" />
     </div>
   );
 }
