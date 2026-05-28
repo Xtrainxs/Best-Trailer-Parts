@@ -18,7 +18,21 @@ export default function RequestFormPage() {
           <span className="block font-bold">besttrailerparts@shaw.ca</span>
         </div>
       </div>
-      <form className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <form
+        action="https://formspree.io/f/xgoqdybp"
+        method="POST"
+        className="grid grid-cols-1 sm:grid-cols-2 gap-6"
+      >
+        <input type="hidden" name="_subject" value="New quote request from Best Trailer Parts website" />
+        <input type="hidden" name="_next" value="https://best-trailer-parts.vercel.app/request-form/thanks" />
+        <input
+          type="text"
+          name="_gotcha"
+          tabIndex={-1}
+          autoComplete="off"
+          className="hidden"
+          aria-hidden="true"
+        />
         <div>
           <label htmlFor="name" className="block font-semibold text-sm mb-1 text-gray-700">Name</label>
           <input id="name" name="name" type="text" placeholder="Your full name" required className="w-full px-3 py-2 rounded-md border border-blue-100 bg-blue-50 focus:border-blue-400 focus:bg-white focus:outline-none" />
