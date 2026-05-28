@@ -44,7 +44,7 @@ export default function RoundUBoltKit2_3_8Tube3_5k() {
           <tbody>
             <tr>
               <td className="py-2 px-4 border-b">BTP-UBK-2.38T-3.5K</td>
-                        <td className="py-2 px-4 border-b">TPM-UBK-2.38T-3.5K</td>
+                        <td className="py-2 px-4 border-b">BTP-UBK-2.38T-3.5K</td>
               <td className="py-2 px-4 border-b">2 3/8" x 5 ¼" x 5/16"</td>
               <td className="py-2 px-4 border-b">Steel</td>
               <td className="py-2 px-4 border-b">Zinc</td>

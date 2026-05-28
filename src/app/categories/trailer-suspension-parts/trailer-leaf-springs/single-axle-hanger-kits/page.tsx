@@ -47,7 +47,7 @@ export default function SingleAxleHangerKitsPage() {
           </thead>
           <tbody>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-HK1002</td>
+              <td className="font-semibold whitespace-nowrap">BTP-HK1002</td>
               <td>Double-Eye</td>
               <td>
                 <span
@@ -64,7 +64,7 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-HK1003</td>
+              <td className="font-semibold whitespace-nowrap">BTP-HK1003</td>
               <td>Double-Eye</td>
               <td>
                 <span
@@ -81,7 +81,7 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-HK1004</td>
+              <td className="font-semibold whitespace-nowrap">BTP-HK1004</td>
               <td>Double-Eye</td>
               <td>
                 <span
@@ -98,7 +98,7 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-HK1005</td>
+              <td className="font-semibold whitespace-nowrap">BTP-HK1005</td>
               <td>Double-Eye</td>
               <td>
                 <span
@@ -115,7 +115,7 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-HK2006</td>
+              <td className="font-semibold whitespace-nowrap">BTP-HK2006</td>
               <td>Slipper</td>
               <td>
                 <span
@@ -131,7 +131,7 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-HK2007</td>
+              <td className="font-semibold whitespace-nowrap">BTP-HK2007</td>
               <td>Slipper</td>
               <td>
                 <span
@@ -147,7 +147,7 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-HK3008</td>
+              <td className="font-semibold whitespace-nowrap">BTP-HK3008</td>
               <td>Double-Eye</td>
               <td>
                 <span
@@ -163,7 +163,7 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-HK4009</td>
+              <td className="font-semibold whitespace-nowrap">BTP-HK4009</td>
               <td>Double-Eye</td>
               <td>
                 <span
@@ -178,7 +178,7 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-HK4010</td>
+              <td className="font-semibold whitespace-nowrap">BTP-HK4010</td>
               <td>Double-Eye</td>
               <td>
                 <span

@@ -41,21 +41,21 @@ export default function SwivelJacks() {
           </thead>
           <tbody>
             <tr>
-                <td className="py-2 px-4 border-b">TPM-SVJ-1500</td>
+                <td className="py-2 px-4 border-b">BTP-SVJ-1500</td>
               <td className="py-2 px-4 border-b">Manual Swivel</td>
               <td className="py-2 px-4 border-b">1,500</td>
               <td className="py-2 px-4 border-b">8</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-                <td className="py-2 px-4 border-b">TPM-SVJ-2500</td>
+                <td className="py-2 px-4 border-b">BTP-SVJ-2500</td>
               <td className="py-2 px-4 border-b">Heavy Duty Swivel</td>
               <td className="py-2 px-4 border-b">2,500</td>
               <td className="py-2 px-4 border-b">10</td>
               <td className="py-2 px-4 border-b">Zinc</td>
             </tr>
             <tr>
-                <td className="py-2 px-4 border-b">TPM-SVJ-3500</td>
+                <td className="py-2 px-4 border-b">BTP-SVJ-3500</td>
               <td className="py-2 px-4 border-b">HD Swivel</td>
               <td className="py-2 px-4 border-b">3,500</td>
               <td className="py-2 px-4 border-b">12</td>

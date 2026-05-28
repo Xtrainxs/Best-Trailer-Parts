@@ -41,21 +41,21 @@ export default function ElectricJacks() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-EJ-3500</td>
+              <td className="py-2 px-4 border-b">BTP-EJ-3500</td>
               <td className="py-2 px-4 border-b">Standard Electric</td>
               <td className="py-2 px-4 border-b">3,500</td>
               <td className="py-2 px-4 border-b">18</td>
               <td className="py-2 px-4 border-b">12V</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-EJ-5000</td>
+              <td className="py-2 px-4 border-b">BTP-EJ-5000</td>
               <td className="py-2 px-4 border-b">Heavy Duty Electric</td>
               <td className="py-2 px-4 border-b">5,000</td>
               <td className="py-2 px-4 border-b">20</td>
               <td className="py-2 px-4 border-b">12V</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-EJ-7000</td>
+              <td className="py-2 px-4 border-b">BTP-EJ-7000</td>
               <td className="py-2 px-4 border-b">HD Electric</td>
               <td className="py-2 px-4 border-b">7,000</td>
               <td className="py-2 px-4 border-b">22</td>

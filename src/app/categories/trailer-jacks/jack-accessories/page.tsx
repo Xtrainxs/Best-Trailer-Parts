@@ -45,19 +45,19 @@ export default function JackAccessories() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-JA-HANDLE</td>
+              <td className="py-2 px-4 border-b">BTP-JA-HANDLE</td>
               <td className="py-2 px-4 border-b">Replacement Handle</td>
               <td className="py-2 px-4 border-b">Standard</td>
               <td className="py-2 px-4 border-b">Steel</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-JA-PAD</td>
+              <td className="py-2 px-4 border-b">BTP-JA-PAD</td>
               <td className="py-2 px-4 border-b">Jack Pad</td>
               <td className="py-2 px-4 border-b">8" x 8"</td>
               <td className="py-2 px-4 border-b">Rubber</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-JA-COVER</td>
+              <td className="py-2 px-4 border-b">BTP-JA-COVER</td>
               <td className="py-2 px-4 border-b">Protective Cover</td>
               <td className="py-2 px-4 border-b">Universal</td>
               <td className="py-2 px-4 border-b">Vinyl</td>

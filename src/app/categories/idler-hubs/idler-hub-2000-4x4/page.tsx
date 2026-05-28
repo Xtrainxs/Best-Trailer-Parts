@@ -29,7 +29,7 @@ export default function IdlerHub2000_4x4() {
           </thead>
           <tbody>
             <tr>
-              <td>TPM-IHK-2000-4X4</td>
+              <td>BTP-IHK-2000-4X4</td>
               <td>4 on 4"</td>
               <td>1.98"</td>
               <td>1/2"</td>
@@ -37,7 +37,7 @@ export default function IdlerHub2000_4x4() {
               <td>Black Powder Coat</td>
             </tr>
             <tr>
-              <td>TPM-IHK-2000-4X4Z</td>
+              <td>BTP-IHK-2000-4X4Z</td>
               <td>4 on 4"</td>
               <td>1.98"</td>
               <td>1/2"</td>

@@ -27,28 +27,28 @@ export default function HeavyDutyMultiLeafSpringsPage() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b whitespace-nowrap font-semibold">TPM-HDML-4000-26</td>
+              <td className="py-2 px-4 border-b whitespace-nowrap font-semibold">BTP-HDML-4000-26</td>
               <td className="py-2 px-4 border-b">Standard</td>
               <td className="py-2 px-4 border-b">26</td>
               <td className="py-2 px-4 border-b">4,000</td>
               <td className="py-2 px-4 border-b">5</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b whitespace-nowrap font-semibold">TPM-HDML-5000-28</td>
+              <td className="py-2 px-4 border-b whitespace-nowrap font-semibold">BTP-HDML-5000-28</td>
               <td className="py-2 px-4 border-b">Heavy Duty</td>
               <td className="py-2 px-4 border-b">28</td>
               <td className="py-2 px-4 border-b">5,000</td>
               <td className="py-2 px-4 border-b">6</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b whitespace-nowrap font-semibold">TPM-HDML-6000-30</td>
+              <td className="py-2 px-4 border-b whitespace-nowrap font-semibold">BTP-HDML-6000-30</td>
               <td className="py-2 px-4 border-b">Extra HD</td>
               <td className="py-2 px-4 border-b">30</td>
               <td className="py-2 px-4 border-b">6,000</td>
               <td className="py-2 px-4 border-b">7</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b whitespace-nowrap font-semibold">TPM-HDML-8000-32</td>
+              <td className="py-2 px-4 border-b whitespace-nowrap font-semibold">BTP-HDML-8000-32</td>
               <td className="py-2 px-4 border-b">Super Duty</td>
               <td className="py-2 px-4 border-b">32</td>
               <td className="py-2 px-4 border-b">8,000</td>

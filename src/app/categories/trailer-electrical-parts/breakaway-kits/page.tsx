@@ -32,14 +32,14 @@ export default function BreakawayKits() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-BK-5AH</td>
+              <td className="py-2 px-4 border-b">BTP-BK-5AH</td>
               <td className="py-2 px-4 border-b">Standard</td>
               <td className="py-2 px-4 border-b">5 Ah</td>
               <td className="py-2 px-4 border-b">Switch, battery, charger</td>
               <td className="py-2 px-4 border-b">LED indicator, weatherproof</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-BK-10AH</td>
+              <td className="py-2 px-4 border-b">BTP-BK-10AH</td>
               <td className="py-2 px-4 border-b">Heavy Duty</td>
               <td className="py-2 px-4 border-b">10 Ah</td>
               <td className="py-2 px-4 border-b">Switch, battery, charger</td>

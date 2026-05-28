@@ -41,21 +41,21 @@ export default function StraightTongueCouplers() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-STC-2000</td>
+              <td className="py-2 px-4 border-b">BTP-STC-2000</td>
               <td className="py-2 px-4 border-b">Standard Straight Tongue</td>
               <td className="py-2 px-4 border-b">2"</td>
               <td className="py-2 px-4 border-b">2,000</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-STC-3500</td>
+              <td className="py-2 px-4 border-b">BTP-STC-3500</td>
               <td className="py-2 px-4 border-b">Heavy Duty Straight Tongue</td>
               <td className="py-2 px-4 border-b">2"</td>
               <td className="py-2 px-4 border-b">3,500</td>
               <td className="py-2 px-4 border-b">Zinc</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-STC-5000</td>
+              <td className="py-2 px-4 border-b">BTP-STC-5000</td>
               <td className="py-2 px-4 border-b">HD Straight Tongue</td>
               <td className="py-2 px-4 border-b">2-5/16"</td>
               <td className="py-2 px-4 border-b">5,000</td>

@@ -41,35 +41,35 @@ export default function AdjustableCouplers() {
           </thead>
           <tbody>
             <tr>
-                <td className="py-2 px-4 border-b">TPM-ADC-5000</td>
+                <td className="py-2 px-4 border-b">BTP-ADC-5000</td>
               <td className="py-2 px-4 border-b">Standard Adjustable</td>
               <td className="py-2 px-4 border-b">2-5/16"</td>
               <td className="py-2 px-4 border-b">5,000</td>
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
              <tr>
-                <td className="py-2 px-4 border-b">TPM-ADC-2000</td>
+                <td className="py-2 px-4 border-b">BTP-ADC-2000</td>
                 <td className="py-2 px-4 border-b">Standard Adjustable</td>
                 <td className="py-2 px-4 border-b">2-5/16"</td>
                 <td className="py-2 px-4 border-b">2,000</td>
                 <td className="py-2 px-4 border-b">Black Powder Coat</td>
               </tr>
              <tr>
-                <td className="py-2 px-4 border-b">TPM-ADC-3500</td>
+                <td className="py-2 px-4 border-b">BTP-ADC-3500</td>
                 <td className="py-2 px-4 border-b">Standard Adjustable</td>
                 <td className="py-2 px-4 border-b">2-5/16"</td>
                 <td className="py-2 px-4 border-b">3,500</td>
                 <td className="py-2 px-4 border-b">Black Powder Coat</td>
               </tr>
             <tr>
-                <td className="py-2 px-4 border-b">TPM-ADC-7000</td>
+                <td className="py-2 px-4 border-b">BTP-ADC-7000</td>
               <td className="py-2 px-4 border-b">Heavy Duty Adjustable</td>
               <td className="py-2 px-4 border-b">2-5/16"</td>
               <td className="py-2 px-4 border-b">7,000</td>
               <td className="py-2 px-4 border-b">Zinc</td>
             </tr>
             <tr>
-                <td className="py-2 px-4 border-b">TPM-ADC-14000</td>
+                <td className="py-2 px-4 border-b">BTP-ADC-14000</td>
               <td className="py-2 px-4 border-b">HD Adjustable</td>
               <td className="py-2 px-4 border-b">2-5/16"</td>
               <td className="py-2 px-4 border-b">14,000</td>

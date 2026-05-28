@@ -43,7 +43,7 @@ export default function IdlerKit2000_4x4() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-IHK-2000-4X4</td>
+              <td className="py-2 px-4 border-b">BTP-IHK-2000-4X4</td>
               <td className="py-2 px-4 border-b">4 on 4"</td>
               <td className="py-2 px-4 border-b">1.98"</td>
               <td className="py-2 px-4 border-b">1/2"</td>
@@ -52,7 +52,7 @@ export default function IdlerKit2000_4x4() {
               <td className="py-2 px-4 border-b">Black Powder Coat</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-IHK-2000-4X4Z</td>
+              <td className="py-2 px-4 border-b">BTP-IHK-2000-4X4Z</td>
               <td className="py-2 px-4 border-b">4 on 4"</td>
               <td className="py-2 px-4 border-b">1.98"</td>
               <td className="py-2 px-4 border-b">1/2"</td>

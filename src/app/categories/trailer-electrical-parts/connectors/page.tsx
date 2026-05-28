@@ -32,35 +32,35 @@ export default function Connectors() {
           </thead>
           <tbody>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-CON-4FLAT</td>
+              <td className="py-2 px-4 border-b">BTP-CON-4FLAT</td>
               <td className="py-2 px-4 border-b">Flat</td>
               <td className="py-2 px-4 border-b">4</td>
               <td className="py-2 px-4 border-b">Flat</td>
               <td className="py-2 px-4 border-b">Nylon</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-CON-7RV</td>
+              <td className="py-2 px-4 border-b">BTP-CON-7RV</td>
               <td className="py-2 px-4 border-b">RV</td>
               <td className="py-2 px-4 border-b">7</td>
               <td className="py-2 px-4 border-b">Round</td>
               <td className="py-2 px-4 border-b">Aluminum</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-CON-5FLAT</td>
+              <td className="py-2 px-4 border-b">BTP-CON-5FLAT</td>
               <td className="py-2 px-4 border-b">Flat</td>
               <td className="py-2 px-4 border-b">5</td>
               <td className="py-2 px-4 border-b">Flat</td>
               <td className="py-2 px-4 border-b">Nylon</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-CON-6ROUND</td>
+              <td className="py-2 px-4 border-b">BTP-CON-6ROUND</td>
               <td className="py-2 px-4 border-b">Round</td>
               <td className="py-2 px-4 border-b">6</td>
               <td className="py-2 px-4 border-b">Round</td>
               <td className="py-2 px-4 border-b">Aluminum</td>
             </tr>
             <tr>
-              <td className="py-2 px-4 border-b">TPM-CON-7BLADE</td>
+              <td className="py-2 px-4 border-b">BTP-CON-7BLADE</td>
               <td className="py-2 px-4 border-b">Blade</td>
               <td className="py-2 px-4 border-b">7</td>
               <td className="py-2 px-4 border-b">Blade</td>

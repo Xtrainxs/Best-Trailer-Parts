@@ -28,109 +28,109 @@ export default function DoubleEyeLeafSpringsPage() {
           </thead>
           <tbody>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-TRA-2250-25</td>
+              <td className="font-semibold whitespace-nowrap">BTP-TRA-2250-25</td>
               <td>TRA-2250</td>
               <td>2,250</td>
               <td>3</td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-TRA-3000-26</td>
+              <td className="font-semibold whitespace-nowrap">BTP-TRA-3000-26</td>
               <td>TRA-3000</td>
               <td>3,000</td>
               <td>4</td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-TRA-3500-27</td>
+              <td className="font-semibold whitespace-nowrap">BTP-TRA-3500-27</td>
               <td>TRA-3500</td>
               <td>3,500</td>
               <td>5</td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-UNA-4000-26</td>
+              <td className="font-semibold whitespace-nowrap">BTP-UNA-4000-26</td>
               <td>UNA-4000</td>
               <td>4,000</td>
               <td>6</td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-UNA-5000-29</td>
+              <td className="font-semibold whitespace-nowrap">BTP-UNA-5000-29</td>
               <td>UNA-5000</td>
               <td>5,000</td>
               <td>7</td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-DE-6000-28</td>
+              <td className="font-semibold whitespace-nowrap">BTP-DE-6000-28</td>
               <td>HD</td>
               <td>6,000</td>
               <td>7</td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-UNA-022</td>
+              <td className="font-semibold whitespace-nowrap">BTP-UNA-022</td>
               <td>UNA-022</td>
               <td>2,480</td>
               <td>6</td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-UNA-030</td>
+              <td className="font-semibold whitespace-nowrap">BTP-UNA-030</td>
               <td>UNA-030</td>
               <td>1,290</td>
               <td>4</td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-UNA-035</td>
+              <td className="font-semibold whitespace-nowrap">BTP-UNA-035</td>
               <td>UNA-035</td>
               <td>650</td>
               <td>3</td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-UNA-036</td>
+              <td className="font-semibold whitespace-nowrap">BTP-UNA-036</td>
               <td>UNA-036</td>
               <td>1,250</td>
               <td>5</td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-UNA-041</td>
+              <td className="font-semibold whitespace-nowrap">BTP-UNA-041</td>
               <td>UNA-041</td>
               <td>1,500</td>
               <td>3</td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-UNA-049</td>
+              <td className="font-semibold whitespace-nowrap">BTP-UNA-049</td>
               <td>UNA-049</td>
               <td>1,000</td>
               <td>2</td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-UNA-050</td>
+              <td className="font-semibold whitespace-nowrap">BTP-UNA-050</td>
               <td>UNA-050</td>
               <td>1,500</td>
               <td>3</td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-UNA-051</td>
+              <td className="font-semibold whitespace-nowrap">BTP-UNA-051</td>
               <td>UNA-051</td>
               <td>2,000</td>
               <td>4</td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-UNA-052</td>
+              <td className="font-semibold whitespace-nowrap">BTP-UNA-052</td>
               <td>UNA-052</td>
               <td>2,500</td>
               <td>5</td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-UNA-053</td>
+              <td className="font-semibold whitespace-nowrap">BTP-UNA-053</td>
               <td>UNA-053</td>
               <td>3,000</td>
               <td>6</td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-UNA-054</td>
+              <td className="font-semibold whitespace-nowrap">BTP-UNA-054</td>
               <td>UNA-054</td>
               <td>3,500</td>
               <td>7</td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">TPM-UNA-055</td>
+              <td className="font-semibold whitespace-nowrap">BTP-UNA-055</td>
               <td>UNA-055</td>
               <td>4,000</td>
               <td>8</td>
