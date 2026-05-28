@@ -116,6 +116,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <ul className="space-y-2 text-sm">
                   <li><a href="/about" className="hover:text-sky-300 transition">About Us</a></li>
                   <li><a href="/request-form" className="hover:text-sky-300 transition">Request a Quote</a></li>
+                  <li><a href="/shipping-policy" className="hover:text-sky-300 transition">Shipping Policy</a></li>
                 </ul>
               </div>
               <div>
