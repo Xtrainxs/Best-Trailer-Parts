@@ -1,24 +1,28 @@
-import Link from "next/link";
+import CategoryCard from "@/components/category-card";
+
+const subcategories = [
+  { name: "Trailer Leaf Springs", href: "/categories/trailer-suspension-parts/trailer-leaf-springs" },
+  { name: "Hangers Kits", href: "/categories/trailer-suspension-parts/hangers-kits" },
+  { name: "Trailer Equalizers", href: "/categories/trailer-suspension-parts/trailer-equalizers" },
+  { name: "Shackles & Bushings", href: "/categories/trailer-suspension-parts/shackles-bushings" },
+  { name: "U-Bolt Kits", href: "/categories/trailer-suspension-parts/u-bolt-kits" },
+  { name: "Spring Seats", href: "/categories/trailer-suspension-parts/spring-seats" },
+  { name: "Suspension Fasteners", href: "/categories/trailer-suspension-parts/suspension-fasteners" },
+];
 
 export default function TrailerSuspensionPartsPage() {
-  const subcategories = [
-    { name: "Trailer Leaf Springs", href: "/categories/trailer-suspension-parts/trailer-leaf-springs" },
-    { name: "Hangers Kits", href: "/categories/trailer-suspension-parts/hangers-kits" },
-    { name: "Trailer Equalizers", href: "/categories/trailer-suspension-parts/trailer-equalizers" },
-    { name: "Shackles & Bushings", href: "/categories/trailer-suspension-parts/shackles-bushings" },
-    { name: "U-Bolt Kits", href: "/categories/trailer-suspension-parts/u-bolt-kits" },
-    { name: "Spring Seats", href: "/categories/trailer-suspension-parts/spring-seats" },
-    { name: "Suspension Fasteners", href: "/categories/trailer-suspension-parts/suspension-fasteners" },
-  ];
-
   return (
     <main className="max-w-6xl mx-auto py-12 px-6">
-      <h1 className="text-3xl font-bold mb-8 text-[#05203C]">Trailer Suspension Parts</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {subcategories.map((cat) => (
-          <Link key={cat.name} href={cat.href} className="block bg-white rounded-xl shadow-lg p-6 text-center hover:bg-white border border-slate-200 transition">
-            <span className="text-xl font-semibold text-[#05203C]">{cat.name}</span>
-          </Link>
+      <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-[#05203C]">
+        Trailer Suspension Parts
+      </h1>
+      <p className="text-base sm:text-lg text-slate-600 mb-10">
+        Leaf springs, hangers, equalizers, shackles, bushings, U-bolt kits, and the
+        fasteners that hold it all together.
+      </p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {subcategories.map((sub) => (
+          <CategoryCard key={sub.name} name={sub.name} href={sub.href} />
         ))}
       </div>
     </main>

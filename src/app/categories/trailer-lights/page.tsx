@@ -1,23 +1,30 @@
-import Link from "next/link";
+import CategoryCard from "@/components/category-card";
 
-export default function TrailerLightsCategory() {
+const subcategories = [
+  { name: "LED Tail Lights", href: "/categories/trailer-lights/led-tail-lights" },
+  { name: "Incandescent Tail Lights", href: "/categories/trailer-lights/incandescent-tail-lights" },
+  { name: "Marker / Clearance Lights", href: "/categories/trailer-lights/marker-clearance-lights" },
+  { name: "License Plate Lights", href: "/categories/trailer-lights/license-plate-lights" },
+  { name: "Utility / Work Lights", href: "/categories/trailer-lights/utility-work-lights" },
+  { name: "Warning / Strobe Lights", href: "/categories/trailer-lights/warning-strobe-lights" },
+  { name: "Wiring & Connector Kits", href: "/categories/trailer-lights/wiring-connector-kits" },
+];
+
+export default function TrailerLightsPage() {
   return (
-    <main className="max-w-4xl mx-auto py-12 px-6">
-      <h1 className="text-3xl font-bold mb-6 text-[#05203C]">Trailer Lights</h1>
-      <p className="text-lg text-gray-700 mb-8">Browse our selection of trailer lights, including LED and incandescent tail lights, marker lights, license plate lights, utility lights, and wiring kits. All products feature unique BTP part numbers and meet North American standards.</p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
-        <Link href="/categories/trailer-lights/led-tail-lights" className="block bg-white rounded-xl shadow p-4 text-center hover:bg-yellow-50 border border-yellow-200 transition">
-          <span className="text-base font-semibold text-yellow-800">LED Tail Lights</span>
-        </Link>
-        <Link href="/categories/trailer-lights/marker-clearance-lights" className="block bg-white rounded-xl shadow p-4 text-center hover:bg-yellow-50 border border-yellow-200 transition">
-          <span className="text-base font-semibold text-yellow-800">Marker/Clearance Lights</span>
-        </Link>
-        <Link href="/categories/trailer-lights/license-plate-lights" className="block bg-white rounded-xl shadow p-4 text-center hover:bg-yellow-50 border border-yellow-200 transition">
-          <span className="text-base font-semibold text-yellow-800">License Plate Lights</span>
-        </Link>
-        <Link href="/categories/trailer-lights/warning-strobe-lights" className="block bg-white rounded-xl shadow p-4 text-center hover:bg-yellow-50 border border-yellow-200 transition">
-          <span className="text-base font-semibold text-yellow-800">Warning/Strobe Lights</span>
-        </Link>
+    <main className="max-w-6xl mx-auto py-12 px-6">
+      <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-[#05203C]">
+        Trailer Lights
+      </h1>
+      <p className="text-base sm:text-lg text-slate-600 mb-10">
+        LED and incandescent tail lights, marker and clearance lights, plate and work
+        lights, plus the wiring and connector kits to tie it all together. All BTP
+        parts meet North American standards.
+      </p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {subcategories.map((sub) => (
+          <CategoryCard key={sub.name} name={sub.name} href={sub.href} />
+        ))}
       </div>
     </main>
   );
