@@ -1,16 +1,56 @@
 import CategoryCard from "@/components/category-card";
 
 const categories = [
-  { name: "Trailer Suspension Parts", href: "/categories/trailer-suspension-parts" },
-  { name: "Trailer Lights", href: "/categories/trailer-lights" },
-  { name: "Trailer Electrical Parts", href: "/categories/trailer-electrical-parts" },
-  { name: "Trailer Jacks", href: "/categories/trailer-jacks" },
-  { name: "Trailer Couplers", href: "/categories/trailer-couplers" },
-  { name: "Idler Hubs", href: "/categories/idler-hubs" },
-  { name: "Brake Drums", href: "/categories/brake-drums" },
-  { name: "Brake Assemblies", href: "/categories/brake-assemblies" },
-  { name: "Trailer Hardware", href: "/categories/trailer-hardware" },
-  { name: "Boat Trailer Parts", href: "/categories/boat-trailer-parts" },
+  {
+    name: "Trailer Suspension Parts",
+    href: "/categories/trailer-suspension-parts",
+    description: "Leaf springs, hangers, equalizers, shackles, bushings, and U-bolt kits.",
+  },
+  {
+    name: "Trailer Lights",
+    href: "/categories/trailer-lights",
+    description: "LED and incandescent tail, marker, license plate, and work lights.",
+  },
+  {
+    name: "Trailer Electrical Parts",
+    href: "/categories/trailer-electrical-parts",
+    description: "Adapters, connectors, wiring harnesses, junction and battery boxes.",
+  },
+  {
+    name: "Trailer Jacks",
+    href: "/categories/trailer-jacks",
+    description: "A-frame, side-wind, top-wind, swivel, electric, and stabilizer jacks.",
+  },
+  {
+    name: "Trailer Couplers",
+    href: "/categories/trailer-couplers",
+    description: "Straight tongue, A-frame, channel, gooseneck, and adjustable couplers.",
+  },
+  {
+    name: "Idler Hubs",
+    href: "/categories/idler-hubs",
+    description: "Hub and bearing kits sized to your axle rating and bolt pattern.",
+  },
+  {
+    name: "Brake Drums",
+    href: "/categories/brake-drums",
+    description: "Drum kits for 2,000 to 7,000 lb. axles in common bolt patterns.",
+  },
+  {
+    name: "Brake Assemblies",
+    href: "/categories/brake-assemblies",
+    description: "10\" and 12\" hydraulic and electric brake assemblies.",
+  },
+  {
+    name: "Trailer Hardware",
+    href: "/categories/trailer-hardware",
+    description: "Ramps, wheel chocks, and general trailer hardware.",
+  },
+  {
+    name: "Boat Trailer Parts",
+    href: "/categories/boat-trailer-parts",
+    description: "Winches, straps, rollers, and boat-trailer-specific components.",
+  },
 ];
 
 export default function CategoriesPage() {
@@ -34,7 +74,12 @@ export default function CategoriesPage() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {categories.map((cat) => (
-          <CategoryCard key={cat.name} name={cat.name} href={cat.href} />
+          <CategoryCard
+            key={cat.name}
+            name={cat.name}
+            href={cat.href}
+            description={cat.description}
+          />
         ))}
       </div>
     </main>
