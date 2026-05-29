@@ -3,10 +3,7 @@ import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function RoundUBoltKit2kPage() {
   return (
-    <div className="min-h-screen py-8 px-4" style={{ background: "linear-gradient(135deg, #e2c044 0%, #f6e27a 100%)" }}>
-      <a href="/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits" className="text-[#05203C] hover:underline mb-4 inline-block">
-        &larr; Back to Round U-bolt Kits
-      </a>
+    <div className="max-w-4xl mx-auto py-12 px-4">
       <h1 className="text-3xl font-bold mb-4 text-[#05203C]">1 ¾" Tube (2k) Round U-bolt Kit</h1>
       <p className="mb-8 text-[#05203C]">
         Kit for 2,000 lb axles with 1 ¾" round tube. Includes U-bolts, nuts, and tie plates.

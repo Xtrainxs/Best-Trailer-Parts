@@ -4,11 +4,6 @@ import RequestQuoteCTA from '@/components/request-quote-cta';
 export default function StraightTongueCouplers() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
-      <div className="mb-6">
-        <Link href="/categories/trailer-couplers" className="text-blue-600 hover:underline">
-          ← Back to Trailer Couplers
-        </Link>
-      </div>
       <h1 className="text-4xl font-bold mb-4">Straight Tongue Couplers</h1>
       <p className="text-lg text-gray-700 mb-6">
         Straight tongue couplers connect directly to a straight trailer tongue. Reliable design for standard towing setups.

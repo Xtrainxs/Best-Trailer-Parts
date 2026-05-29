@@ -4,11 +4,6 @@ import RequestQuoteCTA from '@/components/request-quote-cta';
 export default function BrakeAssembly12inElectric() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
-      <div className="mb-6">
-        <Link href="/categories/brake-assemblies" className="text-blue-600 hover:underline">
-          ← Back to Brake Assemblies
-        </Link>
-      </div>
       <h1 className="text-4xl font-bold mb-4">12" Electric Brake Assemblies</h1>
       <p className="text-lg text-gray-700 mb-6">Heavy-duty 12" electric brake assemblies for 5,200–7,000 lb axles.</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">

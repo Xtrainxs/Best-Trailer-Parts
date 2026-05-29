@@ -3,11 +3,6 @@ import Link from 'next/link';
 export default function BrakeDrum10in3500_5x45() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
-      <div className="mb-6">
-        <Link href="/categories/brake-drums" className="text-blue-600 hover:underline">
-          ← Back to Brake Drums
-        </Link>
-      </div>
       <h1 className="text-4xl font-bold mb-4">10" Brake Drum Kit for 3,500 lb. Axles | 5 on 4.5" Bolt Pattern</h1>
       <p className="text-lg text-gray-700 mb-6">Durable brake drum kit for 3,500 lb axles with a 5x4.5 bolt pattern.</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
