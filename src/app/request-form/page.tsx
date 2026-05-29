@@ -144,7 +144,63 @@ export default function RequestFormPage({ searchParams }: PageProps) {
         </div>
       </form>
 
-      <p className="mt-8 text-xs text-slate-500 text-center">
+      <section className="mt-14 bg-slate-50 border border-slate-200 rounded-xl p-6 sm:p-8">
+        <h2
+          className="text-lg sm:text-xl font-bold text-[#05203C] mb-6 text-center"
+          style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
+        >
+          What happens next?
+        </h2>
+        <ol className="space-y-5">
+          <li className="flex gap-4 items-start">
+            <span className="flex-none w-8 h-8 rounded-full bg-[#05203C] text-white text-sm font-semibold flex items-center justify-center">
+              1
+            </span>
+            <div className="flex-1">
+              <p className="font-semibold text-[#05203C]">We receive your request</p>
+              <p className="text-sm text-slate-600 mt-0.5 leading-relaxed">
+                Usually within 30 seconds. You&apos;ll see a confirmation page right
+                away.
+              </p>
+            </div>
+          </li>
+          <li className="flex gap-4 items-start">
+            <span className="flex-none w-8 h-8 rounded-full bg-[#05203C] text-white text-sm font-semibold flex items-center justify-center">
+              2
+            </span>
+            <div className="flex-1">
+              <p className="font-semibold text-[#05203C]">We match it to a supplier</p>
+              <p className="text-sm text-slate-600 mt-0.5 leading-relaxed">
+                We check stock, lead time, and pricing across our vetted manufacturer
+                network.
+              </p>
+            </div>
+          </li>
+          <li className="flex gap-4 items-start">
+            <span className="flex-none w-8 h-8 rounded-full bg-[#05203C] text-white text-sm font-semibold flex items-center justify-center">
+              3
+            </span>
+            <div className="flex-1">
+              <p className="font-semibold text-[#05203C]">You receive a quote</p>
+              <p className="text-sm text-slate-600 mt-0.5 leading-relaxed">
+                Within 1&ndash;2 business days, by email with all the details.
+              </p>
+            </div>
+          </li>
+        </ol>
+        <p className="mt-7 pt-6 border-t border-slate-200 text-sm text-slate-600 text-center">
+          Time-sensitive?{' '}
+          <a
+            href="tel:+14039037957"
+            className="text-sky-700 hover:underline font-medium"
+          >
+            Call us directly at +1 403-903-7957
+          </a>
+          .
+        </p>
+      </section>
+
+      <p className="mt-10 text-xs text-slate-500 text-center">
         25 years of importing experience. Trusted suppliers. Competitive pricing.
       </p>
     </div>
