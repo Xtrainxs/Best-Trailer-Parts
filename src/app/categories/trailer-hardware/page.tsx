@@ -29,7 +29,7 @@ export default async function TrailerHardwarePage() {
         Browse trailer hardware products and accessories in this category.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
         {hardwareImages.map((img, idx) => {
           const isTrailerPartsImage = /^Trailer Parts\s+\d+\.png$/i.test(img);
           const imageSrc = `/images/Trailer%20Hardware/${encodeURIComponent(img)}`;
@@ -37,20 +37,21 @@ export default async function TrailerHardwarePage() {
           return (
             <div
               key={img}
-              className={`${isTrailerPartsImage ? "sm:col-span-2 lg:col-span-4" : ""} bg-white border border-slate-200 rounded-lg shadow-sm p-4 flex flex-col items-center w-full`}
+              className={`${isTrailerPartsImage ? "sm:col-span-2 lg:col-span-3" : ""} bg-white border border-slate-200 rounded-lg shadow-sm hover:shadow-md transition-shadow p-4 flex flex-col items-center w-full`}
             >
               <div
-                className={`relative w-full ${isTrailerPartsImage ? "max-w-6xl h-[28rem] sm:h-[34rem]" : "h-56 sm:h-64"} bg-slate-50 rounded-md p-2 mb-2 overflow-hidden`}
+                className={`relative w-full ${isTrailerPartsImage ? "max-w-6xl h-[28rem] sm:h-[34rem]" : "h-64 sm:h-72 lg:h-80"} rounded-md p-2 mb-3 overflow-hidden`}
               >
                 <a href={imageSrc} target="_blank" rel="noopener noreferrer" className="block h-full w-full" title="Open full-size image">
                   <img
                     src={imageSrc}
                     alt={`Trailer hardware ${idx + 1}`}
                     className="h-full w-full object-contain object-center"
+                    loading="lazy"
                   />
                 </a>
               </div>
-              <span className="text-slate-700 text-sm text-center break-words">
+              <span className="text-slate-700 text-sm text-center break-words font-medium">
                 {img
                   .replace(/\.(png|jpg)$/i, "")
                   .replace(/^Trailer Parts\s+\d+$/i, "Trailer Parts")}
