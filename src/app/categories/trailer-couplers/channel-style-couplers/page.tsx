@@ -4,11 +4,6 @@ import RequestQuoteCTA from '@/components/request-quote-cta';
 export default function ChannelStyleCouplers() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
-      <div className="mb-6">
-        <Link href="/categories/trailer-couplers" className="text-blue-600 hover:underline">
-          ← Back to Trailer Couplers
-        </Link>
-      </div>
       <h1 className="text-4xl font-bold mb-4">Channel Style Couplers</h1>
       <p className="text-lg text-gray-700 mb-6">
         Channel style couplers slide into a C-channel and are commonly used on utility trailers and equipment haulers.

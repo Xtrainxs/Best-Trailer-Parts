@@ -4,11 +4,6 @@ import RequestQuoteCTA from '@/components/request-quote-cta';
 export default function StabilizerJacks() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
-      <div className="mb-6">
-        <Link href="/categories/trailer-jacks" className="text-blue-600 hover:underline">
-          ← Back to Trailer Jacks
-        </Link>
-      </div>
       <h1 className="text-4xl font-bold mb-4">Stabilizer Jacks</h1>
       <p className="text-lg text-gray-700 mb-6">
         Stabilizer Jacks are designed to prevent trailer sway and movement. Lightweight and easy to install for added safety.

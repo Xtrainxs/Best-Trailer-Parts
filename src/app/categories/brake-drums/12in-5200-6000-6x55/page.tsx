@@ -4,11 +4,6 @@ import RequestQuoteCTA from '@/components/request-quote-cta';
 export default function BrakeDrum12in5200_6000_6x55() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
-      <div className="mb-6">
-        <Link href="/categories/brake-drums" className="text-blue-600 hover:underline">
-          ← Back to Brake Drums
-        </Link>
-      </div>
       <h1 className="text-4xl font-bold mb-4">12" Brake Drum Kit for 5,200/6,000 lb. Axles | 6 on 5.5" Bolt Pattern</h1>
       <p className="text-lg text-gray-700 mb-6">Heavy-duty brake drum kit for 5,200/6,000 lb axles with a 6x5.5 bolt pattern.</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">

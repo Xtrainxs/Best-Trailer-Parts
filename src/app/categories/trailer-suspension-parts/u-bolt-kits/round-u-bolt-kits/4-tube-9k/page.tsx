@@ -4,11 +4,6 @@ import RequestQuoteCTA from '@/components/request-quote-cta';
 export default function RoundUBoltKit4Tube9k() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
-      <div className="mb-6">
-        <Link href="/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits" className="text-blue-600 hover:underline">
-          ← Back to Round U-bolt Kits
-        </Link>
-      </div>
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">4" Tube (9k) Round U-bolt Kit</h1>
       <p className="text-lg text-gray-700 mb-6">Kit for 9,000 lb axles with 4" round tube. Includes U-bolts, nuts, and tie plates.</p>
       <div className="flex flex-wrap gap-4 mb-8">

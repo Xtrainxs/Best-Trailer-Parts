@@ -4,11 +4,6 @@ import RequestQuoteCTA from '@/components/request-quote-cta';
 export default function IdlerKit5200_6000_6x55() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
-      <div className="mb-6">
-        <Link href="/categories/idler-hubs" className="text-blue-600 hover:underline">
-          ← Back to Idler Hubs
-        </Link>
-      </div>
       <h1 className="text-4xl font-bold mb-4">Trailer Idler Hub & Bearing Kit for 5,200 and 6,000 lb. Axles | 6 on 5.5" Bolt Pattern</h1>
       <p className="text-lg text-gray-700 mb-6">
         Heavy-duty idler hub and bearing kit for 5,200/6,000 lb axles with a 6x5.5 bolt pattern.
