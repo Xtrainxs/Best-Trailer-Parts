@@ -56,19 +56,24 @@ export default async function BoatTrailerPartsPage() {
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Boat Trailer Parts</h1>
       <p className="text-lg text-gray-700 mb-8">Browse boat trailer parts and accessories in this category.</p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
         {images.map((img, idx) => {
           const imageSrc = `/images/Boat%20Trailer%20Parts/${img}`;
           const label = decodeURIComponent(img.split("/").pop() || img).replace(/\.(png|jpg|jpeg|webp|avif|gif)$/i, "");
 
           return (
-            <div key={img} className="bg-white border border-slate-200 rounded-lg shadow-sm p-4 flex flex-col items-center w-full">
-              <div className="relative w-full h-56 sm:h-64 bg-slate-50 rounded-md p-2 mb-2 overflow-hidden">
+            <div key={img} className="bg-white border border-slate-200 rounded-lg shadow-sm hover:shadow-md transition-shadow p-4 flex flex-col items-center w-full">
+              <div className="relative w-full h-64 sm:h-72 lg:h-80 rounded-md p-2 mb-3 overflow-hidden">
                 <a href={imageSrc} target="_blank" rel="noopener noreferrer" className="block h-full w-full" title="Open full-size image">
-                  <img src={imageSrc} alt={`Boat trailer part ${idx + 1}`} className="h-full w-full object-contain object-center" />
+                  <img
+                    src={imageSrc}
+                    alt={`Boat trailer part ${idx + 1}`}
+                    className="h-full w-full object-contain object-center"
+                    loading="lazy"
+                  />
                 </a>
               </div>
-              <span className="text-slate-700 text-sm text-center break-words">{label}</span>
+              <span className="text-slate-700 text-sm text-center break-words font-medium">{label}</span>
             </div>
           );
         })}
