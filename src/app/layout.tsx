@@ -1,5 +1,6 @@
 import './globals.css';
 import { ReactNode } from 'react';
+import Breadcrumbs from '@/components/breadcrumbs';
 
 export const metadata = {
   metadataBase: new URL('https://best-trailer-parts.vercel.app'),
@@ -85,6 +86,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             </div>
           </div>
         </header>
+        <Breadcrumbs />
         <main className="min-h-[calc(100vh-6rem)]">{children}</main>
         <footer className="bg-[#05203C] text-white mt-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
