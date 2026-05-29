@@ -1,31 +1,28 @@
-import Link from 'next/link';
+import CategoryCard from "@/components/category-card";
 
 const subcategories = [
-  { name: 'Straight Tongue Couplers', slug: 'straight-tongue-couplers' },
-  { name: 'A-Frame Couplers', slug: 'a-frame-couplers' },
-  { name: 'Channel Style Couplers', slug: 'channel-style-couplers' },
-  { name: 'Gooseneck Couplers', slug: 'gooseneck-couplers' },
-  { name: 'Adjustable Couplers', slug: 'adjustable-couplers' },
+  { name: "Straight Tongue Couplers", href: "/categories/trailer-couplers/straight-tongue-couplers" },
+  { name: "A-Frame Couplers", href: "/categories/trailer-couplers/a-frame-couplers" },
+  { name: "Channel Style Couplers", href: "/categories/trailer-couplers/channel-style-couplers" },
+  { name: "Gooseneck Couplers", href: "/categories/trailer-couplers/gooseneck-couplers" },
+  { name: "Adjustable Couplers", href: "/categories/trailer-couplers/adjustable-couplers" },
 ];
 
-export default function TrailerCouplers() {
+export default function TrailerCouplersPage() {
   return (
-    <div className="max-w-6xl mx-auto py-12 px-4">
-      <h1 className="text-4xl font-bold mb-2">Trailer Couplers</h1>
-      <p className="text-lg text-gray-600 mb-8">Explore our selection of trailer couplers by style</p>
-      
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {subcategories.map((subcategory) => (
-          <Link
-            key={subcategory.slug}
-            href={`/categories/trailer-couplers/${subcategory.slug}`}
-          >
-            <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 text-center cursor-pointer">
-              <h3 className="text-xl font-semibold text-gray-800">{subcategory.name}</h3>
-            </div>
-          </Link>
+    <main className="max-w-6xl mx-auto py-12 px-6">
+      <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-[#05203C]">
+        Trailer Couplers
+      </h1>
+      <p className="text-base sm:text-lg text-slate-600 mb-10">
+        Couplers by style &mdash; straight tongue, A-frame, channel, gooseneck, and
+        adjustable.
+      </p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {subcategories.map((sub) => (
+          <CategoryCard key={sub.name} name={sub.name} href={sub.href} />
         ))}
       </div>
-    </div>
+    </main>
   );
 }
