@@ -1,6 +1,8 @@
 import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: '1 ¾\\" Tube (2k) Round U-bolt Kit' };
+
 export default function RoundUBoltKit2kPage() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">

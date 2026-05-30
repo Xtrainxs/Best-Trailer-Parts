@@ -2,9 +2,11 @@ import React from "react";
 import RangeDisclaimer from '@/components/range-disclaimer';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: 'Single-Axle Hanger Kits' };
+
 export default function SingleAxleHangerKitsPage() {
   return (
-    <main className="max-w-2xl mx-auto py-12 px-6">
+    <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Single-Axle Hanger Kits</h1>
       <p className="mb-4 text-[#05203C]">Single-axle hanger kits provide all the essential components for mounting leaf springs to a trailer frame. These kits are designed for straightforward installation and reliable performance, making them ideal for utility and light-duty trailers.</p>
       <RangeDisclaimer
@@ -31,7 +33,7 @@ export default function SingleAxleHangerKitsPage() {
                 className="h-[8.4rem] w-full object-contain object-center mix-blend-multiply brightness-110"
               />
             </div>
-            <span className="text-slate-700 text-sm text-center">{img}</span>
+            
           </div>
         ))}
       </div>

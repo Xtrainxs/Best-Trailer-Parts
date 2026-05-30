@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+export const metadata = { title: '10\\" Brake Drum Kit for 3,500 lb. Axles | 5 on 4.5\\" Bolt Pattern' };
+
 export default function BrakeDrum10in3500_5x45() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
@@ -18,7 +20,7 @@ export default function BrakeDrum10in3500_5x45() {
                 className="h-[8.4rem] w-full object-contain object-center"
               />
             </div>
-            <span className="text-slate-700 text-sm text-center">{img}</span>
+            
           </div>
         ))}
       </div>

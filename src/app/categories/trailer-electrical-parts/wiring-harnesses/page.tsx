@@ -1,5 +1,7 @@
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: 'Wiring Harnesses' };
+
 export default function WiringHarnesses() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
@@ -16,7 +18,7 @@ export default function WiringHarnesses() {
               alt={`Wiring Harness ${idx + 1}`}
               className={idx < 2 ? "h-56 w-full object-contain mb-2" : "h-36 w-auto object-contain mb-2"}
             />
-            <span className="text-slate-700 text-sm text-center">{`Image ${idx + 1}`}</span>
+            
           </div>
         ))}
       </div>

@@ -1,5 +1,7 @@
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: 'Trailer Connectors' };
+
 export default function Connectors() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
@@ -16,7 +18,7 @@ export default function Connectors() {
               alt={`Trailer Connector ${idx + 1}`}
               className="h-44 w-full object-contain mb-2"
             />
-            <span className="text-slate-700 text-sm text-center">{`Image ${idx + 1}`}</span>
+            
           </div>
         ))}
       </div>

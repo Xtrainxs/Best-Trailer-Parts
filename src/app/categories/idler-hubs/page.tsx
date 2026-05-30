@@ -11,6 +11,8 @@ const subcategories = [
   { name: 'Idler Hub & Bearing Kit — 7,000 lb. Axles, 8 on 6.5"', href: "/categories/idler-hubs/idler-kit-7000-8x65" },
 ];
 
+export const metadata = { title: 'Idler Hubs' };
+
 export default function IdlerHubsPage() {
   return (
     <main className="max-w-6xl mx-auto py-12 px-6">

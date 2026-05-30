@@ -10,6 +10,8 @@ const subcategories = [
   { name: '12 Inch Manual Adjust Hydraulic Trailer Brake Assembly - Right Side', slug: 'manual-assembly-right' },
 ];
 
+export const metadata = { title: '12\\" Hydraulic Trailer Brakes' };
+
 export default function Hydraulic12() {
   return (
     <div className="max-w-6xl mx-auto py-12 px-4">
@@ -29,7 +31,7 @@ export default function Hydraulic12() {
                 className="h-[8.4rem] w-full object-contain object-center"
               />
             </div>
-            <span className="text-slate-700 text-sm text-center">{img}</span>
+            
           </div>
         ))}
       </div>

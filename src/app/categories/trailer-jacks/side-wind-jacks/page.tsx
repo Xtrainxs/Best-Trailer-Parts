@@ -2,6 +2,8 @@ import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 import RangeDisclaimer from '@/components/range-disclaimer';
 
+export const metadata = { title: 'Side-Wind Jacks' };
+
 export default function SideWindJacks() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
@@ -24,7 +26,7 @@ export default function SideWindJacks() {
               alt={`Side-Wind Jack ${idx + 1}`}
               className="h-36 w-auto object-contain mb-2"
             />
-            <span className="text-slate-700 text-sm text-center">{`Image ${idx + 1}`}</span>
+            
           </div>
         ))}
       </div>

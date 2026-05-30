@@ -1,9 +1,11 @@
 import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: 'Heavy Duty Multi-Leaf Springs' };
+
 export default function HeavyDutyMultiLeafSpringsPage() {
   return (
-    <main className="max-w-2xl mx-auto py-12 px-6">
+    <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Heavy Duty Multi-Leaf Springs</h1>
       <p className="mb-6 text-[#05203C]">Built for tough loads, these springs offer extra strength and stability for heavy-duty trailers. Ideal for frequent hauling and demanding conditions.</p>
 
@@ -11,7 +13,7 @@ export default function HeavyDutyMultiLeafSpringsPage() {
       <div className="flex flex-row gap-6 justify-center items-center mb-8">
         {[1,2,3,4].map(i => (
           <div key={i} className="flex flex-col items-center bg-white border border-slate-200 rounded-xl shadow-sm" style={{ width: '140px', height: '180px', justifyContent: 'center' }}>
-            <img src={`/images/Leaf Springs/Heavy Duty Leaf Springs/Picture${i}.png`} alt={`Heavy Duty Leaf Spring ${i}`} className="w-full h-32 object-contain bg-slate-100 rounded-md" style={{ background: '#1a1a1a' }} />
+            <img src={`/images/Leaf Springs/Heavy Duty Leaf Springs/Picture${i}.png`} alt={`Heavy Duty Leaf Spring ${i}`} className="w-full h-32 object-contain bg-slate-50 rounded-md border border-slate-200"  />
             <span className="mt-2 text-sm text-slate-700 text-center">Heavy Duty Leaf Spring {i}</span>
           </div>
         ))}

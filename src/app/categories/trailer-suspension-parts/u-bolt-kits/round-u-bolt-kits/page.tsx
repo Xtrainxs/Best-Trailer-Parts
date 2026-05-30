@@ -1,13 +1,15 @@
 import CategoryCard from "@/components/category-card";
 
 const subcategories = [
-  { name: '1 ¾" tube (2k)', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/1-3-4-tube-2k" },
-  { name: '2 3/8" tube (3.5k)', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/2-3-8-tube-3-5k" },
-  { name: '3" tube (5.2k–7k)', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/3-tube-5-2k-7k" },
-  { name: '3.5" tube (8k)', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/3-5-tube-8k" },
-  { name: '4" tube (9k)', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/4-tube-9k" },
-  { name: '5" tube (10k–12k)', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/5-tube-10k-12k" },
+  { name: '1 ¾" tube (2k)', description: 'For 2,000 lb axles with 1¾\" round tube.', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/1-3-4-tube-2k" },
+  { name: '2 3/8" tube (3.5k)', description: 'For 3,500 lb axles with 2 3/8\" round tube.', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/2-3-8-tube-3-5k" },
+  { name: '3" tube (5.2k–7k)', description: 'For 5,200–7,000 lb axles with 3\" round tube.', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/3-tube-5-2k-7k" },
+  { name: '3.5" tube (8k)', description: 'For 8,000 lb axles with 3.5\" round tube.', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/3-5-tube-8k" },
+  { name: '4" tube (9k)', description: 'For 9,000 lb axles with 4\" round tube.', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/4-tube-9k" },
+  { name: '5" tube (10k–12k)', description: 'For 10,000–12,000 lb axles with 5\" round tube.', href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits/5-tube-10k-12k" },
 ];
+
+export const metadata = { title: 'Round U-Bolt Kits' };
 
 export default function RoundUBoltKitsPage() {
   return (
@@ -20,7 +22,7 @@ export default function RoundUBoltKitsPage() {
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {subcategories.map((sub) => (
-          <CategoryCard key={sub.href} name={sub.name} href={sub.href} />
+          <CategoryCard key={sub.href} name={sub.name} href={sub.href} description={sub.description} />
         ))}
       </div>
     </main>

@@ -44,14 +44,16 @@ const categories = [
   {
     name: "Trailer Hardware",
     href: "/categories/trailer-hardware",
-    description: "Ramps, wheel chocks, and general trailer hardware.",
+    description: "E-tracks, D-rings, hinges, latches, chains, bolts, ramps, wheel chocks, and much more.",
   },
   {
     name: "Boat Trailer Parts",
     href: "/categories/boat-trailer-parts",
-    description: "Winches, straps, rollers, and boat-trailer-specific components.",
+    description: "Winches, rollers, jacks, bunks, guides, safety chains, and marine hardware.",
   },
 ];
+
+export const metadata = { title: 'Browse by category' };
 
 export default function CategoriesPage() {
   return (

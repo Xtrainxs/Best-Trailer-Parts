@@ -1,9 +1,11 @@
 import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: 'EQ-RUB6/8 Equalizer' };
+
 export default function EQRUB68Page() {
   return (
-    <main className="max-w-2xl mx-auto py-12 px-6">
+    <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">EQ-RUB6/8 Equalizer</h1>
       <p className="mb-8 text-[#05203C]">EQ-RUB6/8 equalizers feature rubber cushioning for enhanced shock absorption and quieter operation, ideal for trailers that require extra comfort and protection for cargo.</p>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available EQ-RUB6/8 Equalizers</h2>

@@ -1,6 +1,8 @@
 import RequestQuoteCTA from '@/components/request-quote-cta';
 import RangeDisclaimer from '@/components/range-disclaimer';
 
+export const metadata = { title: 'LED Tail Lights' };
+
 export default function LedTailLights() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
@@ -22,7 +24,7 @@ export default function LedTailLights() {
                 alt={`LED Tail Light ${idx + 1}`}
                 className="h-36 w-auto object-contain mb-2"
               />
-              <span className="text-slate-700 text-sm text-center">{`Image ${idx + 1}`}</span>
+              
             </div>
           ))}
         </div>

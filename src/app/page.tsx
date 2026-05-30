@@ -1,43 +1,21 @@
-import fs from 'fs';
-import path from 'path';
 import ImageStrip from '@/components/image-strip';
 
-function getRepresentativeImages(): string[] {
-  const imagesDir = path.join(process.cwd(), 'public', 'images');
-  const result: string[] = [];
-
-  function findFirstImage(dir: string): string | null {
-    let entries: fs.Dirent[];
-    try { entries = fs.readdirSync(dir, { withFileTypes: true }); } catch { return null; }
-    for (const e of entries) {
-      if (e.isFile() && /\.(jpe?g|png|webp|gif)$/i.test(e.name)) {
-        return path.join(dir, e.name);
-      }
-    }
-    for (const e of entries) {
-      if (e.isDirectory()) {
-        const found = findFirstImage(path.join(dir, e.name));
-        if (found) return found;
-      }
-    }
-    return null;
-  }
-
-  let topDirs: fs.Dirent[];
-  try { topDirs = fs.readdirSync(imagesDir, { withFileTypes: true }).filter(e => e.isDirectory()); }
-  catch { return []; }
-
-  for (const d of topDirs) {
-    const img = findFirstImage(path.join(imagesDir, d.name));
-    if (img) {
-      result.push(img.replace(path.join(process.cwd(), 'public'), '').replace(/\\/g, '/'));
-    }
-  }
-  return result;
-}
+const stripImages = [
+  '/images/Trailer Hardware/D-Rings.jpg',
+  '/images/Trailer Hardware/U-Bolt Plate.jpg',
+  '/images/Trailer Hardware/Equalizer Nut-Bolt-Bush.jpg',
+  '/images/Trailer Hardware/Bolts from India.jpg',
+  '/images/Trailer Hardware/Trailer Part Nuts.jpg',
+  '/images/Trailer Hardware/Bullet Hinges.jpg',
+  '/images/Trailer Hardware/D-Ring.jpg',
+  '/images/Trailer Hardware/Trailer U-Bolt Kit.jpg',
+  '/images/Leaf Springs/Heavy Duty Leaf Springs/Picture4.png',
+  '/images/Brake Drums/7 Inch Brake Drum Kit/Kit.png',
+  '/images/Trailer Hardware/Heavy Duty Hardware 1.png',
+  '/images/Trailer Hardware/Heavy Duty Hardware 5.png',
+];
 
 export default function Home() {
-  const stripImages = getRepresentativeImages();
   return (
     <div className="max-w-7xl mx-auto px-6">
       {/* Hero */}
