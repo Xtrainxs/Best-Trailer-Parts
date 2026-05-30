@@ -1,9 +1,11 @@
 import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: 'EQ-SL14/16/18 Equalizer' };
+
 export default function EQSL141618Page() {
   return (
-    <main className="max-w-2xl mx-auto py-12 px-6">
+    <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">EQ-SL14/16/18 Equalizer</h1>
       <p className="mb-8 text-[#05203C]">EQ-SL14/16/18 equalizers are versatile components for multi-axle trailers, supporting a range of suspension setups and load capacities.</p>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available EQ-SL14/16/18 Equalizers</h2>

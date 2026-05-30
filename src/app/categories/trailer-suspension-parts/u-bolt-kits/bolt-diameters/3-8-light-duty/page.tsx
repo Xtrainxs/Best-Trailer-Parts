@@ -1,8 +1,10 @@
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: '3/8\\" (Light Duty) Bolt Diameter' };
+
 export default function Bolt38Page() {
   return (
-    <main className="max-w-2xl mx-auto py-12 px-6">
+    <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-xl font-bold mb-6 text-[#05203C]">3/8" (Light Duty) Bolt Diameter</h1>
       <p className="mb-8 text-[#05203C]">3/8" light duty bolts are used for smaller trailers and light suspension applications, offering secure fastening for less demanding loads.</p>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available 3/8" Light Duty Bolts</h2>

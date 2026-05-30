@@ -2,9 +2,11 @@ import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 import RangeDisclaimer from '@/components/range-disclaimer';
 
+export const metadata = { title: 'Suspension Fasteners' };
+
 export default function SuspensionFastenersPage() {
   return (
-    <main className="max-w-2xl mx-auto py-12 px-6">
+    <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Suspension Fasteners</h1>
       <p className="mb-4 text-[#05203C]">Suspension fasteners include bolts, nuts, and washers designed for secure assembly of trailer suspension systems. These components are critical for safety and durability.</p>
       <RangeDisclaimer

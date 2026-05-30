@@ -1,9 +1,11 @@
 import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: 'HD Shackles' };
+
 export default function HDShacklesPage() {
   return (
-    <main className="max-w-2xl mx-auto py-12 px-6">
+    <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">HD Shackles</h1>
       <p className="mb-8 text-[#05203C]">Heavy-duty shackles are built for trailers that require extra strength and durability. These shackles are ideal for commercial and heavy-haul applications.</p>
       <div className="w-full flex justify-center items-center bg-blue-900 rounded-lg mb-8 p-4 gap-8">

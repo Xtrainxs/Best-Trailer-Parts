@@ -1,9 +1,11 @@
 import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: 'Bronze Bushings' };
+
 export default function BronzeBushingsPage() {
   return (
-    <main className="max-w-2xl mx-auto py-12 px-6">
+    <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Bronze Bushings</h1>
       <p className="mb-8 text-[#05203C]">Bronze bushings are known for their durability and resistance to wear, making them suitable for heavy-duty and commercial trailers.</p>
       <h2 className="text-xl font-semibold mb-4 text-[#05203C]">Bronze Bushings Gallery</h2>

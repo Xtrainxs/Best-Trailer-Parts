@@ -1,5 +1,7 @@
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: 'Wiring & Connector Kits' };
+
 export default function WiringConnectorKits() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">

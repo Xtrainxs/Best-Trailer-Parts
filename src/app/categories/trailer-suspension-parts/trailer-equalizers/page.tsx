@@ -1,3 +1,5 @@
+export const metadata = { title: 'Trailer Equalizers' };
+
 export default function TrailerEqualizersPage() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
@@ -15,7 +17,7 @@ export default function TrailerEqualizersPage() {
                 className="h-[8.4rem] w-full object-contain object-center"
               />
             </div>
-            <span className="text-slate-700 text-sm text-center">{img}</span>
+            
           </div>
         ))}
       </div>

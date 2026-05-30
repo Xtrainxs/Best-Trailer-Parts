@@ -2,6 +2,8 @@ import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 import RangeDisclaimer from '@/components/range-disclaimer';
 
+export const metadata = { title: 'Jack Accessories' };
+
 export default function JackAccessories() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">

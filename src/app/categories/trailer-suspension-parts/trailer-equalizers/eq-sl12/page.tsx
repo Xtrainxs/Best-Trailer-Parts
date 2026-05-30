@@ -1,9 +1,11 @@
 import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: 'EQ-SL12 Equalizer' };
+
 export default function EQSL12Page() {
   return (
-    <main className="max-w-2xl mx-auto py-12 px-6">
+    <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">EQ-SL12 Equalizer</h1>
       <p className="mb-8 text-[#05203C]">EQ-SL12 equalizers are designed for specialty suspension setups, providing reliable load transfer and smooth operation for custom trailer builds.</p>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available EQ-SL12 Equalizers</h2>

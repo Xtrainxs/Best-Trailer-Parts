@@ -1,9 +1,11 @@
 import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: 'Specialty Hanger Kits' };
+
 export default function SpecialtyHangerKitsPage() {
   return (
-    <main className="max-w-2xl mx-auto py-12 px-6">
+    <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Specialty Hanger Kits</h1>
       <p className="mb-8 text-[#05203C]">Specialty hanger kits are tailored for unique trailer configurations, offering custom solutions for specialized suspension needs. These kits are perfect for trailers with non-standard designs or specific performance requirements.</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
@@ -26,7 +28,7 @@ export default function SpecialtyHangerKitsPage() {
                 className="h-[8.4rem] w-full object-contain object-center mix-blend-multiply brightness-110"
               />
             </div>
-            <span className="text-slate-700 text-sm text-center">{img}</span>
+            
           </div>
         ))}
       </div>

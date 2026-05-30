@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: 'A-Frame Couplers' };
+
 export default function AFrameCouplers() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
@@ -19,7 +21,7 @@ export default function AFrameCouplers() {
               alt={`A-Frame Coupler ${idx + 1}`}
               className="h-36 w-auto object-contain mb-2"
             />
-            <span className="text-slate-700 text-sm text-center">{`Image ${idx + 1}`}</span>
+            
           </div>
         ))}
       </div>

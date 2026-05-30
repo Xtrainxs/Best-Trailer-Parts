@@ -1,6 +1,8 @@
 import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: 'Single-Axle Hanger Kits' };
+
 export default function SingleAxleHangerKitsPage() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
@@ -41,16 +43,16 @@ export default function SingleAxleHangerKitsPage() {
         <table className="min-w-full bg-white border border-slate-200 rounded-lg mb-8">
           <thead>
             <tr className="bg-slate-100">
-              <th className="text-left">TPM Part Number</th>
-              <th className="text-left">Kit Type</th>
-              <th className="text-left">Contents/Specs</th>
+              <th className="py-2 px-4 border-b text-left">TPM Part Number</th>
+              <th className="py-2 px-4 border-b text-left">Kit Type</th>
+              <th className="py-2 px-4 border-b text-left">Contents/Specs</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td className="font-semibold whitespace-nowrap">BTP-HK1002</td>
-              <td>Double-Eye</td>
-              <td>
+              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">BTP-HK1002</td>
+              <td className="py-2 px-4 border-b">Double-Eye</td>
+              <td className="py-2 px-4 border-b">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: `
@@ -65,9 +67,9 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">BTP-HK1003</td>
-              <td>Double-Eye</td>
-              <td>
+              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">BTP-HK1003</td>
+              <td className="py-2 px-4 border-b">Double-Eye</td>
+              <td className="py-2 px-4 border-b">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: `
@@ -82,9 +84,9 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">BTP-HK1004</td>
-              <td>Double-Eye</td>
-              <td>
+              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">BTP-HK1004</td>
+              <td className="py-2 px-4 border-b">Double-Eye</td>
+              <td className="py-2 px-4 border-b">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: `
@@ -99,9 +101,9 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">BTP-HK1005</td>
-              <td>Double-Eye</td>
-              <td>
+              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">BTP-HK1005</td>
+              <td className="py-2 px-4 border-b">Double-Eye</td>
+              <td className="py-2 px-4 border-b">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: `
@@ -116,9 +118,9 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">BTP-HK2006</td>
-              <td>Slipper</td>
-              <td>
+              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">BTP-HK2006</td>
+              <td className="py-2 px-4 border-b">Slipper</td>
+              <td className="py-2 px-4 border-b">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: `
@@ -132,9 +134,9 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">BTP-HK2007</td>
-              <td>Slipper</td>
-              <td>
+              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">BTP-HK2007</td>
+              <td className="py-2 px-4 border-b">Slipper</td>
+              <td className="py-2 px-4 border-b">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: `
@@ -148,9 +150,9 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">BTP-HK3008</td>
-              <td>Double-Eye</td>
-              <td>
+              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">BTP-HK3008</td>
+              <td className="py-2 px-4 border-b">Double-Eye</td>
+              <td className="py-2 px-4 border-b">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: `
@@ -164,9 +166,9 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">BTP-HK4009</td>
-              <td>Double-Eye</td>
-              <td>
+              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">BTP-HK4009</td>
+              <td className="py-2 px-4 border-b">Double-Eye</td>
+              <td className="py-2 px-4 border-b">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: `
@@ -179,9 +181,9 @@ export default function SingleAxleHangerKitsPage() {
               </td>
             </tr>
             <tr>
-              <td className="font-semibold whitespace-nowrap">BTP-HK4010</td>
-              <td>Double-Eye</td>
-              <td>
+              <td className="py-2 px-4 border-b font-semibold whitespace-nowrap">BTP-HK4010</td>
+              <td className="py-2 px-4 border-b">Double-Eye</td>
+              <td className="py-2 px-4 border-b">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: `

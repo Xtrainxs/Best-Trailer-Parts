@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: '12\\" Electric Brake Assemblies' };
+
 export default function BrakeAssembly12inElectric() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
@@ -19,7 +21,7 @@ export default function BrakeAssembly12inElectric() {
                 className="h-[8.4rem] w-full object-contain object-center"
               />
             </div>
-            <span className="text-slate-700 text-sm text-center">{img}</span>
+            
           </div>
         ))}
       </div>

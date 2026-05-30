@@ -1,8 +1,10 @@
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: '9/16\\" (Heavy Duty) Bolt Diameter' };
+
 export default function Bolt916Page() {
   return (
-    <main className="max-w-2xl mx-auto py-12 px-6">
+    <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-xl font-bold mb-6 text-[#05203C]">9/16" (Heavy Duty) Bolt Diameter</h1>
       <p className="mb-8 text-[#05203C]">9/16" heavy duty bolts are designed for high-strength suspension applications, providing secure fastening for larger trailers and heavy loads.</p>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available 9/16" Heavy Duty Bolts</h2>

@@ -10,6 +10,8 @@ const subcategories = [
   { name: '12" Brake Drum Kit — 7,000 lb. Axles, 8 on 6.5"', href: "/categories/brake-drums/12in-7000-8x65" },
 ];
 
+export const metadata = { title: 'Brake Drums' };
+
 export default function BrakeDrumsPage() {
   return (
     <main className="max-w-6xl mx-auto py-12 px-6">

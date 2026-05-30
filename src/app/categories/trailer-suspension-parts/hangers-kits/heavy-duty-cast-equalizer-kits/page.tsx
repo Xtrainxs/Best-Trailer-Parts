@@ -1,5 +1,7 @@
 import React from "react";
 
+export const metadata = { title: 'Heavy Duty Cast Equalizer Kits' };
+
 export default function HeavyDutyCastEqualizerKitsPage() {
   return (
     <main className="max-w-3xl mx-auto py-12 px-6">

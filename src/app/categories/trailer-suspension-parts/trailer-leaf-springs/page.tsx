@@ -1,11 +1,13 @@
 import CategoryCard from "@/components/category-card";
 
 const subcategories = [
-  { name: "Double-Eye Leaf Springs", href: "/categories/trailer-suspension-parts/trailer-leaf-springs/double-eye-leaf-springs" },
-  { name: "Slipper Leaf Springs", href: "/categories/trailer-suspension-parts/trailer-leaf-springs/slipper-leaf-springs" },
-  { name: "Heavy-Duty Multi-Leaf Springs", href: "/categories/trailer-suspension-parts/trailer-leaf-springs/heavy-duty-multi-leaf-springs" },
-  { name: "Parabolic Leaf Springs", href: "/categories/trailer-suspension-parts/trailer-leaf-springs/parabolic-leaf-springs" },
+  { name: "Double-Eye Leaf Springs", description: "Standard double-eye springs from 1,000 to 8,000 lb capacity.", href: "/categories/trailer-suspension-parts/trailer-leaf-springs/double-eye-leaf-springs" },
+  { name: "Slipper Leaf Springs", description: "Single-eye and slipper-end springs for heavy commercial trailers.", href: "/categories/trailer-suspension-parts/trailer-leaf-springs/slipper-leaf-springs" },
+  { name: "Heavy-Duty Multi-Leaf Springs", description: "Multi-leaf packs for agricultural and heavy-duty applications.", href: "/categories/trailer-suspension-parts/trailer-leaf-springs/heavy-duty-multi-leaf-springs" },
+  { name: "Parabolic Leaf Springs", description: "Tapered parabolic springs for a smoother, lower-friction ride.", href: "/categories/trailer-suspension-parts/trailer-leaf-springs/parabolic-leaf-springs" },
 ];
+
+export const metadata = { title: 'Trailer Leaf Springs' };
 
 export default function TrailerLeafSpringsPage() {
   return (
@@ -19,7 +21,7 @@ export default function TrailerLeafSpringsPage() {
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {subcategories.map((sub) => (
-          <CategoryCard key={sub.name} name={sub.name} href={sub.href} />
+          <CategoryCard key={sub.name} name={sub.name} href={sub.href} description={sub.description} />
         ))}
       </div>
     </main>

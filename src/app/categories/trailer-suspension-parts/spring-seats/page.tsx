@@ -1,9 +1,11 @@
 import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: 'Spring Seats' };
+
 export default function SpringSeatsPage() {
   return (
-    <main className="max-w-2xl mx-auto py-12 px-6">
+    <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Spring Seats</h1>
       <p className="mb-8 text-[#05203C]">Spring seats are essential components that provide a stable mounting surface for trailer leaf springs, ensuring proper alignment and load distribution.</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
@@ -14,7 +16,7 @@ export default function SpringSeatsPage() {
               alt={`Spring Seat ${idx + 1}`}
               className="h-36 w-auto object-contain mb-2"
             />
-            <span className="text-slate-700 text-sm text-center">{`Image ${idx + 1}`}</span>
+            
           </div>
         ))}
       </div>

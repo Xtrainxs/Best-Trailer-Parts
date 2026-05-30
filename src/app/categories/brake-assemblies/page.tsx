@@ -7,6 +7,8 @@ const subcategories = [
   { name: '12" Electric Trailer Brakes', href: "/categories/brake-assemblies/12in-electric" },
 ];
 
+export const metadata = { title: 'Brake Assemblies' };
+
 export default function BrakeAssembliesPage() {
   return (
     <main className="max-w-6xl mx-auto py-12 px-6">

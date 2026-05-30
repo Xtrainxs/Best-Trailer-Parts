@@ -2,9 +2,11 @@ import React from "react";
 import RangeDisclaimer from '@/components/range-disclaimer';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: 'Nylon Bushings' };
+
 export default function NylonBushingsPage() {
   return (
-    <main className="max-w-2xl mx-auto py-12 px-6">
+    <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Nylon Bushings</h1>
       <p className="mb-4 text-[#05203C]">Nylon bushings offer smooth movement and corrosion resistance for trailer suspension systems. They are lightweight and ideal for light-duty trailers.</p>
       <RangeDisclaimer

@@ -1,8 +1,10 @@
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: '5/8\\" (Extra Heavy Duty) Bolt Diameter' };
+
 export default function Bolt58Page() {
   return (
-    <main className="max-w-2xl mx-auto py-12 px-6">
+    <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-xl font-bold mb-6 text-[#05203C]">5/8" (Extra Heavy Duty) Bolt Diameter</h1>
       <p className="mb-8 text-[#05203C]">5/8" extra heavy duty bolts are built for the most demanding trailer suspension systems, providing maximum strength and durability for commercial and industrial use.</p>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available 5/8" Extra Heavy Duty Bolts</h2>

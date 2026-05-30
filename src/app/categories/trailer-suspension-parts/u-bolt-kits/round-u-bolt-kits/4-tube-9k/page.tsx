@@ -1,6 +1,8 @@
 import Link from "next/link";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
+export const metadata = { title: '4\\" Tube (9k) Round U-bolt Kit' };
+
 export default function RoundUBoltKit4Tube9k() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
