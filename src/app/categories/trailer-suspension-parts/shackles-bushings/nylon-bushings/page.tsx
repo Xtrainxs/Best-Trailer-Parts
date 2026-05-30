@@ -9,7 +9,7 @@ export default function NylonBushingsPage() {
       <p className="mb-4 text-[#05203C]">Nylon bushings offer smooth movement and corrosion resistance for trailer suspension systems. They are lightweight and ideal for light-duty trailers.</p>
       <RangeDisclaimer
         intro="Our nylon bushings range includes:"
-        items="1&quot;, 1.125&quot;, 1.25&quot; &amp; 1.375&quot; OD sizes, Standard &amp; Heavy-Wall thicknesses, Shackle Bushing sets (pair), Spring Eye Bushings, Equalizer Bushings, Natural &amp; Black Nylon, compatible with all standard trailer shackles &amp; equalizers, sold individually or in bulk."
+        items={["1\" OD","1.125\" OD","1.25\" OD","1.375\" OD","Standard Wall","Heavy Wall","Shackle Bushing Sets (pair)","Spring Eye Bushings","Equalizer Bushings","Natural Nylon","Black Nylon","Sold individually or in bulk"]}
       />
       {/* Gallery below table removed */}
       <h2 className="text-xl font-semibold mb-4 text-[#05203C]">Nylon Bushings Gallery</h2>

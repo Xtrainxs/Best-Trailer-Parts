@@ -9,7 +9,7 @@ export default function SingleAxleHangerKitsPage() {
       <p className="mb-4 text-[#05203C]">Single-axle hanger kits provide all the essential components for mounting leaf springs to a trailer frame. These kits are designed for straightforward installation and reliable performance, making them ideal for utility and light-duty trailers.</p>
       <RangeDisclaimer
         intro="Our single-axle hanger kits range includes:"
-        items="2,000 lb, 3,500 lb &amp; 5,200 lb capacity kits, Front, Center &amp; Rear Hanger configurations, Complete Hardware Sets (hangers, shackles, bolts, nuts &amp; bushings), Weld-On &amp; Bolt-On styles, Zinc-Plated &amp; Powder Coat finishes, and individual replacement hangers."
+        items={["2,000 lb capacity","3,500 lb capacity","5,200 lb capacity","Front Hanger","Center Hanger","Rear Hanger","Complete Hardware Sets","Weld-On style","Bolt-On style","Zinc-Plated","Powder Coat","Individual replacement hangers"]}
       />
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
         {["1.png"].map((img, idx) => (

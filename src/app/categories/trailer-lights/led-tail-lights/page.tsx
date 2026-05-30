@@ -8,7 +8,7 @@ export default function LedTailLights() {
       <p className="text-lg text-gray-700 mb-4">High-visibility, long-lasting LED tail lights for trailers. DOT/SAE compliant, waterproof, and vibration-resistant.</p>
       <RangeDisclaimer
         intro="Our LED tail lights range includes:"
-        items="Round LED Stop/Turn/Tail Lights (3&quot;, 4&quot;, 6&quot;), Oval LED Tail Lights, Submersible LED Tail Lights, Sealed LED Combination Lights, Red &amp; Amber LED options, Stud-Mount &amp; Grommet-Mount, DOT/FMVSS 108 compliant, Waterproof IP67 rated, Surface &amp; Recess-Mount models."
+        items={["Round LED (3\", 4\", 6\")","Oval LED Tail Lights","Submersible LED","Sealed Combination Lights","Red & Amber options","Stud-Mount","Grommet-Mount","DOT/FMVSS 108 compliant","Waterproof IP67","Surface & Recess-Mount"]}
       />
       <div className="overflow-x-auto mb-8">
         <div className="flex flex-nowrap gap-4 min-w-max">

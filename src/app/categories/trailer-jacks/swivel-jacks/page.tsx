@@ -11,7 +11,7 @@ export default function SwivelJacks() {
       </p>
       <RangeDisclaimer
         intro="Our swivel jacks range includes:"
-        items="1,500 lb, 2,500 lb &amp; 3,500 lb capacity, Manual Swivel, Heavy-Duty Swivel models, Black Powder Coat, Zinc &amp; Galvanized finishes, Bolt-On &amp; Weld-On mounting, with and without caster wheels, and models with integrated foot plates."
+        items={["1,500 lb capacity","2,500 lb capacity","3,500 lb capacity","Manual Swivel","Heavy-Duty Swivel","Black Powder Coat","Zinc & Galvanized","Bolt-On & Weld-On","With Caster Wheels","With Integrated Foot Plate"]}
       />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
         {["1.png", "2.png", "3.png"].map((img, idx) => (

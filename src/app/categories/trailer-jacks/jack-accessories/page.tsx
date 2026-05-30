@@ -11,7 +11,7 @@ export default function JackAccessories() {
       </p>
       <RangeDisclaimer
         intro="Our jack accessories range includes:"
-        items="Jack Pads (rubber &amp; plastic), Caster Wheels (single &amp; dual), Jack Foot Plates, Jack Handles &amp; Crank Handles, Jack Mounting Brackets, Replacement Leg Pins, Jack Covers &amp; Protective Caps, and Stabilizer Bar Kits."
+        items={["Jack Pads (rubber & plastic)","Caster Wheels (single & dual)","Jack Foot Plates","Jack Handles & Cranks","Mounting Brackets","Replacement Leg Pins","Protective Covers","Stabilizer Bar Kits"]}
       />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         {[

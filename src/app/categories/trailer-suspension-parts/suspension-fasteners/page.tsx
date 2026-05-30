@@ -9,7 +9,7 @@ export default function SuspensionFastenersPage() {
       <p className="mb-4 text-[#05203C]">Suspension fasteners include bolts, nuts, and washers designed for secure assembly of trailer suspension systems. These components are critical for safety and durability.</p>
       <RangeDisclaimer
         intro="Our suspension fasteners range includes:"
-        items="Equalizer Bolts, Shackle Bolts, Lock Nuts &amp; Nyloc Nuts, Flat Washers, Spring Washers, U-Bolt Nuts, Carriage Bolts, Hex Head Bolts (Grade 5 &amp; Grade 8), Stainless Steel Bolts &amp; Nuts, Zinc-Plated Fastener Sets, Suspension Bolt Kits, and more — in all standard imperial and metric sizes."
+        items={["Equalizer Bolts","Shackle Bolts","Lock Nuts & Nyloc Nuts","Flat Washers","Spring Washers","U-Bolt Nuts","Carriage Bolts","Hex Head Bolts (Grade 5 & Grade 8)","Stainless Steel Bolts & Nuts","Zinc-Plated Fastener Sets","Suspension Bolt Kits","All standard imperial & metric sizes"]}
       />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         {[

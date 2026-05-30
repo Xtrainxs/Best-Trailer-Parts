@@ -11,7 +11,7 @@ export default function SideWindJacks() {
       </p>
       <RangeDisclaimer
         intro="Our side-wind jacks range includes:"
-        items="2,000 lb, 3,500 lb &amp; 5,000 lb capacity, 1-Speed &amp; 2-Speed Gear models, 8&quot;, 10&quot; &amp; 12&quot; travel, Bolt-On &amp; Weld-On mounting, With &amp; Without Wheels (solid rubber or pneumatic), Zinc-Plated &amp; Black Powder Coat, and Heavy-Duty Square Tube models."
+        items={["2,000 lb capacity","3,500 lb capacity","5,000 lb capacity","1-Speed Gear","2-Speed Gear","8\" travel","10\" travel","12\" travel","Bolt-On & Weld-On","With & Without Wheels","Zinc-Plated","Black Powder Coat","Heavy-Duty Square Tube"]}
       />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
         {["1.png", "2.png", "3.png"].map((img, idx) => (

@@ -1,5 +1,6 @@
 import { readdir } from "fs/promises";
 import path from "path";
+import RangeDisclaimer from '@/components/range-disclaimer';
 
 const imageExtensions = new Set([".png", ".jpg", ".jpeg", ".webp", ".avif", ".gif"]);
 
@@ -29,17 +30,10 @@ export default async function TrailerHardwarePage() {
         We carry all kinds of trailer hardware and accessories — pictures below are for
         reference only and represent a small sample of what is available.
       </p>
-      <div className="bg-slate-50 border border-slate-200 rounded-xl px-6 py-4 mb-8 text-sm text-slate-700 leading-relaxed">
-        <span className="font-semibold text-[#05203C]">Our trailer hardware range includes:</span>{' '}
-        E-Tracks &amp; E-Track Fittings, L-Tracks, D-Rings &amp; D-Ring Brackets, Trailer Safety
-        Chains, Ratchet Straps &amp; Tie-Downs, Cargo Winch Bars, Trailer Bolts, Nuts &amp; Washers,
-        Weld-On Hinges, Door Butt Hinges, Bullet Hinges, Center Hinges, Lock Hinges, Hasp Locks,
-        Door Assembly Locks, Tipper Latches, Rubber Hood Latches, Toggle Catch Locks,
-        Ramp Locks, Wheel Chocks, Trailer Ramps, Shackle Kits, Steel Pin Hinges,
-        Equalizer Nuts &amp; Bolts, Aluminum Tracks &amp; Fittings, Junction Box Brackets,
-        and much more. <a href="/request-form" className="text-sky-700 hover:underline font-medium">Request a quote</a> for
-        any item not shown.
-      </div>
+      <RangeDisclaimer
+        intro="Our trailer hardware range includes:"
+        items={["E-Tracks & E-Track Fittings","L-Tracks & Fittings","D-Rings & D-Ring Brackets","Trailer Safety Chains","Ratchet Straps & Tie-Downs","Cargo Winch Bars","Trailer Bolts, Nuts & Washers","Weld-On Hinges","Door Butt Hinges","Bullet Hinges","Center Hinges","Lock Hinges","Hasp Locks","Door Assembly Locks","Tipper Latches","Rubber Hood Latches","Toggle Catch Locks","Ramp Locks","Wheel Chocks","Trailer Ramps","Shackle Kits","Steel Pin Hinges","Equalizer Nuts & Bolts","Aluminum Track Systems","Junction Box Brackets"]}
+      />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
         {hardwareImages.map((img, idx) => {
