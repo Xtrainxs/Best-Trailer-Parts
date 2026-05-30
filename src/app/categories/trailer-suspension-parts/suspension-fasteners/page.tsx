@@ -1,22 +1,19 @@
 import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
+import RangeDisclaimer from '@/components/range-disclaimer';
 
 export default function SuspensionFastenersPage() {
   return (
     <main className="max-w-2xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Suspension Fasteners</h1>
-      <p className="mb-8 text-[#05203C]">Suspension fasteners include bolts, nuts, and washers designed for secure assembly of trailer suspension systems. These components are critical for safety and durability.</p>
+      <p className="mb-4 text-[#05203C]">Suspension fasteners include bolts, nuts, and washers designed for secure assembly of trailer suspension systems. These components are critical for safety and durability.</p>
+      <RangeDisclaimer
+        intro="Our suspension fasteners range includes:"
+        items="Equalizer Bolts, Shackle Bolts, Lock Nuts &amp; Nyloc Nuts, Flat Washers, Spring Washers, U-Bolt Nuts, Carriage Bolts, Hex Head Bolts (Grade 5 &amp; Grade 8), Stainless Steel Bolts &amp; Nuts, Zinc-Plated Fastener Sets, Suspension Bolt Kits, and more — in all standard imperial and metric sizes."
+      />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         {[
-          "Equalizer Bolts 1.png",
-          "Equalizer Bolts.png",
           "Lock Nuts 1.png",
-          "Lock Nuts 2.png",
-          "Lock Nuts.png",
-          "Shackle Bolt 1.png",
-          "Shackle Bolt 2.png",
-          "Shackle Bolt.png",
-          "Shackle Strap.png",
         ].map((img, idx) => (
           <div
             key={img}

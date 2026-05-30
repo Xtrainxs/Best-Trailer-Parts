@@ -1,13 +1,18 @@
 import React from "react";
+import RangeDisclaimer from '@/components/range-disclaimer';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function SingleAxleHangerKitsPage() {
   return (
     <main className="max-w-2xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Single-Axle Hanger Kits</h1>
-      <p className="mb-8 text-[#05203C]">Single-axle hanger kits provide all the essential components for mounting leaf springs to a trailer frame. These kits are designed for straightforward installation and reliable performance, making them ideal for utility and light-duty trailers.</p>
+      <p className="mb-4 text-[#05203C]">Single-axle hanger kits provide all the essential components for mounting leaf springs to a trailer frame. These kits are designed for straightforward installation and reliable performance, making them ideal for utility and light-duty trailers.</p>
+      <RangeDisclaimer
+        intro="Our single-axle hanger kits range includes:"
+        items="2,000 lb, 3,500 lb &amp; 5,200 lb capacity kits, Front, Center &amp; Rear Hanger configurations, Complete Hardware Sets (hangers, shackles, bolts, nuts &amp; bushings), Weld-On &amp; Bolt-On styles, Zinc-Plated &amp; Powder Coat finishes, and individual replacement hangers."
+      />
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-        {["1.png", "2.png"].map((img, idx) => (
+        {["1.png"].map((img, idx) => (
           <div
             key={img}
             className="bg-white border border-slate-200 rounded-lg shadow-sm p-4 flex flex-col items-center w-full"

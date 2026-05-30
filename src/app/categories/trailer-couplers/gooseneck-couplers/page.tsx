@@ -1,15 +1,20 @@
 import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
+import RangeDisclaimer from '@/components/range-disclaimer';
 
 export default function GooseneckCouplers() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
       <h1 className="text-4xl font-bold mb-4">Gooseneck Couplers</h1>
-      <p className="text-lg text-gray-700 mb-6">
+      <p className="text-lg text-gray-700 mb-4">
         Gooseneck couplers are built for gooseneck trailers and provide a secure connection for heavy-duty towing.
       </p>
+      <RangeDisclaimer
+        intro="Our gooseneck couplers range includes:"
+        items="Round Ball Gooseneck Couplers, Flat-Plate Gooseneck Couplers, Adjustable Gooseneck Couplers, 2-5/16&quot; Ball (20,000–30,000 lb GTW), Pintle Ring Adapters, Heavy-Duty Forged Steel, Powder Coat &amp; Zinc finishes, and custom fabrication available."
+      />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-        {["1.png", "2.png", "3.png", "4.png"].map((img, idx) => (
+        {["3.png"].map((img, idx) => (
           <div
             key={img}
             className="bg-white border border-slate-200 rounded-lg shadow-sm p-4 flex flex-col items-center w-full"

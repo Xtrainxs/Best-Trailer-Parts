@@ -1,13 +1,18 @@
 import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
+import RangeDisclaimer from '@/components/range-disclaimer';
 
 export default function SwivelJacks() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
       <h1 className="text-4xl font-bold mb-4">Swivel Jacks</h1>
-      <p className="text-lg text-gray-700 mb-6">
+      <p className="text-lg text-gray-700 mb-4">
         Swivel Jacks rotate 360 degrees for maximum flexibility and ease of use. Ideal for trailers that require multi-directional adjustments.
       </p>
+      <RangeDisclaimer
+        intro="Our swivel jacks range includes:"
+        items="1,500 lb, 2,500 lb &amp; 3,500 lb capacity, Manual Swivel, Heavy-Duty Swivel models, Black Powder Coat, Zinc &amp; Galvanized finishes, Bolt-On &amp; Weld-On mounting, with and without caster wheels, and models with integrated foot plates."
+      />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
         {["1.png", "2.png", "3.png"].map((img, idx) => (
           <div

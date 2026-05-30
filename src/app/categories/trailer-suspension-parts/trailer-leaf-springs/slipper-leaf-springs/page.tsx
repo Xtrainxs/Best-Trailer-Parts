@@ -1,15 +1,19 @@
 import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
+import RangeDisclaimer from '@/components/range-disclaimer';
 
 export default function SlipperLeafSpringsPage() {
   return (
     <main className="max-w-2xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Slipper Leaf Springs</h1>
-      <p className="mb-6 text-[#05203C]">Designed for heavy loads, these springs offer durability and effective shock absorption for commercial and agricultural trailers.</p>
-
+      <p className="mb-4 text-[#05203C]">Designed for heavy loads, these springs offer durability and effective shock absorption for commercial and agricultural trailers.</p>
+      <RangeDisclaimer
+        intro="Our slipper leaf springs range includes:"
+        items="Single-Eye Slipper Springs, Hook-End Slipper Springs, Radius-End Slipper Springs, Light-Duty (1,000 lb), Standard (2,500 lb), Heavy-Duty (4,000 lb), Extra Heavy-Duty (8,000–12,000 lb), Galvanized finish, Black Powder Coat finish, and custom lengths on request."
+      />
       <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available Slipper Leaf Springs</h2>
       <div className="flex flex-row gap-6 justify-center items-center mb-8">
-        {[1,2,3,4].map(i => (
+        {[1].map(i => (
           <div key={i} className="flex flex-col items-center bg-white border border-slate-200 rounded-xl shadow-sm" style={{ width: '140px', height: '180px', justifyContent: 'center' }}>
             <img src={`/images/Leaf Springs/Slipper Leaf Springs/Picture${i}.png`} alt={`Slipper Leaf Spring ${i}`} className="w-full h-32 object-contain bg-slate-100 rounded-md" style={{ background: '#1a1a1a' }} />
             <span className="mt-2 text-sm text-slate-700 text-center">Slipper Leaf Spring {i}</span>
