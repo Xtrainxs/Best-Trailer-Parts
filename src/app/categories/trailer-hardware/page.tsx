@@ -25,9 +25,21 @@ export default async function TrailerHardwarePage() {
   return (
     <main className="max-w-6xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Trailer Hardware</h1>
-      <p className="text-lg text-gray-700 mb-8">
-        Browse trailer hardware products and accessories in this category.
+      <p className="text-lg text-slate-700 mb-4">
+        We carry all kinds of trailer hardware and accessories — pictures below are for
+        reference only and represent a small sample of what is available.
       </p>
+      <div className="bg-slate-50 border border-slate-200 rounded-xl px-6 py-4 mb-8 text-sm text-slate-700 leading-relaxed">
+        <span className="font-semibold text-[#05203C]">Our trailer hardware range includes:</span>{' '}
+        E-Tracks &amp; E-Track Fittings, L-Tracks, D-Rings &amp; D-Ring Brackets, Trailer Safety
+        Chains, Ratchet Straps &amp; Tie-Downs, Cargo Winch Bars, Trailer Bolts, Nuts &amp; Washers,
+        Weld-On Hinges, Door Butt Hinges, Bullet Hinges, Center Hinges, Lock Hinges, Hasp Locks,
+        Door Assembly Locks, Tipper Latches, Rubber Hood Latches, Toggle Catch Locks,
+        Ramp Locks, Wheel Chocks, Trailer Ramps, Shackle Kits, Steel Pin Hinges,
+        Equalizer Nuts &amp; Bolts, Aluminum Tracks &amp; Fittings, Junction Box Brackets,
+        and much more. <a href="/request-form" className="text-sky-700 hover:underline font-medium">Request a quote</a> for
+        any item not shown.
+      </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
         {hardwareImages.map((img, idx) => {
