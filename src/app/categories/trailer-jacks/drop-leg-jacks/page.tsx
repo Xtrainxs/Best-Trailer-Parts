@@ -1,15 +1,20 @@
 import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
+import RangeDisclaimer from '@/components/range-disclaimer';
 
 export default function DropLegJacks() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
       <h1 className="text-4xl font-bold mb-4">Drop-Leg Jacks</h1>
-      <p className="text-lg text-gray-700 mb-6">
+      <p className="text-lg text-gray-700 mb-4">
         Drop-Leg jacks feature legs that extend downward for extra stability. Great for off-level surfaces and rough terrain.
       </p>
+      <RangeDisclaimer
+        intro="Our drop-leg jacks range includes:"
+        items="7,000 lb, 10,000 lb &amp; 12,000 lb capacity, Manual Crank &amp; Speed Handle models, 2-Speed Gear models, Adjustable Drop-Leg (6&quot;–18&quot; extension), Swivel &amp; Fixed Foot Plates, Bolt-On mounting, Zinc-Plated &amp; Black Powder Coat finishes."
+      />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
-        {["1.png", "2.png", "3.png", "4.png", "5.png"].map((img, idx) => (
+        {["1.png", "2.png", "3.png"].map((img, idx) => (
           <div
             key={img}
             className="bg-white border border-slate-200 rounded-lg shadow-sm p-4 flex flex-col items-center w-full"

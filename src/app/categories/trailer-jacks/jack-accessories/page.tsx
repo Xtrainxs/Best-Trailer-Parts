@@ -1,13 +1,18 @@
 import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
+import RangeDisclaimer from '@/components/range-disclaimer';
 
 export default function JackAccessories() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
       <h1 className="text-4xl font-bold mb-4">Jack Accessories</h1>
-      <p className="text-lg text-gray-700 mb-6">
+      <p className="text-lg text-gray-700 mb-4">
         Complete your jack setup with our selection of accessories including handles, pads, covers, and replacement parts.
       </p>
+      <RangeDisclaimer
+        intro="Our jack accessories range includes:"
+        items="Jack Pads (rubber &amp; plastic), Caster Wheels (single &amp; dual), Jack Foot Plates, Jack Handles &amp; Crank Handles, Jack Mounting Brackets, Replacement Leg Pins, Jack Covers &amp; Protective Caps, and Stabilizer Bar Kits."
+      />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         {[
           'Caster Wheels - Single & Dual.png',

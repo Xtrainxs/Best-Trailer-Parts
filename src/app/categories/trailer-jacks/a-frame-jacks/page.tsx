@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
+import RangeDisclaimer from '@/components/range-disclaimer';
 
 export default function AFrameJacks() {
   return (
@@ -10,11 +11,15 @@ export default function AFrameJacks() {
         </Link>
       </div>
       <h1 className="text-4xl font-bold mb-4">A-Frame Jacks</h1>
-      <p className="text-lg text-gray-700 mb-6">
+      <p className="text-lg text-gray-700 mb-4">
         A-Frame jacks are designed for trailers with A-frame tongues. These manual jacks provide reliable lifting and lowering with their distinctive A-shaped frame.
       </p>
+      <RangeDisclaimer
+        intro="Our A-frame jacks range includes:"
+        items="2,000 lb, 3,500 lb &amp; 5,000 lb capacity, Top-Wind &amp; Side-Wind models, With &amp; Without Wheels (6&quot; rubber or swivel caster), Zinc-Plated &amp; Black Powder Coat finishes, Bolt-On &amp; Weld-On mounting, and Heavy-Duty Forged models available."
+      />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-        {["1.png", "2.png", "3.png", "4.png"].map((img, idx) => (
+        {["1.png"].map((img, idx) => (
           <div
             key={img}
             className="bg-white border border-slate-200 rounded-lg shadow-sm p-4 flex flex-col items-center w-full"

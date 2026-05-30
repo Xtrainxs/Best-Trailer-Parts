@@ -1,10 +1,15 @@
 import RequestQuoteCTA from '@/components/request-quote-cta';
+import RangeDisclaimer from '@/components/range-disclaimer';
 
 export default function LicensePlateLights() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">License Plate Lights</h1>
-      <p className="text-lg text-gray-700 mb-6">Bright, compact license plate lights for trailers. Available in LED and incandescent, surface or bracket mount.</p>
+      <p className="text-lg text-gray-700 mb-4">Bright, compact license plate lights for trailers. Available in LED and incandescent, surface or bracket mount.</p>
+      <RangeDisclaimer
+        intro="Our license plate lights range includes:"
+        items="LED License Plate Lights, Incandescent License Plate Lights, Surface-Mount &amp; Bracket-Mount styles, Combination License + Tail units, Stainless Steel &amp; Plastic housing, Submersible Sealed models, DOT compliant, available with 12&quot; &amp; 18&quot; wire leads."
+      />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         {[
           "1.png",

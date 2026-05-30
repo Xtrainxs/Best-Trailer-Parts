@@ -1,10 +1,15 @@
 import RequestQuoteCTA from '@/components/request-quote-cta';
+import RangeDisclaimer from '@/components/range-disclaimer';
 
 export default function MarkerClearanceLights() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Marker & Clearance Lights</h1>
-      <p className="text-lg text-gray-700 mb-6">LED and incandescent marker/clearance lights for trailer sides and corners. Available in amber and red, waterproof options.</p>
+      <p className="text-lg text-gray-700 mb-4">LED and incandescent marker/clearance lights for trailer sides and corners. Available in amber and red, waterproof options.</p>
+      <RangeDisclaimer
+        intro="Our marker &amp; clearance lights range includes:"
+        items="Amber &amp; Red LED Marker Lights, Oval &amp; Round Clearance Lights, Thin-Line LED Side Markers, Submersible Sealed Marker Lights, Reflective Clearance Lights, 2-Wire &amp; 3-Wire models, Grommet-Mount &amp; Surface-Mount, Waterproof IP67 rated, DOT/FMVSS 108 compliant, sold individually or in kits."
+      />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         {[
           "1.png",

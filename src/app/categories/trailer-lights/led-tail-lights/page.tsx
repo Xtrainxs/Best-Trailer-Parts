@@ -1,10 +1,15 @@
 import RequestQuoteCTA from '@/components/request-quote-cta';
+import RangeDisclaimer from '@/components/range-disclaimer';
 
 export default function LedTailLights() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">LED Tail Lights</h1>
-      <p className="text-lg text-gray-700 mb-6">High-visibility, long-lasting LED tail lights for trailers. DOT/SAE compliant, waterproof, and vibration-resistant.</p>
+      <p className="text-lg text-gray-700 mb-4">High-visibility, long-lasting LED tail lights for trailers. DOT/SAE compliant, waterproof, and vibration-resistant.</p>
+      <RangeDisclaimer
+        intro="Our LED tail lights range includes:"
+        items="Round LED Stop/Turn/Tail Lights (3&quot;, 4&quot;, 6&quot;), Oval LED Tail Lights, Submersible LED Tail Lights, Sealed LED Combination Lights, Red &amp; Amber LED options, Stud-Mount &amp; Grommet-Mount, DOT/FMVSS 108 compliant, Waterproof IP67 rated, Surface &amp; Recess-Mount models."
+      />
       <div className="overflow-x-auto mb-8">
         <div className="flex flex-nowrap gap-4 min-w-max">
           {['1.png', '2.png', '3.png', '4.png', '5.png'].map((img, idx) => (

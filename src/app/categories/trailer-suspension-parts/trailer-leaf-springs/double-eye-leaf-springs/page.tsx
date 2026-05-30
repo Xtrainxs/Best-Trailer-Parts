@@ -1,17 +1,21 @@
 import React from "react";
+import RangeDisclaimer from '@/components/range-disclaimer';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function DoubleEyeLeafSpringsPage() {
   return (
     <main className="max-w-2xl mx-auto py-12 px-2 flex flex-col items-center">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Double-Eye Leaf Springs</h1>
-      <p className="mb-8 text-[#05203C]">Double-Eye Leaf Springs are engineered to deliver reliable support and smooth ride quality for a wide range of trailers. Their dual-eye design ensures secure mounting and consistent load distribution, making them a popular choice for utility, boat, and cargo trailers. Built for durability and performance, these springs help maintain stability and safety on the road.</p>
-
+      <p className="mb-4 text-[#05203C]">Double-Eye Leaf Springs are engineered to deliver reliable support and smooth ride quality for a wide range of trailers. Their dual-eye design ensures secure mounting and consistent load distribution, making them a popular choice for utility, boat, and cargo trailers.</p>
+      <RangeDisclaimer
+        intro="Our double-eye leaf springs range includes:"
+        items="Light-Duty (1,000–2,000 lb), Standard (3,500 lb), Heavy-Duty (5,200–6,000 lb), Extra Heavy-Duty (7,000–8,000 lb), Single-Leaf, Multi-Leaf (2–5 leaves), Equalizer Springs, Galvanized &amp; Black Powder Coat finishes, standard lengths 25&quot;–60&quot;, and custom lengths on request."
+      />
       <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Double Eye Leaf Springs</h2>
       <p className="mb-6 text-[#05203C]">Reliable and versatile, these springs provide smooth ride quality and secure mounting for utility and cargo trailers.</p>
 
       <div className="flex flex-row gap-6 justify-center items-center mb-8">
-        {[1,2,3,4].map(i => (
+        {([3].map(i => (
           <div key={i} className="flex flex-col items-center bg-white border border-slate-200 rounded-xl shadow-sm" style={{ width: '140px', height: '180px', justifyContent: 'center' }}>
             <img src={`/images/Leaf Springs/Double Eye Leaf Springs/Picture${i}.png`} alt={`Double Eye Leaf Spring ${i}`} className="w-full h-32 object-contain bg-slate-100 rounded-md" style={{ background: '#1a1a1a' }} />
             <span className="mt-2 text-sm text-slate-700 text-center">Double Eye Leaf Spring {i}</span>

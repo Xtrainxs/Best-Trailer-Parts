@@ -1,15 +1,19 @@
 import React from "react";
+import RangeDisclaimer from '@/components/range-disclaimer';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export default function ParabolicLeafSpringsPage() {
   return (
     <main className="max-w-2xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Parabolic Leaf Springs</h1>
-      <p className="mb-6 text-[#05203C]">Engineered for comfort, these springs reduce road shock and vibration, delivering a smoother towing experience.</p>
-
+      <p className="mb-4 text-[#05203C]">Engineered for comfort, these springs reduce road shock and vibration, delivering a smoother towing experience.</p>
+      <RangeDisclaimer
+        intro="Our parabolic leaf springs range includes:"
+        items="2-Leaf Parabolic, 3-Leaf Parabolic, Heavy-Duty Parabolic (5,200–8,000 lb), Tapered-Leaf design for reduced inter-leaf friction, Galvanized &amp; Painted finishes, compatible with tandem and triple-axle trailers, and custom specs available."
+      />
       <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available Parabolic Leaf Springs</h2>
       <div className="flex flex-row gap-6 justify-center items-center mb-8">
-        {[1,2,3,4].map(i => (
+        {([3,4].map(i => (
           <div key={i} className="flex flex-col items-center bg-white border border-slate-200 rounded-xl shadow-sm" style={{ width: '140px', height: '180px', justifyContent: 'center' }}>
             <img src={`/images/Leaf Springs/Parabolic Leaf Springs/Picture${i}.png`} alt={`Parabolic Leaf Spring ${i}`} className="w-full h-32 object-contain bg-slate-100 rounded-md" style={{ background: '#1a1a1a' }} />
             <span className="mt-2 text-sm text-slate-700 text-center">Parabolic Leaf Spring {i}</span>

@@ -1,15 +1,20 @@
 import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
+import RangeDisclaimer from '@/components/range-disclaimer';
 
 export default function SideWindJacks() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
       <h1 className="text-4xl font-bold mb-4">Side-Wind Jacks</h1>
-      <p className="text-lg text-gray-700 mb-6">
+      <p className="text-lg text-gray-700 mb-4">
         Side-Wind jacks feature a hand crank on the side for smooth, controlled lifting and lowering. Ideal for stabilizing trailers at rest.
       </p>
+      <RangeDisclaimer
+        intro="Our side-wind jacks range includes:"
+        items="2,000 lb, 3,500 lb &amp; 5,000 lb capacity, 1-Speed &amp; 2-Speed Gear models, 8&quot;, 10&quot; &amp; 12&quot; travel, Bolt-On &amp; Weld-On mounting, With &amp; Without Wheels (solid rubber or pneumatic), Zinc-Plated &amp; Black Powder Coat, and Heavy-Duty Square Tube models."
+      />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
-        {["1.png", "2.png", "3.png", "4.png", "5.png"].map((img, idx) => (
+        {["1.png", "2.png", "3.png"].map((img, idx) => (
           <div
             key={img}
             className="bg-white border border-slate-200 rounded-lg shadow-sm p-4 flex flex-col items-center w-full"
