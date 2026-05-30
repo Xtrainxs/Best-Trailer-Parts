@@ -11,7 +11,7 @@ export default function GooseneckCouplers() {
       </p>
       <RangeDisclaimer
         intro="Our gooseneck couplers range includes:"
-        items="Round Ball Gooseneck Couplers, Flat-Plate Gooseneck Couplers, Adjustable Gooseneck Couplers, 2-5/16&quot; Ball (20,000–30,000 lb GTW), Pintle Ring Adapters, Heavy-Duty Forged Steel, Powder Coat &amp; Zinc finishes, and custom fabrication available."
+        items={["Round Ball Gooseneck","Flat-Plate Gooseneck","Adjustable Gooseneck","2-5/16\" Ball (up to 30,000 lb GTW)","Pintle Ring Adapters","Heavy-Duty Forged Steel","Powder Coat & Zinc finishes","Custom fabrication available"]}
       />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         {["3.png"].map((img, idx) => (

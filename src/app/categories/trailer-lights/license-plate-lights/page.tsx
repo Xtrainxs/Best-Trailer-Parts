@@ -8,7 +8,7 @@ export default function LicensePlateLights() {
       <p className="text-lg text-gray-700 mb-4">Bright, compact license plate lights for trailers. Available in LED and incandescent, surface or bracket mount.</p>
       <RangeDisclaimer
         intro="Our license plate lights range includes:"
-        items="LED License Plate Lights, Incandescent License Plate Lights, Surface-Mount &amp; Bracket-Mount styles, Combination License + Tail units, Stainless Steel &amp; Plastic housing, Submersible Sealed models, DOT compliant, available with 12&quot; &amp; 18&quot; wire leads."
+        items={["LED License Plate Lights","Incandescent License Plate Lights","Surface-Mount","Bracket-Mount","Combination License + Tail","Stainless Steel housing","Plastic housing","Submersible Sealed","DOT compliant","12\" & 18\" wire leads"]}
       />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         {[

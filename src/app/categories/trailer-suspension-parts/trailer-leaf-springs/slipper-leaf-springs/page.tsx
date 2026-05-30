@@ -9,7 +9,7 @@ export default function SlipperLeafSpringsPage() {
       <p className="mb-4 text-[#05203C]">Designed for heavy loads, these springs offer durability and effective shock absorption for commercial and agricultural trailers.</p>
       <RangeDisclaimer
         intro="Our slipper leaf springs range includes:"
-        items="Single-Eye Slipper Springs, Hook-End Slipper Springs, Radius-End Slipper Springs, Light-Duty (1,000 lb), Standard (2,500 lb), Heavy-Duty (4,000 lb), Extra Heavy-Duty (8,000–12,000 lb), Galvanized finish, Black Powder Coat finish, and custom lengths on request."
+        items={["Single-Eye Slipper","Hook-End Slipper","Radius-End Slipper","Light-Duty (1,000 lb)","Standard (2,500 lb)","Heavy-Duty (4,000 lb)","Extra Heavy-Duty (8,000–12,000 lb)","Galvanized Finish","Black Powder Coat","Custom lengths on request"]}
       />
       <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available Slipper Leaf Springs</h2>
       <div className="flex flex-row gap-6 justify-center items-center mb-8">

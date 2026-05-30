@@ -16,7 +16,7 @@ export default function AFrameJacks() {
       </p>
       <RangeDisclaimer
         intro="Our A-frame jacks range includes:"
-        items="2,000 lb, 3,500 lb &amp; 5,000 lb capacity, Top-Wind &amp; Side-Wind models, With &amp; Without Wheels (6&quot; rubber or swivel caster), Zinc-Plated &amp; Black Powder Coat finishes, Bolt-On &amp; Weld-On mounting, and Heavy-Duty Forged models available."
+        items={["2,000 lb capacity","3,500 lb capacity","5,000 lb capacity","Top-Wind & Side-Wind","With & Without Wheels","6\" Rubber or Swivel Caster","Zinc-Plated","Black Powder Coat","Bolt-On & Weld-On","Heavy-Duty Forged models"]}
       />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         {["1.png"].map((img, idx) => (

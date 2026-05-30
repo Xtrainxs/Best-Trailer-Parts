@@ -1,4 +1,5 @@
 import { readdir } from "fs/promises";
+import RangeDisclaimer from '@/components/range-disclaimer';
 import path from "path";
 
 const imageExtensions = new Set([".png", ".jpg", ".jpeg", ".webp", ".avif", ".gif"]);
@@ -58,18 +59,10 @@ export default async function BoatTrailerPartsPage() {
         We carry all kinds of boat trailer parts and marine trailer accessories — pictures below
         are for reference only and represent a small sample of what is available.
       </p>
-      <div className="bg-slate-50 border border-slate-200 rounded-xl px-6 py-4 mb-8 text-sm text-slate-700 leading-relaxed">
-        <span className="font-semibold text-[#05203C]">Our boat trailer parts range includes:</span>{' '}
-        Boat Trailer Winches (Hand &amp; Electric), Winch Straps &amp; Cables, Trailer Rollers &amp;
-        Roller Brackets, Boat Trailer Jacks &amp; Swivel Jacks, Keel Rollers, Bow Rollers,
-        Side Rollers, Roller Bunk Brackets, Trailer Guides &amp; Guide Posts, Trailer Safety Chains,
-        Swivel Eye Hooks (Stainless Steel), Boat Trailer Lights &amp; Wiring Kits,
-        Stainless Steel Fittings &amp; Hardware, Boat Trailer Couplers, Boat Trailer Axles,
-        Trailer Bunks &amp; Bunk Brackets, Marine-Grade U-Bolts, Trailer Winch Stands,
-        Bow Stops, Hull Protectors, and much more.{' '}
-        <a href="/request-form" className="text-sky-700 hover:underline font-medium">Request a quote</a> for
-        any item not shown.
-      </div>
+      <RangeDisclaimer
+        intro="Our boat trailer parts range includes:"
+        items={["Hand & Electric Winches","Winch Straps & Cables","Trailer Rollers","Roller Brackets","Boat Trailer Jacks","Swivel Jacks","Keel Rollers","Bow Rollers","Side Rollers","Roller Bunk Brackets","Trailer Guides & Guide Posts","Safety Chains","Swivel Eye Hooks (SS)","Lights & Wiring Kits","SS Fittings & Hardware","Trailer Couplers","Trailer Axles","Bunks & Bunk Brackets","Marine-Grade U-Bolts","Winch Stands","Bow Stops","Hull Protectors"]}
+      />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
         {images.map((img, idx) => {
