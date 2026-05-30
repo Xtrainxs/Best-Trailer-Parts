@@ -15,7 +15,7 @@ export default function DoubleEyeLeafSpringsPage() {
       <p className="mb-6 text-[#05203C]">Reliable and versatile, these springs provide smooth ride quality and secure mounting for utility and cargo trailers.</p>
 
       <div className="flex flex-row gap-6 justify-center items-center mb-8">
-        {([3].map(i => (
+        {[3].map(i => (
           <div key={i} className="flex flex-col items-center bg-white border border-slate-200 rounded-xl shadow-sm" style={{ width: '140px', height: '180px', justifyContent: 'center' }}>
             <img src={`/images/Leaf Springs/Double Eye Leaf Springs/Picture${i}.png`} alt={`Double Eye Leaf Spring ${i}`} className="w-full h-32 object-contain bg-slate-100 rounded-md" style={{ background: '#1a1a1a' }} />
             <span className="mt-2 text-sm text-slate-700 text-center">Double Eye Leaf Spring {i}</span>

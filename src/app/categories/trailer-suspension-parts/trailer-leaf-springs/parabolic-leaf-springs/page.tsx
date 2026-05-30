@@ -13,7 +13,7 @@ export default function ParabolicLeafSpringsPage() {
       />
       <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available Parabolic Leaf Springs</h2>
       <div className="flex flex-row gap-6 justify-center items-center mb-8">
-        {([3,4].map(i => (
+        {[3,4].map(i => (
           <div key={i} className="flex flex-col items-center bg-white border border-slate-200 rounded-xl shadow-sm" style={{ width: '140px', height: '180px', justifyContent: 'center' }}>
             <img src={`/images/Leaf Springs/Parabolic Leaf Springs/Picture${i}.png`} alt={`Parabolic Leaf Spring ${i}`} className="w-full h-32 object-contain bg-slate-100 rounded-md" style={{ background: '#1a1a1a' }} />
             <span className="mt-2 text-sm text-slate-700 text-center">Parabolic Leaf Spring {i}</span>
