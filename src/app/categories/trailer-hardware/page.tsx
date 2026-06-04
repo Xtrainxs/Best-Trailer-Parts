@@ -2,6 +2,12 @@ import { readdir } from "fs/promises";
 import path from "path";
 import RangeDisclaimer from '@/components/range-disclaimer';
 
+export const metadata = {
+  title: 'Wholesale Trailer Hardware — D-Rings, E-Tracks, Hinges, Latches & More',
+  description:
+    'Wholesale trailer hardware: D-rings, E-tracks, hinges, latches, wheel chocks, ramps, tie-downs, bolts, and more. Direct-from-manufacturer pricing for trailer builders and distributors in Canada and the USA. Min. order CAD $5,000.',
+};
+
 const imageExtensions = new Set([".png", ".jpg", ".jpeg", ".webp", ".avif", ".gif"]);
 
 async function getHardwareImages() {

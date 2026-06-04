@@ -11,7 +11,11 @@ const subcategories = [
   { name: 'Idler Hub & Bearing Kit — 7,000 lb. Axles, 8 on 6.5"', href: "/categories/idler-hubs/idler-kit-7000-8x65" },
 ];
 
-export const metadata = { title: 'Idler Hubs' };
+export const metadata = {
+  title: 'Wholesale Trailer Idler Hubs & Bearing Kits — 2,000 to 7,000 lb. Axles',
+  description:
+    'Wholesale trailer idler hub and bearing kits for 2,000 to 7,000 lb. axles in all standard bolt patterns. Direct-from-manufacturer pricing for trailer builders and distributors. Min. order CAD $5,000.',
+};
 
 export default function IdlerHubsPage() {
   return (

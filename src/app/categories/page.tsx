@@ -53,24 +53,28 @@ const categories = [
   },
 ];
 
-export const metadata = { title: 'Browse by category' };
+export const metadata = {
+  title: 'Wholesale Trailer Parts by Category — Suspension, Brakes, Lights & More',
+  description:
+    'Browse wholesale trailer parts by category: suspension, brake drums, brake assemblies, idler hubs, lights, jacks, couplers, electrical, hardware, and boat trailer parts. Direct-from-manufacturer pricing for trailer manufacturers and stockists. Min. order CAD $5,000.',
+};
 
 export default function CategoriesPage() {
   return (
     <main className="max-w-6xl mx-auto py-16 px-6">
       <header className="text-center mb-12">
         <p className="text-xs sm:text-sm font-semibold tracking-[0.25em] uppercase text-sky-700 mb-4">
-          Catalog
+          Wholesale Catalog
         </p>
         <h1
           className="text-4xl sm:text-5xl font-bold text-[#05203C] tracking-tight"
           style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
         >
-          Browse by category
+          Browse by Category
         </h1>
         <p className="mt-4 max-w-2xl mx-auto text-base text-slate-600">
-          Suspension, brakes, lights, jacks, couplers, hardware &mdash; every
-          trailer component, sourced direct from manufacturer.
+          Suspension, brakes, lights, jacks, couplers, hardware &mdash; wholesale
+          trailer components sourced direct from manufacturer. Minimum order CAD $5,000.
         </p>
       </header>
 
@@ -84,6 +88,34 @@ export default function CategoriesPage() {
           />
         ))}
       </div>
+
+      <section className="mt-16 bg-[#05203C] text-white rounded-xl p-8 sm:p-10 text-center shadow-md">
+        <h2
+          className="text-2xl sm:text-3xl font-bold mb-3"
+          style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
+        >
+          Don&apos;t see your part? We can source it.
+        </h2>
+        <p className="text-sky-100 mb-7 max-w-xl mx-auto leading-relaxed">
+          Our catalog covers the most common lines, but we work with a broad
+          manufacturer network. Send us your specs and quantities &mdash; we&apos;ll
+          confirm availability and pricing within 1&ndash;2 business days.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="/request-form"
+            className="px-8 py-3 bg-white text-[#05203C] rounded-md font-semibold shadow-sm hover:bg-sky-100 transition"
+          >
+            Request a Wholesale Quote
+          </a>
+          <a
+            href="tel:+14039037957"
+            className="px-8 py-3 border-2 border-white text-white rounded-md font-semibold hover:bg-white hover:text-[#05203C] transition"
+          >
+            Call +1 403-903-7957
+          </a>
+        </div>
+      </section>
     </main>
   );
 }

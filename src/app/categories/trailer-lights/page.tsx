@@ -10,7 +10,11 @@ const subcategories = [
   { name: "Wiring & Connector Kits", description: "4-way, 5-way, and 7-way connector kits with wiring harnesses.", href: "/categories/trailer-lights/wiring-connector-kits" },
 ];
 
-export const metadata = { title: 'Trailer Lights' };
+export const metadata = {
+  title: 'Wholesale Trailer Lights — LED & Incandescent, Tail, Marker & Work Lights',
+  description:
+    'Wholesale trailer lights: LED and incandescent tail lights, marker and clearance lights, license plate lights, work lights, and wiring kits. DOT-compliant. Factory-direct pricing for trailer manufacturers and stockists. Min. order CAD $5,000.',
+};
 
 export default function TrailerLightsPage() {
   return (

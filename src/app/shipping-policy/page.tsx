@@ -15,16 +15,27 @@ export default function ShippingPolicyPage() {
           className="text-4xl sm:text-5xl font-bold text-[#05203C] tracking-tight"
           style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
         >
-          Shipping Policy
+          Shipping &amp; Delivery
         </h1>
         <p className="mt-5 text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
-          Best Trailer Parts works directly with manufacturers in China and India, and
-          most orders ship from those suppliers straight to your door. This gives you
-          importer pricing without the middleman markup &mdash; but it does mean
-          transit times and customs work differently than buying from a local
-          retailer. This page covers what to expect.
+          Best Trailer Parts sources direct from manufacturers in China and India.
+          Orders ship from the factory straight to your facility &mdash; which means
+          factory-direct pricing, but also ocean-freight lead times. This page sets
+          clear expectations so you can plan your inventory accordingly.
         </p>
       </header>
+
+      {/* Prominent timeline callout for B2B planners */}
+      <div className="bg-[#05203C] text-white rounded-xl p-6 sm:p-8 mb-12 text-center">
+        <p className="text-xs font-semibold uppercase tracking-wider text-sky-300 mb-2">Typical end-to-end timeline</p>
+        <p className="text-3xl sm:text-4xl font-bold mb-2" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>6 – 10 Weeks</p>
+        <p className="text-sky-100 text-sm max-w-lg mx-auto leading-relaxed">
+          From order confirmation to delivery at your facility (ocean freight). Air
+          freight is available for smaller or urgent shipments at higher cost.
+          Production &amp; consolidation time at the factory is included in this
+          estimate &mdash; exact timing is confirmed in your quote.
+        </p>
+      </div>
 
       <article className="space-y-12 text-slate-800 leading-relaxed">
         <section>

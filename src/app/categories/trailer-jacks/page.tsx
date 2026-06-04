@@ -11,7 +11,11 @@ const subcategories = [
   { name: "Jack Accessories", description: "Pads, casters, foot plates, handles, and replacement parts.", href: "/categories/trailer-jacks/jack-accessories" },
 ];
 
-export const metadata = { title: 'Trailer Jacks' };
+export const metadata = {
+  title: 'Wholesale Trailer Jacks — A-Frame, Side-Wind, Drop-Leg, Electric & Stabilizer',
+  description:
+    'Wholesale trailer jacks: A-frame, side-wind, top-wind, drop-leg, swivel, electric, and stabilizer jacks for all trailer types and weight classes. Factory-direct pricing for manufacturers and stockists. Min. order CAD $5,000.',
+};
 
 export default function TrailerJacksPage() {
   return (

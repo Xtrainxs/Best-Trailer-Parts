@@ -1,8 +1,11 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 import RangeDisclaimer from '@/components/range-disclaimer';
 
-export const metadata = { title: 'Side-Wind Jacks' };
+export const metadata = {
+  title: 'Side-Wind Jacks',
+  description: 'Wholesale Side-Wind Jacks sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD \,000. Request a quote within 1-2 business days.',
+};
 
 export default function SideWindJacks() {
   return (
@@ -71,3 +74,4 @@ export default function SideWindJacks() {
     </div>
   );
 }
+

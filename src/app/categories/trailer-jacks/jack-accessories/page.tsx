@@ -1,8 +1,11 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
 import RangeDisclaimer from '@/components/range-disclaimer';
 
-export const metadata = { title: 'Jack Accessories' };
+export const metadata = {
+  title: 'Jack Accessories',
+  description: 'Wholesale Jack Accessories sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD \,000. Request a quote within 1-2 business days.',
+};
 
 export default function JackAccessories() {
   return (
@@ -72,3 +75,4 @@ export default function JackAccessories() {
     </div>
   );
 }
+

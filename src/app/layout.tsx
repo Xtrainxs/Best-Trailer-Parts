@@ -5,30 +5,31 @@ import Breadcrumbs from '@/components/breadcrumbs';
 export const metadata = {
   metadataBase: new URL('https://best-trailer-parts.vercel.app'),
   title: {
-    default: 'Best Trailer Parts — Premium Components Direct from Global Manufacturers',
+    default: 'Wholesale Trailer Parts Direct from Manufacturer | Best Trailer Parts',
     template: '%s | Best Trailer Parts',
   },
   description:
-    'Premium trailer parts sourced directly from trusted global manufacturers. 25+ years of importing expertise serving customers across North America. Suspension, brakes, lights, jacks, couplers, hubs, and more.',
+    'Wholesale trailer parts sourced direct from manufacturers in Asia — no distributor markup. Suspension, brakes, lights, hubs, couplers, jacks & hardware. Serving trailer manufacturers and stockists across Canada and the USA since 2001. Minimum order CAD $5,000.',
   keywords: [
-    'trailer parts',
-    'trailer suspension',
-    'trailer brakes',
-    'trailer lights',
-    'trailer jacks',
-    'trailer couplers',
-    'idler hubs',
-    'brake drums',
-    'brake assemblies',
-    'boat trailer parts',
-    'leaf springs',
-    'u-bolt kits',
-    'North America trailer parts',
+    'wholesale trailer parts',
+    'bulk trailer parts Canada',
+    'trailer parts manufacturer direct',
+    'trailer suspension wholesale',
+    'trailer brake parts bulk',
+    'trailer lights wholesale',
+    'trailer jacks bulk order',
+    'trailer couplers wholesale',
+    'idler hubs wholesale',
+    'brake drums bulk',
+    'trailer hardware wholesale',
+    'trailer parts importer Canada',
+    'direct from manufacturer trailer parts',
+    'OEM trailer components',
   ],
   openGraph: {
-    title: 'Best Trailer Parts',
+    title: 'Wholesale Trailer Parts Direct from Manufacturer | Best Trailer Parts',
     description:
-      'Premium trailer components sourced directly from trusted global manufacturers. 25+ years of importing expertise.',
+      'Wholesale trailer components sourced direct from manufacturers. No distributor markup. Serving trailer manufacturers and stockists across Canada and USA since 2001.',
     url: 'https://best-trailer-parts.vercel.app',
     siteName: 'Best Trailer Parts',
     images: [{ url: '/logo.png', width: 1200, height: 630, alt: 'Best Trailer Parts' }],
@@ -37,17 +38,49 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Trailer Parts',
-    description: 'Premium trailer components direct from global manufacturers.',
+    title: 'Wholesale Trailer Parts Direct from Manufacturer | Best Trailer Parts',
+    description: 'Wholesale trailer components direct from manufacturers. No distributor markup. Canada & USA.',
     images: ['/logo.png'],
   },
   icons: { icon: '/logo.png' },
   robots: { index: true, follow: true },
 };
 
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Best Trailer Parts',
+  url: 'https://best-trailer-parts.vercel.app',
+  logo: 'https://best-trailer-parts.vercel.app/logo.png',
+  foundingDate: '2001',
+  description:
+    'Wholesale trailer parts sourced direct from manufacturers in Asia. Serving trailer manufacturers, wholesalers, and stockists across Canada and the USA since 2001.',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Taralake Manor NE',
+    addressLocality: 'Calgary',
+    addressRegion: 'AB',
+    addressCountry: 'CA',
+  },
+  contactPoint: {
+    '@type': 'ContactPoint',
+    telephone: '+1-403-903-7957',
+    contactType: 'sales',
+    areaServed: ['CA', 'US'],
+    availableLanguage: 'English',
+  },
+  areaServed: ['Canada', 'United States'],
+};
+
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="bg-[#FAFAFA] text-slate-900 min-h-screen">
         <header className="bg-[#05203C] shadow">
           <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">

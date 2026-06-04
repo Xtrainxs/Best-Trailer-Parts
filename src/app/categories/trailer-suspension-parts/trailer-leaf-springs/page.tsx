@@ -1,4 +1,4 @@
-import CategoryCard from "@/components/category-card";
+﻿import CategoryCard from "@/components/category-card";
 
 const subcategories = [
   { name: "Double-Eye Leaf Springs", description: "Standard double-eye springs from 1,000 to 8,000 lb capacity.", href: "/categories/trailer-suspension-parts/trailer-leaf-springs/double-eye-leaf-springs" },
@@ -7,7 +7,10 @@ const subcategories = [
   { name: "Parabolic Leaf Springs", description: "Tapered parabolic springs for a smoother, lower-friction ride.", href: "/categories/trailer-suspension-parts/trailer-leaf-springs/parabolic-leaf-springs" },
 ];
 
-export const metadata = { title: 'Trailer Leaf Springs' };
+export const metadata = {
+  title: 'Trailer Leaf Springs',
+  description: 'Wholesale Trailer Leaf Springs sourced direct from manufacturer. Bulk pricing for trailer manufacturers and stockists across Canada and the USA. Min. order CAD \,000. Request a quote within 1-2 business days.',
+};
 
 export default function TrailerLeafSpringsPage() {
   return (
@@ -27,3 +30,4 @@ export default function TrailerLeafSpringsPage() {
     </main>
   );
 }
+

@@ -10,7 +10,11 @@ const subcategories = [
   { name: "Suspension Fasteners", description: "Equalizer bolts, shackle bolts, lock nuts, and washers.", href: "/categories/trailer-suspension-parts/suspension-fasteners" },
 ];
 
-export const metadata = { title: 'Trailer Suspension Parts' };
+export const metadata = {
+  title: 'Wholesale Trailer Suspension Parts — Leaf Springs, Hangers, Equalizers & More',
+  description:
+    'Wholesale trailer suspension parts: leaf springs, hanger kits, equalizers, shackles, bushings, U-bolt kits, spring seats, and fasteners. Direct from manufacturer for trailer builders and distributors. Min. order CAD $5,000.',
+};
 
 export default function TrailerSuspensionPartsPage() {
   return (

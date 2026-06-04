@@ -9,7 +9,11 @@ const subcategories = [
   { name: "Battery Boxes", description: "Lockable plastic battery boxes for breakaway systems.", href: "/categories/trailer-electrical-parts/battery-boxes" },
 ];
 
-export const metadata = { title: 'Trailer Electrical Parts' };
+export const metadata = {
+  title: 'Wholesale Trailer Electrical Parts — Connectors, Harnesses & Breakaway Kits',
+  description:
+    'Wholesale trailer electrical parts: connectors, adapters, wiring harnesses, junction boxes, breakaway kits, and battery boxes. Direct-from-manufacturer pricing for trailer builders and distributors. Min. order CAD $5,000.',
+};
 
 export default function TrailerElectricalPartsPage() {
   return (

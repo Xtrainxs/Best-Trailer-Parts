@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export const metadata = { title: '7\\" Brake Drum Kit for 2,000 lb. Axles | 5 on 4.5\\" Bolt Pattern' };
 
@@ -58,6 +59,7 @@ export default function BrakeDrum7in2000_5x45() {
           </tbody>
         </table>
       </div>
+      <RequestQuoteCTA partLabel={'7" Brake Drum Kit for 2,000 lb. Axles | 5 on 4.5" Bolt Pattern'} />
     </div>
   );
 }
