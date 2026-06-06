@@ -10,3 +10,8 @@ out
 
 # Legacy TPM site kept locally as a backup; do not publish
 /Trailer Part Masters/
+
+# Private outreach / prospecting working files — never publish
+extract_emails.py
+prospect_list*.csv
+*.prospects.csv
