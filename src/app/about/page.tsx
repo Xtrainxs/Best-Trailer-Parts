@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'About Us',
   description:
-    'Best Trailer Parts has supplied trailer manufacturers, repair shops, and wholesale distributors across North America since 2000. Founded by Terry, drawing on four decades of trailer-component experience.',
+    'Best Trailer Parts has supplied trailer manufacturers, repair shops, and wholesale distributors across North America since 2000 — a direct-import operation backed by four decades of trailer-component experience.',
 };
 
 export default function AboutPage() {
@@ -17,16 +17,16 @@ export default function AboutPage() {
           className="text-4xl sm:text-5xl font-bold text-[#05203C] tracking-tight leading-[1.1]"
           style={serifHeading}
         >
-          A small company built on long relationships.
+          A trusted name in trailer parts, built on lasting relationships.
         </h1>
       </header>
 
       <p className="text-lg sm:text-xl text-slate-700 leading-relaxed mb-14">
         Best Trailer Parts has supplied trailer manufacturers, repair shops, and
         wholesale distributors across North America since 2000. Behind every order
-        is a network of vetted overseas factories and four decades of practical
-        experience moving freight, managing customs, and matching the right part to
-        the right job.
+        is a vetted network of overseas factories and four decades of practical
+        experience &mdash; moving freight, managing customs, and matching the right
+        part to the right job.
       </p>
 
       <section className="border-y border-slate-200 py-8 mb-14 grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
@@ -65,19 +65,17 @@ export default function AboutPage() {
             Our story
           </h2>
           <p className="mb-4">
-            Best Trailer Parts was founded in the year 2000 by Terry, who began
-            working with truck and trailer components in the mid-1980s. After more
-            than a decade in the industry, Terry built the company around two ideas
-            that still define it: trusted supplier relationships matter more than
-            catalog size, and a smaller company can outperform a bigger one when
-            every order gets personal attention.
+            Best Trailer Parts was founded in 2000 on two convictions that still
+            define the company: trusted supplier relationships matter more than
+            catalog size, and a focused company can out-serve a larger one when
+            every order receives personal attention.
           </p>
           <p>
-            Twenty-five years later, Best Trailer Parts works directly with
-            manufacturers in Asia to source suspension, brakes, lights, jacks,
-            couplers, and hardware for customers across three countries. We
-            don&apos;t try to be the biggest catalog. We try to be the most
-            reliable.
+            Twenty-five years on, we work directly with manufacturers across Asia
+            to source suspension, brakes, lights, jacks, couplers, and hardware for
+            customers in three countries. We don&apos;t aim to be the biggest
+            catalog &mdash; we aim to be the most dependable partner our customers
+            have.
           </p>
         </section>
 
@@ -89,17 +87,17 @@ export default function AboutPage() {
             How we work
           </h2>
           <p className="mb-4">
-            We are a direct-import operation. Instead of buying from middle
-            distributors, we work with the same factories that supply most North
-            American trailer-parts retailers &mdash; and we pass importer pricing on
-            to our customers.
+            We&apos;re a direct-import operation. Rather than buying through middle
+            distributors, we source from the same factories that supply most North
+            American trailer-parts retailers &mdash; and pass importer pricing
+            straight to our customers.
           </p>
           <p>
-            We&apos;ve spent years vetting the suppliers we use. We don&apos;t add a
-            manufacturer to our network without testing their quality, lead times,
-            and consistency over multiple orders. For our customers, that means
-            competitive pricing, predictable shipments, and a single point of
-            contact who knows both the product and the supplier behind it.
+            Every supplier in our network has earned its place. We don&apos;t add a
+            manufacturer without proving their quality, lead times, and consistency
+            across multiple orders. For you, that means competitive pricing,
+            predictable shipments, and a single point of contact who knows both the
+            product and the factory behind it.
           </p>
         </section>
 
@@ -114,8 +112,8 @@ export default function AboutPage() {
             Trailer manufacturers building from the ground up. Repair shops and
             dealerships sourcing replacement components. Wholesale distributors
             stocking their warehouses. Operators across the USA, Canada, and Mexico.
-            Every order &mdash; whether it&apos;s a single part for a custom build or
-            a full container for a distributor &mdash; gets the same attention.
+            Whether it&apos;s a single part for a custom build or a full container
+            for a distributor, every order gets the same attention.
           </p>
         </section>
 
@@ -128,9 +126,9 @@ export default function AboutPage() {
           </h2>
           <p>
             Quality you can resell with confidence. Honest timelines, with no
-            surprises at the customs window. Continuity &mdash; the person you talk
-            to today will be there when you place your next order. After
-            twenty-five years, those are the things that have built the business.
+            surprises at the customs window. Continuity &mdash; a relationship
+            that&apos;s there for your next order, and the one after that. After
+            twenty-five years, those are the things that have built our business.
           </p>
         </section>
       </article>
