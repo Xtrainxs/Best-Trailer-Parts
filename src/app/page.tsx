@@ -10,7 +10,7 @@ const stripImages = [
   '/images/Trailer Hardware/D-Ring.jpg',
   '/images/Trailer Hardware/Trailer U-Bolt Kit.jpg',
   '/images/Leaf Springs/Heavy Duty Leaf Springs/Picture4.png',
-  '/images/Brake Drums/7 Inch Brake Drum Kit/Kit.png',
+  '/images/Brake Drums/10 Inch Brake Drum Kit/Kit.png',
   '/images/Trailer Hardware/Heavy Duty Hardware 1.png',
   '/images/Trailer Hardware/Heavy Duty Hardware 5.png',
 ];
