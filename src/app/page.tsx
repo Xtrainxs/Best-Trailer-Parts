@@ -20,14 +20,18 @@ export default function Home() {
     <div className="max-w-7xl mx-auto px-6">
       {/* Hero */}
       <section className="text-center pt-16 pb-12 sm:pt-20 sm:pb-16">
-        <p className="text-xs sm:text-sm font-semibold tracking-[0.25em] uppercase text-sky-700 mb-6">
-          Wholesale Trailer Components &middot; Direct from Manufacturer
-        </p>
-        <h1
-          className="font-bold text-[#05203C] leading-[0.95] tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl"
+        <p
+          className="text-2xl sm:text-3xl font-bold text-[#05203C] tracking-tight mb-4"
           style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
         >
           Best Trailer Parts
+        </p>
+        <h1
+          className="font-bold text-[#05203C] leading-[1.02] tracking-tight text-4xl sm:text-5xl md:text-6xl lg:text-7xl"
+          style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
+        >
+          Wholesale Trailer Parts,
+          <br className="hidden sm:block" /> Direct from the Manufacturer
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-slate-700 leading-relaxed">
           Wholesale suspension, brakes, lights, jacks, and hardware sourced direct

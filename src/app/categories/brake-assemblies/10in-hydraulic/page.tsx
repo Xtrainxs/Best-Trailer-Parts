@@ -1,14 +1,4 @@
-import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
-
-const subcategories = [
-  { name: '10 Inch Manual Adjust Hydraulic Drum Trailer Brake - Left Side', slug: 'manual-drum-left' },
-  { name: '10 Inch Manual Adjust Hydraulic Drum Trailer Brake - Right Side', slug: 'manual-drum-right' },
-  { name: '10 Inch Freebacking Hydraulic Drum Trailer Brake - Left Side', slug: 'freebacking-drum-left' },
-  { name: '10 Inch Freebacking Hydraulic Drum Trailer Brake - Right Side', slug: 'freebacking-drum-right' },
-  { name: '10 Inch Manual Adjust Hydraulic Trailer Brake Assembly - Left Side', slug: 'manual-assembly-left' },
-  { name: '10 Inch Manual Adjust Hydraulic Trailer Brake Assembly - Right Side', slug: 'manual-assembly-right' },
-];
 
 export const metadata = { title: '10\\" Hydraulic Trailer Brakes' };
 

@@ -1,5 +1,4 @@
-﻿import Link from 'next/link';
-import RequestQuoteCTA from '@/components/request-quote-cta';
+﻿import RequestQuoteCTA from '@/components/request-quote-cta';
 import RangeDisclaimer from '@/components/range-disclaimer';
 
 export const metadata = {

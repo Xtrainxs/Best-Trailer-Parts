@@ -1,14 +1,4 @@
-import Link from 'next/link';
 import RequestQuoteCTA from '@/components/request-quote-cta';
-
-const subcategories = [
-  { name: '10 Inch Manual Adjust Electric Drum Trailer Brake - Left Side', slug: 'manual-drum-left' },
-  { name: '10 Inch Manual Adjust Electric Drum Trailer Brake - Right Side', slug: 'manual-drum-right' },
-  { name: '10 Inch Self-Adjusting Electric Drum Trailer Brake - Left Side', slug: 'selfadjusting-drum-left' },
-  { name: '10 Inch Self-Adjusting Electric Drum Trailer Brake - Right Side', slug: 'selfadjusting-drum-right' },
-  { name: '10 Inch Electric Manual Adjust Trailer Brake Assembly - Left Side', slug: 'manual-assembly-left' },
-  { name: '10 Inch Electric Manual Adjust Trailer Brake Assembly - Right Side', slug: 'manual-assembly-right' },
-];
 
 export const metadata = { title: '10\\" Electric Trailer Brakes' };
 

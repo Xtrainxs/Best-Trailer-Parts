@@ -83,7 +83,7 @@ export default function RequestFormPage({ searchParams }: PageProps) {
         className="grid grid-cols-1 sm:grid-cols-2 gap-6"
       >
         <input type="hidden" name="_subject" value="New quote request from Best Trailer Parts website" />
-        <input type="hidden" name="_next" value="https://best-trailer-parts.vercel.app/request-form/thanks" />
+        <input type="hidden" name="_next" value="https://besttrailerparts.net/request-form/thanks" />
         <input
           type="text"
           name="_gotcha"

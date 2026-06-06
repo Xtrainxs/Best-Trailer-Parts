@@ -1,5 +1,4 @@
-import Link from 'next/link';
-import RequestQuoteCTA from '@/components/request-quote-cta';
+﻿import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export const metadata = { title: 'Trailer Idler Hub & Bearing Kit for 7000 lb. Axles | 8 on 6.5\\" Bolt Pattern' };
 

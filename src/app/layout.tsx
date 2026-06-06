@@ -3,7 +3,7 @@ import { ReactNode } from 'react';
 import Breadcrumbs from '@/components/breadcrumbs';
 
 export const metadata = {
-  metadataBase: new URL('https://best-trailer-parts.vercel.app'),
+  metadataBase: new URL('https://besttrailerparts.net'),
   title: {
     default: 'Wholesale Trailer Parts Direct from Manufacturer | Best Trailer Parts',
     template: '%s | Best Trailer Parts',
@@ -30,7 +30,7 @@ export const metadata = {
     title: 'Wholesale Trailer Parts Direct from Manufacturer | Best Trailer Parts',
     description:
       'Wholesale trailer components sourced direct from manufacturers. No distributor markup. Serving trailer manufacturers and stockists across Canada and USA since 2001.',
-    url: 'https://best-trailer-parts.vercel.app',
+    url: 'https://besttrailerparts.net',
     siteName: 'Best Trailer Parts',
     images: [{ url: '/logo.png', width: 1200, height: 630, alt: 'Best Trailer Parts' }],
     locale: 'en_CA',
@@ -42,7 +42,6 @@ export const metadata = {
     description: 'Wholesale trailer components direct from manufacturers. No distributor markup. Canada & USA.',
     images: ['/logo.png'],
   },
-  icons: { icon: '/logo.png' },
   robots: { index: true, follow: true },
   verification: { google: 'Vngq4aZLhX71gDZqulVHg1K43LlSNAj9OzbOruOY5I8' },
 };
@@ -51,8 +50,8 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'Best Trailer Parts',
-  url: 'https://best-trailer-parts.vercel.app',
-  logo: 'https://best-trailer-parts.vercel.app/logo.png',
+  url: 'https://besttrailerparts.net',
+  logo: 'https://besttrailerparts.net/logo.png',
   foundingDate: '2001',
   description:
     'Wholesale trailer parts sourced direct from manufacturers in Asia. Serving trailer manufacturers, wholesalers, and stockists across Canada and the USA since 2001.',

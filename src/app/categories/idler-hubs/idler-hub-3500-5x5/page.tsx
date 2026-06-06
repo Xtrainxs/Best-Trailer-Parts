@@ -1,5 +1,4 @@
-import Link from 'next/link';
-import RequestQuoteCTA from '@/components/request-quote-cta';
+﻿import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export const metadata = { title: 'Trailer Idler Hub for 3,500 lb. Axles | 5 on 5\\" Bolt Pattern' };
 

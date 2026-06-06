@@ -1,5 +1,4 @@
-﻿import Link from 'next/link';
-import RequestQuoteCTA from '@/components/request-quote-cta';
+﻿import RequestQuoteCTA from '@/components/request-quote-cta';
 
 export const metadata = {
   title: 'Electric Jacks',
