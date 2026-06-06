@@ -43,7 +43,7 @@ export const metadata = {
     images: ['/logo.png'],
   },
   robots: { index: true, follow: true },
-  verification: { google: 'Vngq4aZLhX71gDZqulVHg1K43LlSNAj9OzbOruOY5I8' },
+  verification: { google: 'OhUYAfpuPf5_-VlaOK5CcCy7HU8cDe3046z0ugWLZP4' },
 };
 
 const jsonLd = {
