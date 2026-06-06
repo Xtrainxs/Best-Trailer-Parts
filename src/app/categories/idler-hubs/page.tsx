@@ -14,7 +14,7 @@ const subcategories = [
 export const metadata = {
   title: 'Wholesale Trailer Idler Hubs & Bearing Kits — 2,000 to 7,000 lb. Axles',
   description:
-    'Wholesale trailer idler hub and bearing kits for 2,000 to 7,000 lb. axles in all standard bolt patterns. Direct-from-manufacturer pricing for trailer builders and distributors. Min. order CAD $5,000.',
+    'Wholesale trailer idler hub and bearing kits for 2,000 to 7,000 lb. axles in all standard bolt patterns. Direct-from-manufacturer pricing for trailer builders and distributors.',
 };
 
 export default function IdlerHubsPage() {

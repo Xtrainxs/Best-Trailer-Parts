@@ -63,7 +63,7 @@ export default function Home() {
           </a>
         </div>
         <p className="mt-5 text-sm text-slate-500">
-          Minimum order CAD $5,000 &middot; Quote within 1&ndash;2 business days
+          Quote within 1&ndash;2 business days
         </p>
       </section>
 

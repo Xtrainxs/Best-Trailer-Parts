@@ -13,7 +13,7 @@ const subcategories = [
 export const metadata = {
   title: 'Wholesale Trailer Brake Drums — 2,000 to 7,000 lb. Axles',
   description:
-    'Wholesale trailer brake drum kits for 2,000 to 7,000 lb. axles in all common bolt patterns. 7", 10", and 12" kits sourced direct from manufacturer. Min. order CAD $5,000. Serving trailer manufacturers and stockists across Canada and the USA.',
+    'Wholesale trailer brake drum kits for 2,000 to 7,000 lb. axles in all common bolt patterns. 7", 10", and 12" kits sourced direct from manufacturer. Serving trailer manufacturers and stockists across Canada and the USA.',
 };
 
 export default function BrakeDrumsPage() {

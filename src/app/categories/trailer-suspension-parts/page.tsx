@@ -13,7 +13,7 @@ const subcategories = [
 export const metadata = {
   title: 'Wholesale Trailer Suspension Parts — Leaf Springs, Hangers, Equalizers & More',
   description:
-    'Wholesale trailer suspension parts: leaf springs, hanger kits, equalizers, shackles, bushings, U-bolt kits, spring seats, and fasteners. Direct from manufacturer for trailer builders and distributors. Min. order CAD $5,000.',
+    'Wholesale trailer suspension parts: leaf springs, hanger kits, equalizers, shackles, bushings, U-bolt kits, spring seats, and fasteners. Direct from manufacturer for trailer builders and distributors.',
 };
 
 export default function TrailerSuspensionPartsPage() {

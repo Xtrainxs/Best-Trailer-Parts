@@ -47,8 +47,8 @@ export default function RequestFormPage({ searchParams }: PageProps) {
           <p className="text-sky-200">Importing direct from manufacturers</p>
         </div>
         <div>
-          <p className="font-bold text-base">Min. Order CAD $5,000</p>
-          <p className="text-sky-200">Factory-direct pricing at scale</p>
+          <p className="font-bold text-base">1&ndash;2 Days</p>
+          <p className="text-sky-200">Quote turnaround</p>
         </div>
         <div>
           <p className="font-bold text-base">Canada &amp; USA</p>
@@ -131,7 +131,6 @@ export default function RequestFormPage({ searchParams }: PageProps) {
         <div>
           <label htmlFor="quantity" className={labelClass}>Estimated Quantity</label>
           <input id="quantity" name="quantity" type="number" min="1" placeholder="e.g. 50" className={inputClass} />
-          <p className="text-xs text-slate-500 mt-1">Minimum order value: CAD $5,000.</p>
         </div>
         <div className="sm:col-span-2">
           <label htmlFor="details" className={labelClass}>Part Details / Description</label>

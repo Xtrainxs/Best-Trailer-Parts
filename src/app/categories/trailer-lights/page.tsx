@@ -13,7 +13,7 @@ const subcategories = [
 export const metadata = {
   title: 'Wholesale Trailer Lights — LED & Incandescent, Tail, Marker & Work Lights',
   description:
-    'Wholesale trailer lights: LED and incandescent tail lights, marker and clearance lights, license plate lights, work lights, and wiring kits. DOT-compliant. Factory-direct pricing for trailer manufacturers and stockists. Min. order CAD $5,000.',
+    'Wholesale trailer lights: LED and incandescent tail lights, marker and clearance lights, license plate lights, work lights, and wiring kits. DOT-compliant. Factory-direct pricing for trailer manufacturers and stockists.',
 };
 
 export default function TrailerLightsPage() {
