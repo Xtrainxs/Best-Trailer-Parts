@@ -14,7 +14,7 @@ export default function DoubleEyeLeafSpringsPage() {
       <p className="mb-4 text-[#05203C]">Double-Eye Leaf Springs are engineered to deliver reliable support and smooth ride quality for a wide range of trailers. Their dual-eye design ensures secure mounting and consistent load distribution, making them a popular choice for utility, boat, and cargo trailers.</p>
       <RangeDisclaimer
         intro="Our double-eye leaf springs range includes:"
-        items={["Light-Duty (1,000â€“2,000 lb)","Standard (3,500 lb)","Heavy-Duty (5,200â€“6,000 lb)","Extra Heavy-Duty (7,000â€“8,000 lb)","Single-Leaf","Multi-Leaf (2â€“5 leaves)","Equalizer Springs","Galvanized Finish","Black Powder Coat","Standard lengths 25\"â€“60\"","Custom lengths on request"]}
+        items={["Light-Duty (1,000–2,000 lb)","Standard (3,500 lb)","Heavy-Duty (5,200–6,000 lb)","Extra Heavy-Duty (7,000–8,000 lb)","Single-Leaf","Multi-Leaf (2–5 leaves)","Equalizer Springs","Galvanized Finish","Black Powder Coat","Standard lengths 25\"–60\"","Custom lengths on request"]}
       />
       <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Double Eye Leaf Springs</h2>
       <p className="mb-6 text-[#05203C]">Reliable and versatile, these springs provide smooth ride quality and secure mounting for utility and cargo trailers.</p>

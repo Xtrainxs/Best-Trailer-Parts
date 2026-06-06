@@ -1,14 +1,14 @@
-import React from "react";
+﻿import React from "react";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: '1 ¾\\" Tube (2k) Round U-bolt Kit' };
+export const metadata = { title: '1 Â¾\" Tube (2k) Round U-bolt Kit' };
 
 export default function RoundUBoltKit2kPage() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
-      <h1 className="text-3xl font-bold mb-4 text-[#05203C]">1 ¾" Tube (2k) Round U-bolt Kit</h1>
+      <h1 className="text-3xl font-bold mb-4 text-[#05203C]">1 Â¾" Tube (2k) Round U-bolt Kit</h1>
       <p className="mb-8 text-[#05203C]">
-        Kit for 2,000 lb axles with 1 ¾" round tube. Includes U-bolts, nuts, and tie plates.
+        Kit for 2,000 lb axles with 1 Â¾" round tube. Includes U-bolts, nuts, and tie plates.
       </p>
       {/* Image gallery for 2k Round U-bolt Kit */}
       <div className="flex flex-wrap gap-4 mb-8">
@@ -43,7 +43,7 @@ export default function RoundUBoltKit2kPage() {
           <tbody>
             <tr>
               <td className="py-2 px-4">BTP-UBK-1.75T-2K</td>
-              <td className="py-2 px-4">1 ¾" x 4 ¼" x 5/16"</td>
+              <td className="py-2 px-4">1 Â¾" x 4 Â¼" x 5/16"</td>
               <td className="py-2 px-4">Steel</td>
               <td className="py-2 px-4">Zinc</td>
               <td className="py-2 px-4">4 U-bolts, 8 nuts, 2 tie plates</td>
@@ -51,7 +51,7 @@ export default function RoundUBoltKit2kPage() {
           </tbody>
         </table>
       </div>
-      <RequestQuoteCTA partLabel={"1 ¾\" Tube (2k) Round U-bolt Kit"} />
+      <RequestQuoteCTA partLabel={"1 Â¾\" Tube (2k) Round U-bolt Kit"} />
     </div>
   );
 }

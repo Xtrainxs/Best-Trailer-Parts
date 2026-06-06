@@ -1,6 +1,6 @@
-import RequestQuoteCTA from '@/components/request-quote-cta';
+﻿import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: '2\\" Square U-bolt Kit' };
+export const metadata = { title: '2\" Square U-bolt Kit' };
 
 export default function Square2Page() {
   return (
@@ -41,7 +41,7 @@ export default function Square2Page() {
           <tbody>
             <tr>
               <td className="py-2 px-4 border-b">BTP-UBK-2SQ</td>
-              <td className="py-2 px-4 border-b">2" x 5 ¼" x 5/16"</td>
+              <td className="py-2 px-4 border-b">2" x 5 Â¼" x 5/16"</td>
               <td className="py-2 px-4 border-b">Steel</td>
               <td className="py-2 px-4 border-b">Zinc</td>
               <td className="py-2 px-4 border-b">4 U-bolts, 8 nuts, 2 tie plates</td>

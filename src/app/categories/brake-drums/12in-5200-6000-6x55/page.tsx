@@ -1,6 +1,6 @@
 ﻿import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: '12\\" Brake Drum Kit for 5,200/6,000 lb. Axles | 6 on 5.5\\" Bolt Pattern' };
+export const metadata = { title: '12\" Brake Drum Kit for 5,200/6,000 lb. Axles | 6 on 5.5\" Bolt Pattern' };
 
 export default function BrakeDrum12in5200_6000_6x55() {
   return (

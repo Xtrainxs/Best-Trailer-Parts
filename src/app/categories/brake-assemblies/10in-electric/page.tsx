@@ -1,6 +1,6 @@
-import RequestQuoteCTA from '@/components/request-quote-cta';
+﻿import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: '10\\" Electric Trailer Brakes' };
+export const metadata = { title: '10\" Electric Trailer Brakes' };
 
 export default function Electric10() {
   return (

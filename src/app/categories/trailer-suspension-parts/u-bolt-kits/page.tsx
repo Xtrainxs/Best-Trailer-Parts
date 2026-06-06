@@ -2,7 +2,7 @@
 
 const subcategories = [
   { name: "Round U-Bolt Kits", description: "Kits sized to round axle tube diameter from 1Â¾\" to 5\".", href: "/categories/trailer-suspension-parts/u-bolt-kits/round-u-bolt-kits" },
-  { name: "Square U-Bolt Kits", description: "Kits for square axle profiles from 1Â¾\" to 2Â½\"â€“3\".", href: "/categories/trailer-suspension-parts/u-bolt-kits/square-u-bolt-kits" },
+  { name: "Square U-Bolt Kits", description: "Kits for square axle profiles from 1Â¾\" to 2Â½\"–3\".", href: "/categories/trailer-suspension-parts/u-bolt-kits/square-u-bolt-kits" },
   { name: "Bolt Diameters", description: "U-bolt kits indexed by diameter from 3/8\" light-duty to 5/8\" XHD.", href: "/categories/trailer-suspension-parts/u-bolt-kits/bolt-diameters" },
 ];
 

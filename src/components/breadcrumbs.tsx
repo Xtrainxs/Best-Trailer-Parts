@@ -98,11 +98,31 @@ export default function Breadcrumbs() {
     href: '/' + segments.slice(0, idx + 1).join('/'),
   }));
 
+  // Structured data for Google rich-result breadcrumbs.
+  const BASE = 'https://besttrailerparts.net';
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: BASE },
+      ...items.map((item, idx) => ({
+        '@type': 'ListItem',
+        position: idx + 2,
+        name: item.label,
+        item: `${BASE}${item.href}`,
+      })),
+    ],
+  };
+
   return (
     <nav
       aria-label="Breadcrumb"
       className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-2 text-sm text-slate-500"
     >
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
       <ol className="flex items-center flex-wrap gap-x-2 gap-y-1">
         <li>
           <Link href="/" className="hover:text-sky-700 transition">

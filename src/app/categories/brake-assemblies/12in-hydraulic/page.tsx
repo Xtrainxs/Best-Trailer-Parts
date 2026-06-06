@@ -1,6 +1,6 @@
-import RequestQuoteCTA from '@/components/request-quote-cta';
+﻿import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: '12\\" Hydraulic Trailer Brakes' };
+export const metadata = { title: '12\" Hydraulic Trailer Brakes' };
 
 export default function Hydraulic12() {
   return (

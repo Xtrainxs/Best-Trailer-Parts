@@ -14,7 +14,7 @@ export default function ParabolicLeafSpringsPage() {
       <p className="mb-4 text-[#05203C]">Engineered for comfort, these springs reduce road shock and vibration, delivering a smoother towing experience.</p>
       <RangeDisclaimer
         intro="Our parabolic leaf springs range includes:"
-        items={["2-Leaf Parabolic","3-Leaf Parabolic","Heavy-Duty (5,200â€“8,000 lb)","Tapered-Leaf design","Galvanized Finish","Painted Finish","Tandem & triple-axle compatible","Custom specs available"]}
+        items={["2-Leaf Parabolic","3-Leaf Parabolic","Heavy-Duty (5,200–8,000 lb)","Tapered-Leaf design","Galvanized Finish","Painted Finish","Tandem & triple-axle compatible","Custom specs available"]}
       />
       <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Available Parabolic Leaf Springs</h2>
       <div className="flex flex-row gap-6 justify-center items-center mb-8">

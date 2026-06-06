@@ -9,7 +9,7 @@ export const metadata = {
     template: '%s | Best Trailer Parts',
   },
   description:
-    'Wholesale trailer parts sourced direct from manufacturers in Asia — no distributor markup. Suspension, brakes, lights, hubs, couplers, jacks & hardware. Serving trailer manufacturers and stockists across Canada and the USA since 2001. Minimum order CAD $5,000.',
+    'Wholesale trailer parts direct from the manufacturer — no distributor markup. Suspension, brakes, lights, hubs, couplers, jacks & hardware for Canada & USA.',
   keywords: [
     'wholesale trailer parts',
     'bulk trailer parts Canada',

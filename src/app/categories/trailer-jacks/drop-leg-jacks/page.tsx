@@ -15,7 +15,7 @@ export default function DropLegJacks() {
       </p>
       <RangeDisclaimer
         intro="Our drop-leg jacks range includes:"
-        items={["7,000 lb capacity","10,000 lb capacity","12,000 lb capacity","Manual Crank","Speed Handle","2-Speed Gear","Adjustable Drop-Leg (6\"â€“18\")","Swivel Foot Plate","Fixed Foot Plate","Bolt-On mounting","Zinc-Plated","Black Powder Coat"]}
+        items={["7,000 lb capacity","10,000 lb capacity","12,000 lb capacity","Manual Crank","Speed Handle","2-Speed Gear","Adjustable Drop-Leg (6\"–18\")","Swivel Foot Plate","Fixed Foot Plate","Bolt-On mounting","Zinc-Plated","Black Powder Coat"]}
       />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
         {["1.png", "2.png", "3.png"].map((img, idx) => (

@@ -1,7 +1,7 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import RequestQuoteCTA from '@/components/request-quote-cta';
 
-export const metadata = { title: '4\\" Tube (9k) Round U-bolt Kit' };
+export const metadata = { title: '4\" Tube (9k) Round U-bolt Kit' };
 
 export default function RoundUBoltKit4Tube9k() {
   return (
@@ -42,7 +42,7 @@ export default function RoundUBoltKit4Tube9k() {
           <tbody>
             <tr>
                 <td className="py-2 px-4 border-b">BTP-UBK-4T-9K</td>
-              <td className="py-2 px-4 border-b">4" x 8 ¼" x 5/8"</td>
+              <td className="py-2 px-4 border-b">4" x 8 Â¼" x 5/8"</td>
               <td className="py-2 px-4 border-b">Steel</td>
               <td className="py-2 px-4 border-b">Zinc</td>
               <td className="py-2 px-4 border-b">4 U-bolts, 8 nuts, 2 tie plates</td>

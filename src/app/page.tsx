@@ -1,5 +1,9 @@
 import ImageStrip from '@/components/image-strip';
 
+export const metadata = {
+  alternates: { canonical: '/' },
+};
+
 const stripImages = [
   '/images/Trailer Hardware/D-Rings.jpg',
   '/images/Trailer Hardware/U-Bolt Plate.jpg',
