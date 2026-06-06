@@ -65,6 +65,7 @@ const jsonLd = {
   contactPoint: {
     '@type': 'ContactPoint',
     telephone: '+1-403-903-7957',
+    email: 'info@besttrailerparts.net',
     contactType: 'sales',
     areaServed: ['CA', 'US'],
     availableLanguage: 'English',
@@ -113,7 +114,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                     Phone: <a href="tel:+14039037957" className="underline hover:text-sky-300">+1 403-903-7957</a>
                   </div>
                   <div className="whitespace-nowrap">
-                    Email: <a href="mailto:besttrailerparts@shaw.ca" className="underline hover:text-sky-300 whitespace-nowrap">besttrailerparts@shaw.ca</a>
+                    Email: <a href="mailto:info@besttrailerparts.net" className="underline hover:text-sky-300 whitespace-nowrap">info@besttrailerparts.net</a>
+                  </div>
+                  <div className="whitespace-nowrap">
+                    <a href="mailto:besttrailerparts@shaw.ca" className="underline hover:text-sky-300 whitespace-nowrap">besttrailerparts@shaw.ca</a>
                   </div>
                 </div>
               </div>
@@ -166,7 +170,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                   </div>
                   <div>
                     <span className="block text-sky-300">Email</span>
-                    <a href="mailto:besttrailerparts@shaw.ca" className="hover:text-sky-300 transition break-all">besttrailerparts@shaw.ca</a>
+                    <a href="mailto:info@besttrailerparts.net" className="hover:text-sky-300 transition break-all">info@besttrailerparts.net</a>
+                    <a href="mailto:besttrailerparts@shaw.ca" className="block hover:text-sky-300 transition break-all">besttrailerparts@shaw.ca</a>
                   </div>
                   <div>
                     <span className="block text-sky-300">Address</span>
