@@ -68,9 +68,6 @@ export default function RequestFormPage({ searchParams }: PageProps) {
           <a href="mailto:info@besttrailerparts.net" className="text-[#05203C] hover:text-sky-700 font-medium break-all transition">
             info@besttrailerparts.net
           </a>
-          <a href="mailto:besttrailerparts@shaw.ca" className="block text-[#05203C] hover:text-sky-700 font-medium break-all transition">
-            besttrailerparts@shaw.ca
-          </a>
         </div>
         <div>
           <p className="text-xs font-semibold uppercase tracking-wider text-sky-700 mb-1">Address</p>

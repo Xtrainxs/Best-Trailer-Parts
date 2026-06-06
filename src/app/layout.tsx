@@ -116,9 +116,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                   <div className="whitespace-nowrap">
                     Email: <a href="mailto:info@besttrailerparts.net" className="underline hover:text-sky-300 whitespace-nowrap">info@besttrailerparts.net</a>
                   </div>
-                  <div className="whitespace-nowrap">
-                    <a href="mailto:besttrailerparts@shaw.ca" className="underline hover:text-sky-300 whitespace-nowrap">besttrailerparts@shaw.ca</a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -171,7 +168,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                   <div>
                     <span className="block text-sky-300">Email</span>
                     <a href="mailto:info@besttrailerparts.net" className="hover:text-sky-300 transition break-all">info@besttrailerparts.net</a>
-                    <a href="mailto:besttrailerparts@shaw.ca" className="block hover:text-sky-300 transition break-all">besttrailerparts@shaw.ca</a>
                   </div>
                   <div>
                     <span className="block text-sky-300">Address</span>
