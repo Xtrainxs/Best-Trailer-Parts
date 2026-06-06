@@ -19,7 +19,7 @@ main h1 {
 }
 
 .image-strip-track {
-  animation: imageScroll 50s linear infinite;
+  animation: imageScroll 8s linear infinite;
 }
 
 .image-strip-track:hover {
