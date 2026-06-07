@@ -57,7 +57,6 @@ const jsonLd = {
     'Wholesale trailer parts sourced direct from manufacturers in Asia. Serving trailer manufacturers, wholesalers, and stockists across Canada and the USA since 2001.',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Taralake Manor NE',
     addressLocality: 'Calgary',
     addressRegion: 'AB',
     addressCountry: 'CA',
@@ -171,7 +170,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                   </div>
                   <div>
                     <span className="block text-sky-300">Address</span>
-                    <span>Taralake Manor NE<br />Calgary, Alberta, Canada</span>
+                    <span>Best Trailer Parts<br />Calgary, Alberta, CANADA</span>
                   </div>
                 </address>
               </div>

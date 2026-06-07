@@ -72,7 +72,7 @@ export default function RequestFormPage({ searchParams }: PageProps) {
         <div>
           <p className="text-xs font-semibold uppercase tracking-wider text-sky-700 mb-1">Address</p>
           <p className="text-[#05203C] font-medium leading-snug">
-            Taralake Manor NE<br />Calgary, AB, Canada
+            Best Trailer Parts<br />Calgary, Alberta, CANADA
           </p>
         </div>
       </div>
