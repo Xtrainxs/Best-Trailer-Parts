@@ -11,12 +11,12 @@ export default function TandemAxleHangerKitsPage() {
     <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Tandem-Axle Hanger Kits</h1>
       <p className="mb-8 text-[#05203C]">Tandem-axle hanger kits are designed for trailers with two axles, providing the necessary hardware for secure and balanced suspension. These kits help distribute weight evenly and improve ride stability for larger trailers.</p>
-      <div className="w-full flex justify-center items-center bg-blue-900 rounded-lg mb-8 p-4 gap-8">
+      <div className="w-full flex justify-center items-center bg-slate-50 border border-slate-200 rounded-lg mb-8 p-4 gap-8">
         <div className="flex-1 flex justify-center">
           <img
             src="/images/hangerkits/tandemaxlehangerkits/Picture1.png"
             alt="Tandem Axle Hanger Kits Picture 1"
-            className="object-contain rounded-lg drop-shadow-lg"
+            className="object-contain rounded-lg"
             style={{ width: '100%', height: '320px', background: 'transparent' }}
           />
         </div>
@@ -24,7 +24,7 @@ export default function TandemAxleHangerKitsPage() {
           <img
             src="/images/hangerkits/tandemaxlehangerkits/Picture2.png"
             alt="Tandem Axle Hanger Kits Picture 2"
-            className="object-contain rounded-lg drop-shadow-lg"
+            className="object-contain rounded-lg"
             style={{ width: '100%', height: '320px', background: 'transparent' }}
           />
         </div>
@@ -32,7 +32,7 @@ export default function TandemAxleHangerKitsPage() {
           <img
             src="/images/hangerkits/tandemaxlehangerkits/Picture3.png"
             alt="Tandem Axle Hanger Kits Picture 3"
-            className="object-contain rounded-lg drop-shadow-lg"
+            className="object-contain rounded-lg"
             style={{ width: '100%', height: '320px', background: 'transparent' }}
           />
         </div>

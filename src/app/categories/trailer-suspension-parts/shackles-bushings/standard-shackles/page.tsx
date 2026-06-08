@@ -11,12 +11,12 @@ export default function StandardShacklesPage() {
     <main className="max-w-4xl mx-auto py-12 px-6">
       <h1 className="text-2xl font-bold mb-4 text-[#05203C]">Standard Shackles</h1>
       <p className="mb-8 text-[#05203C]">Standard shackles are essential for connecting leaf springs to the trailer frame, providing secure and flexible suspension. These shackles are suitable for most utility and light-duty trailers.</p>
-      <div className="w-full flex justify-center items-center bg-blue-900 rounded-lg mb-8 p-4 gap-8">
+      <div className="w-full flex justify-center items-center bg-slate-50 border border-slate-200 rounded-lg mb-8 p-4 gap-8">
         <div className="flex-1 flex justify-center">
           <img
             src="/images/Shackles%20and%20Bushings/Standard%20Shackles/High%20Tensile%20Steel%20Trailer%20Shackle.png"
             alt="High Tensile Steel Trailer Shackle"
-            className="object-contain rounded-lg drop-shadow-lg"
+            className="object-contain rounded-lg"
             style={{ width: '100%', height: '220px', background: 'transparent' }}
           />
         </div>
@@ -24,7 +24,7 @@ export default function StandardShacklesPage() {
           <img
             src="/images/Shackles%20and%20Bushings/Standard%20Shackles/Picture1.png"
             alt="Standard Shackles Picture 1"
-            className="object-contain rounded-lg drop-shadow-lg"
+            className="object-contain rounded-lg"
             style={{ width: '100%', height: '220px', background: 'transparent' }}
           />
         </div>
@@ -32,7 +32,7 @@ export default function StandardShacklesPage() {
           <img
             src="/images/Shackles%20and%20Bushings/Standard%20Shackles/Picture2.png"
             alt="Standard Shackles Picture 2"
-            className="object-contain rounded-lg drop-shadow-lg"
+            className="object-contain rounded-lg"
             style={{ width: '100%', height: '220px', background: 'transparent' }}
           />
         </div>
@@ -40,7 +40,7 @@ export default function StandardShacklesPage() {
           <img
             src="/images/Shackles%20and%20Bushings/Standard%20Shackles/Shackle%20Links.png"
             alt="Shackle Links"
-            className="object-contain rounded-lg drop-shadow-lg"
+            className="object-contain rounded-lg"
             style={{ width: '100%', height: '220px', background: 'transparent' }}
           />
         </div>
