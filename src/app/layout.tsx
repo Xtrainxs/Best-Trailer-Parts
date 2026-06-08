@@ -1,6 +1,7 @@
 import './globals.css';
 import { ReactNode } from 'react';
 import Breadcrumbs from '@/components/breadcrumbs';
+import CatalogNav from '@/components/catalog-nav';
 
 export const metadata = {
   metadataBase: new URL('https://besttrailerparts.net'),
@@ -94,19 +95,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               </a>
               <div className="flex flex-col gap-3 sm:items-end">
                 <nav className="flex flex-wrap justify-center sm:justify-end items-center gap-3 sm:gap-6 mt-2 sm:mt-0">
-                  <a href="/categories" className="text-base sm:text-lg text-sky-300 font-semibold hover:text-white px-2 py-1 rounded transition">All Categories</a>
-                  <a href="/categories/trailer-suspension-parts" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Suspension Parts</a>
-                  <a href="/categories/trailer-lights" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Trailer Lights</a>
-                  <a href="/categories/trailer-electrical-parts" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Electrical Parts</a>
-                  <a href="/categories/trailer-jacks" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Trailer Jacks</a>
-                  <a href="/categories/trailer-couplers" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Couplers</a>
-                  <a href="/categories/idler-hubs" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Idler Hubs</a>
-                  <a href="/categories/brake-drums" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Brake Drums</a>
-                  <a href="/categories/brake-assemblies" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Brake Assemblies</a>
-                  <a href="/categories/trailer-hardware" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Trailer Hardware</a>
-                  <a href="/categories/boat-trailer-parts" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Boat Trailer Parts</a>
+                  <CatalogNav />
+                  <a href="/categories" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">All Categories</a>
                   <a href="/about" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">About Us</a>
-                  <a href="/request-form" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Request Form</a>
+                  <a href="/request-form" className="text-base sm:text-lg text-white hover:text-sky-300 px-2 py-1 rounded transition">Request a Quote</a>
                 </nav>
                 <div className="text-white text-sm sm:text-base leading-relaxed text-center sm:text-right sm:self-end">
                   <div>
