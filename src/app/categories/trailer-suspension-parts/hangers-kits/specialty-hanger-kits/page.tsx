@@ -17,18 +17,11 @@ export default function SpecialtyHangerKitsPage() {
             key={img}
             className="bg-white border border-slate-200 rounded-lg shadow-sm p-4 flex flex-col items-center w-full"
           >
-            <div
-              className="w-[88%] rounded-md p-2 mb-2 flex justify-center"
-              style={{
-                backgroundColor: "#a07955",
-                backgroundImage:
-                  "linear-gradient(90deg, #b89470 0%, #a47b55 48%, #6a462e 100%), repeating-linear-gradient(0deg, rgba(255,255,255,0.06) 0px, rgba(255,255,255,0.06) 1px, rgba(0,0,0,0.04) 2px, rgba(0,0,0,0.04) 3px)",
-              }}
-            >
+            <div className="w-[88%] rounded-md p-2 mb-2 flex justify-center bg-white">
               <img
                 src={`/images/hangerkits/Speciality%20hanger%20Kits/${encodeURIComponent(img)}`}
                 alt={`Specialty hanger kit ${idx + 1}`}
-                className="h-[8.4rem] w-full object-contain object-center mix-blend-multiply brightness-110"
+                className="h-[8.4rem] w-full object-contain object-center"
               />
             </div>
             
