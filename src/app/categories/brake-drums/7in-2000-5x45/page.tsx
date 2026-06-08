@@ -11,7 +11,7 @@ export default function BrakeDrum7in2000_5x45() {
         <img
           src="/images/Brake%20Drums/7%20Inch%20Brake%20Drum%20Kit/Kit.png"
           alt="7 inch brake drum kit"
-          className="w-[70%] max-w-3xl h-auto object-contain brightness-110 bg-slate-50 rounded"
+          className="w-[70%] max-w-md h-auto object-contain bg-white rounded"
         />
       </div>
       <h2 className="text-xl font-semibold mb-2 mt-8 text-[#05203C]">Kit Components</h2>
